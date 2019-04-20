@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RTS_BaseBuilder.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{958B4B0A-9DC2-4C5A-969C-CB7CD68586B7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RTS_BaseBuilder.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RTS_BaseBuilderEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{399E9942-4523-44CC-A746-E91FBB920D7E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RTS_BaseBuilder">
+      <UniqueIdentifier>{07F9F32E-66A4-4DC4-9F81-C895C0E5F8BC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilder.Build.cs">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilder.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilder.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilderCharacter.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilderCharacter.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilderGameMode.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilderGameMode.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilderPlayerController.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilderPlayerController.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_GameMode.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Camera.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_PlayerController.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_HUD.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_GameState.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_PlayerState.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Worker.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_GameMode.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Camera.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_PlayerController.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_HUD.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_GameState.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_PlayerState.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Worker.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

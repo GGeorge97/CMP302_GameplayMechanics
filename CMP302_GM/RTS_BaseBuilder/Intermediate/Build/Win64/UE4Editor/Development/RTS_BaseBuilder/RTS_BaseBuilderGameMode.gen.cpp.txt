@@ -1,0 +1,9 @@
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\Definitions.RTS_BaseBuilder.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Source\RTS_BaseBuilder/RTS_BaseBuilderGameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp304_gm\rts_basebuilder\intermediate\build\win64\ue4editor\inc\rts_basebuilder\RTS_BaseBuilderGameMode.generated.h

@@ -1,0 +1,8 @@
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\Definitions.RTS_BaseBuilder.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp304_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_HUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\GG_RTS_HUD.generated.h
