@@ -1,0 +1,101 @@
+// Developed by Gavin George
+
+
+#include "GG_RTS_Worker.h"
+
+AGG_RTS_Worker::AGG_RTS_Worker()
+{
+	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bStartWithTickEnabled = true;
+
+	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
+
+	bUseControllerRotationPitch = false;
+	bUseControllerRotationYaw = false;
+	bUseControllerRotationRoll = false;
+
+	GetCharacterMovement()->bOrientRotationToMovement = true;
+	GetCharacterMovement()->RotationRate = FRotator(0.f, 640.f, 0.f);
+	GetCharacterMovement()->bConstrainToPlane = true;
+	GetCharacterMovement()->bSnapToPlaneAtStart = true;
+
+	cursorToWorld = CreateDefaultSubobject<UDecalComponent>("CursorToWorld");
+	cursorToWorld->SetupAttachment(RootComponent);
+	static ConstructorHelpers::FObjectFinder<UMaterial> DecalMaterialAsset(TEXT("Material'/Game/TopDownCPP/Blueprints/M_Cursor_Decal.M_Cursor_Decal'"));
+	if (DecalMaterialAsset.Succeeded())
+		cursorToWorld->SetDecalMaterial(DecalMaterialAsset.Object);
+	cursorToWorld->DecalSize = FVector(16.0f, 32.0f, 32.0f);
+	cursorToWorld->SetRelativeRotation(FRotator(90.0f, 0.0f, 0.0f).Quaternion());
+	cursorToWorld->SetVisibility(false);
+
+	skeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>("SkeletalMesh");
+	USkeletalMesh* skeletalMeshAsset = LoadObject<USkeletalMesh>(nullptr, TEXT("/Game/Mannequin/Character/Mesh/SK_Mannequin"));
+	skeletalMesh->SetupAttachment(RootComponent);
+	skeletalMesh->SetSkeletalMesh(skeletalMeshAsset);
+	FTransform correctedTransform = skeletalMesh->GetComponentTransform();
+	correctedTransform.SetLocation(FVector(0.0f, 0.0f, -90.0f));
+	correctedTransform.SetRotation(FQuat(FRotator(0.0f, -90.0f, 0.0f)));
+	skeletalMesh->SetRelativeTransform(correctedTransform);
+}
+
+void AGG_RTS_Worker::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
+void AGG_RTS_Worker::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	//if (taskStack.Num() > 0)
+	//{
+	//	if (taskStack[0]->GetTaskStatus() != QUEUED)
+	//	{
+	//		taskStack[0]->BeginTask(this, 0);
+	//	}
+	//	else if (taskStack[0]->GetTaskStatus() == COMPLETE)
+	//	{
+	//		//taskStack.Pop(true);
+	//	}
+	//}
+	
+	if (APlayerController* PC = Cast<APlayerController>(GetController()))
+	{
+		FHitResult TraceHitResult;
+		PC->GetHitResultUnderCursor(ECC_Visibility, true, TraceHitResult);
+		FVector CursorFV = TraceHitResult.ImpactNormal;
+		FRotator CursorR = CursorFV.Rotation();
+		cursorToWorld->SetWorldLocation(TraceHitResult.Location);
+		cursorToWorld->SetWorldRotation(CursorR);
+	}
+}
+
+void AGG_RTS_Worker::SetIsSelected(bool isSelected)
+{
+	cursorToWorld->SetVisibility(isSelected);
+}
+
+void AGG_RTS_Worker::AddTask(Action actionType)
+{
+	switch (actionType)
+	{
+	case MOVE:
+		taskStack.Push(new GG_RTS_MovementTask());
+		break;
+
+	case COLLECT:
+		taskStack.Push(new GG_RTS_CollectionTask());
+		break;
+
+	case CONSTRUCT:
+		taskStack.Push(new GG_RTS_ConstructionTask());
+		break;
+	}
+}
+
+void AGG_RTS_Worker::CompleteTasks()
+{
+
+}
+
