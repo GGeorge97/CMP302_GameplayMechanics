@@ -28,9 +28,12 @@ protected:
 private:
 	void MoveForward(float axisValue);
 	void MoveRight(float axisValue);
+	void ZoomIn();
+	void ZoomOut();
 	void PitchAndYaw();
 	void EndRotation();
 
+	UPROPERTY()
 	AGG_RTS_PlayerController* playerControllerPtr;
 
 	UPROPERTY(EditAnywhere)
@@ -38,8 +41,20 @@ private:
 	UPROPERTY(EditAnywhere)
 		class UCameraComponent* mainCamera;
 
+	UPROPERTY()
 	FVector2D movementInput;
+	UPROPERTY()
 	FVector2D pitchAndYaw;
+
+	UPROPERTY()
+	int32 viewportWidth;
+	UPROPERTY()
+	int32 viewportHeight;
+	UPROPERTY()
+	int32 viewportMargin;
+
+	float maxArmLength, minArmLength, maxPitch, minPitch;
+	float zoomSensitivity, moveSensitivity;
 
 	bool isRotating;
 };

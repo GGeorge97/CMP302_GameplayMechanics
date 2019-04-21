@@ -1,10 +1,10 @@
-C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\Definitions.RTS_BaseBuilder.h
-c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp304_gm\rts_basebuilder\source\rts_basebuilder\RTS_BaseBuilderCharacter.h
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\Definitions.RTS_BaseBuilder.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\RTS_BaseBuilderCharacter.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\RTS_BaseBuilderCharacter.generated.h
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\RTS_BaseBuilderCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/DecalComponent.h

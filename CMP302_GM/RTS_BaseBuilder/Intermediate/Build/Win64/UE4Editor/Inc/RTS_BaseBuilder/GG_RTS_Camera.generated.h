@@ -58,8 +58,14 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_Camera); \
 
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Camera_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__playerControllerPtr() { return STRUCT_OFFSET(AGG_RTS_Camera, playerControllerPtr); } \
 	FORCEINLINE static uint32 __PPO__cameraSpringArm() { return STRUCT_OFFSET(AGG_RTS_Camera, cameraSpringArm); } \
-	FORCEINLINE static uint32 __PPO__mainCamera() { return STRUCT_OFFSET(AGG_RTS_Camera, mainCamera); }
+	FORCEINLINE static uint32 __PPO__mainCamera() { return STRUCT_OFFSET(AGG_RTS_Camera, mainCamera); } \
+	FORCEINLINE static uint32 __PPO__movementInput() { return STRUCT_OFFSET(AGG_RTS_Camera, movementInput); } \
+	FORCEINLINE static uint32 __PPO__pitchAndYaw() { return STRUCT_OFFSET(AGG_RTS_Camera, pitchAndYaw); } \
+	FORCEINLINE static uint32 __PPO__viewportWidth() { return STRUCT_OFFSET(AGG_RTS_Camera, viewportWidth); } \
+	FORCEINLINE static uint32 __PPO__viewportHeight() { return STRUCT_OFFSET(AGG_RTS_Camera, viewportHeight); } \
+	FORCEINLINE static uint32 __PPO__viewportMargin() { return STRUCT_OFFSET(AGG_RTS_Camera, viewportMargin); }
 
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Camera_h_14_PROLOG

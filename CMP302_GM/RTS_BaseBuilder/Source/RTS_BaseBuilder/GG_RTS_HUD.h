@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
+#include "GG_RTS_Worker.h"
 #include "GG_RTS_HUD.generated.h"
 
 /**
@@ -25,12 +26,18 @@ public:
 	FVector2D GetCurrentPoint() { return currentPoint; };
 	void SetCurrentPoint(FVector2D in) { currentPoint = in; };
 
+	TArray<AGG_RTS_Worker*> GetFoundActors() { return foundActors; };
+	int GetSelectedActorsSize() { return foundActors.Num(); };
+
 	bool GetStartSelect() { return bStartSelect; };
 	void SetStartSelect(bool in) { bStartSelect = in; };
 
 private:
 	FVector2D initalPoint;
 	FVector2D currentPoint;
+
+	UPROPERTY()
+	TArray<AGG_RTS_Worker*> foundActors;
 
 	bool bStartSelect = false;
 	

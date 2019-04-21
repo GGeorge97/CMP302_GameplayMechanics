@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
+#include "Runtime/AIModule/Classes/Blueprint/AIBlueprintHelperLibrary.h"
 #include "GG_RTS_HUD.h"
+#include "GG_RTS_Worker.h"
 #include "GG_RTS_PlayerController.generated.h"
 
 /**
@@ -19,12 +21,20 @@ public:
 	AGG_RTS_PlayerController();
 
 	virtual void BeginPlay() override;
+	UFUNCTION()
 	virtual void SetupInputComponent() override;
 
 private:
+	UFUNCTION()
 	void SelectPressed();
+	UFUNCTION()
 	void SelectReleased();
-	void MoveReleased();
+	UFUNCTION()
+	void ActionStart();
 
+	UPROPERTY()
 	AGG_RTS_HUD* HUDPtr;
+
+	UPROPERTY()
+	TArray<AGG_RTS_Worker*> selectedActors;
 };

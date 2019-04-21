@@ -15,8 +15,10 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Worker() {}
 // Cross Module References
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Worker_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Worker();
-	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_RTS_BaseBuilder();
+	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UDecalComponent_NoRegister();
 // End Cross Module References
 	void AGG_RTS_Worker::StaticRegisterNativesAGG_RTS_Worker()
 	{
@@ -31,19 +33,47 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Worker() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_skeletalMesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_skeletalMesh;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cursorToWorld_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_cursorToWorld;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_AGG_RTS_Worker_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AActor,
+		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_RTS_BaseBuilder,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Worker_Statics::Class_MetaDataParams[] = {
+		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "GG_RTS_Worker.h" },
 		{ "ModuleRelativePath", "GG_RTS_Worker.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "GG_RTS_Worker.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh = { "skeletalMesh", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Worker, skeletalMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_cursorToWorld_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "GG_RTS_Worker.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_cursorToWorld = { "cursorToWorld", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Worker, cursorToWorld), Z_Construct_UClass_UDecalComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_cursorToWorld_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_cursorToWorld_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGG_RTS_Worker_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_cursorToWorld,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGG_RTS_Worker_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGG_RTS_Worker>::IsAbstract,
 	};
@@ -53,11 +83,11 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Worker() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AGG_RTS_Worker_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Worker_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Worker_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Worker_Statics::Class_MetaDataParams))
@@ -71,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Worker() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_Worker, 2694600189);
+	IMPLEMENT_CLASS(AGG_RTS_Worker, 1523122231);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_Worker>()
 	{
 		return AGG_RTS_Worker::StaticClass();

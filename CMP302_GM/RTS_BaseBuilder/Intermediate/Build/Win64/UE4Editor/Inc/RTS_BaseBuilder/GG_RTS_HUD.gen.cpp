@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_HUD() {}
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_HUD();
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
 	UPackage* Z_Construct_UPackage__Script_RTS_BaseBuilder();
+	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Worker_NoRegister();
 // End Cross Module References
 	void AGG_RTS_HUD::StaticRegisterNativesAGG_RTS_HUD()
 	{
@@ -31,6 +32,12 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_HUD() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_foundActors_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_foundActors;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_foundActors_Inner;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -46,6 +53,17 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_HUD() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundActors_MetaData[] = {
+		{ "ModuleRelativePath", "GG_RTS_HUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundActors = { "foundActors", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_HUD, foundActors), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundActors_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundActors_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundActors_Inner = { "foundActors", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AGG_RTS_Worker_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGG_RTS_HUD_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundActors,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundActors_Inner,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGG_RTS_HUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGG_RTS_HUD>::IsAbstract,
 	};
@@ -55,11 +73,11 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_HUD() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AGG_RTS_HUD_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_HUD_Statics::PropPointers),
 		0,
 		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_HUD_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_HUD_Statics::Class_MetaDataParams))
@@ -73,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_HUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_HUD, 598735265);
+	IMPLEMENT_CLASS(AGG_RTS_HUD, 3037340570);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_HUD>()
 	{
 		return AGG_RTS_HUD::StaticClass();

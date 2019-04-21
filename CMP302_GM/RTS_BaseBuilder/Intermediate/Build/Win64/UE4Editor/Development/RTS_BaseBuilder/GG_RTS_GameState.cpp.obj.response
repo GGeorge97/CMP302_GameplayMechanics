@@ -426,9 +426,9 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder
-/I C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Source
-/I C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Source\RTS_BaseBuilder
+/I C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder
+/I C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Source
+/I C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Source\RTS_BaseBuilder
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I Runtime\AugmentedReality
@@ -438,12 +438,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Source\RTS_BaseBuilder\GG_RTS_GameState.cpp"
-/FI"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\Definitions.RTS_BaseBuilder.h"
-/Fo"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP304_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\GG_RTS_GameState.cpp.obj"
+/FI"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Source\RTS_BaseBuilder\GG_RTS_GameState.cpp"
+/FI"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\Definitions.RTS_BaseBuilder.h"
+/Fo"C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\GG_RTS_GameState.cpp.obj"
 /TP
 /GR-
 /W4
