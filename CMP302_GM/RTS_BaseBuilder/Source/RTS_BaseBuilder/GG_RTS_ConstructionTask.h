@@ -14,11 +14,15 @@ public:
 	GG_RTS_ConstructionTask();
 	~GG_RTS_ConstructionTask();
 
-//	void BeginTask(AGG_RTS_Worker* workerActor, int i);
-//
-//	TaskStatus GetTaskStatus() { return taskStatus; };
-//	void SetTaskStatus(TaskStatus setVal) { taskStatus = setVal; };
-//
-//private:
-//	TaskStatus taskStatus;
+	void BeginTask();
+	void IsTaskComplete();
+
+	TaskStatus GetTaskStatus() { return taskStatus; };
+	void SetTaskStatus(TaskStatus setVal) { taskStatus = setVal; };
+
+private:
+	TaskStatus taskStatus;
+	//AGG_RTS_Worker* workerPtr;
+	//FVector hitLoc;
+	//int formIndex;
 };

@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GG_RTS_ActionTasks.h"
-//#include "GameFramework/PlayerController.h"
-//#include "Blueprint/AIBlueprintHelperLibrary.h"
+#include "Blueprint/AIBlueprintHelperLibrary.h"
+#include "GG_RTS_Worker.h"
 
 /**
  * 
@@ -13,14 +13,23 @@
 class RTS_BASEBUILDER_API GG_RTS_MovementTask : public GG_RTS_ActionTasks
 {
 public:
-	GG_RTS_MovementTask();
+	GG_RTS_MovementTask(class AGG_RTS_Worker* workerActor, FVector hitLocation, int formationIndex);
 	~GG_RTS_MovementTask();
-//
-//	void BeginTask(AGG_RTS_Worker* workerActor, int i);
-//
-//	TaskStatus GetTaskStatus() { return taskStatus; };
-//	void SetTaskStatus(TaskStatus setVal) { taskStatus = setVal; };
-//
-//private:
-//	TaskStatus taskStatus;
+
+	void BeginTask();
+	void IsTaskComplete();
+
+	TaskStatus GetTaskStatus() { return taskStatus; };
+	void SetTaskStatus(TaskStatus setVal) { taskStatus = setVal; };
+
+private:
+	TaskStatus taskStatus;
+
+	UPROPERTY()
+	class AGG_RTS_Worker* workerPtr;
+
+	FVector moveLocation;
+	FVector hitLoc;
+
+	int formIndex;
 };

@@ -7,6 +7,7 @@ AGG_RTS_PlayerController::AGG_RTS_PlayerController()
 {
 	bShowMouseCursor = true;
 	DefaultMouseCursor = EMouseCursor::Crosshairs;
+	EnableInput(this);
 }
 
 void AGG_RTS_PlayerController::BeginPlay()
@@ -39,12 +40,23 @@ void AGG_RTS_PlayerController::ActionStart()
 {
 	if (selectedActors.Num() > 0)
 	{
-		FHitResult hitResult;
-		for (int i = 0; i < selectedActors.Num(); i++)
+		if (IsInputKeyDown(EKeys::LeftShift))
 		{
-			GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
-			FVector moveLocation = hitResult.Location + FVector(i / 2 * 500, i % 2 * 500, 0);
-			UAIBlueprintHelperLibrary::SimpleMoveToLocation(selectedActors[i]->GetController(), moveLocation);
+			FHitResult hitResult;
+			for (int i = 0; i < selectedActors.Num(); i++)
+			{
+				GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
+				selectedActors[i]->AddTask(MOVE, hitResult.Location, i);
+			}
+		}
+		else
+		{
+			FHitResult hitResult;
+			for (int i = 0; i < selectedActors.Num(); i++)
+			{
+				GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
+				selectedActors[i]->RunTask(MOVE, hitResult.Location, i);
+			}
 		}
 	}
 }

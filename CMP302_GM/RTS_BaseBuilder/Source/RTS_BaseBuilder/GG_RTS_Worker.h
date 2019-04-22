@@ -31,7 +31,8 @@ public:
 	FORCEINLINE class UDecalComponent* GetCursorToWorld() { return cursorToWorld; }
 
 	void SetIsSelected(bool isSelected);
-	void AddTask(Action actionType);
+	void RunTask(Action actionType, FVector hitLocation, int formationIndex);
+	void AddTask(Action actionType, FVector hitLocation, int formationIndex);
 
 	TArray<GG_RTS_ActionTasks*> taskStack;
 
@@ -39,8 +40,6 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
-	void CompleteTasks();
-
 	UPROPERTY()
 		class UDecalComponent* cursorToWorld;
 

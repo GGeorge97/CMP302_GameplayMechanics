@@ -14,11 +14,15 @@ public:
 	GG_RTS_CollectionTask();
 	~GG_RTS_CollectionTask();
 
-	//void BeginTask(AGG_RTS_Worker* workerActor, int i);
+	void BeginTask();
+	void IsTaskComplete();
 
-	//TaskStatus GetTaskStatus() { return taskStatus; };
-	//void SetTaskStatus(TaskStatus setVal) { taskStatus = setVal; };
+	TaskStatus GetTaskStatus() { return taskStatus; };
+	void SetTaskStatus(TaskStatus setVal) { taskStatus = setVal; };
 
 private:
-	//TaskStatus taskStatus;
+	TaskStatus taskStatus;
+	//AGG_RTS_Worker* workerPtr;
+	//FVector hitLoc;
+	//int formIndex;
 };

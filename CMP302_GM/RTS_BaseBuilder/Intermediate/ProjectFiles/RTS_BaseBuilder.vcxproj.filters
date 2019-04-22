@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RTS_BaseBuilder.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{7BC3E977-031E-410B-B28C-148FFFEEE52F}</UniqueIdentifier>
+      <UniqueIdentifier>{D3D5782D-FE01-4D2D-9BE0-65FBA334CF66}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RTS_BaseBuilder.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{17354CE2-ED16-48C9-80A5-82CB795AEAEF}</UniqueIdentifier>
+      <UniqueIdentifier>{F174FD1A-D0B8-484A-8D87-AA9E73568354}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RTS_BaseBuilder">
-      <UniqueIdentifier>{92D3E066-4F28-47EB-9D1B-ECC538DCD41A}</UniqueIdentifier>
+      <UniqueIdentifier>{57954F20-C277-4342-B3EF-BD3A014BE9CB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ActionTasks.cpp">
       <Filter>Source\RTS_BaseBuilder</Filter>

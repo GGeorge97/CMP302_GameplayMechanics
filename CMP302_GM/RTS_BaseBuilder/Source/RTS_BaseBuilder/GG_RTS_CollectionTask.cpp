@@ -5,13 +5,22 @@
 
 GG_RTS_CollectionTask::GG_RTS_CollectionTask()
 {
+	//taskStatus = QUEUED;
+	//workerPtr = workerActor;
+	//hitLoc = hitLocation;
+	//formIndex = formationIndex;
 }
 
 GG_RTS_CollectionTask::~GG_RTS_CollectionTask()
 {
 }
 
-//void GG_RTS_CollectionTask::BeginTask(AGG_RTS_Worker* workerActor, int i)
-//{
-//
-//}
+void GG_RTS_CollectionTask::BeginTask()
+{
+
+}
+
+void GG_RTS_CollectionTask::IsTaskComplete()
+{
+
+}
