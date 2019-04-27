@@ -20,7 +20,7 @@ void GG_RTS_CollectionTask::BeginTask()
 
 }
 
-void GG_RTS_CollectionTask::IsTaskComplete()
+void GG_RTS_CollectionTask::IsTaskComplete(float deltaTime)
 {
 
 }

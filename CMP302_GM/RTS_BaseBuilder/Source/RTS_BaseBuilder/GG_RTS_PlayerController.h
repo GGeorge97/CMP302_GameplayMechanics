@@ -22,6 +22,7 @@ class RTS_BASEBUILDER_API AGG_RTS_PlayerController : public APlayerController
 	
 public:
 	AGG_RTS_PlayerController();
+	~AGG_RTS_PlayerController();
 
 	UFUNCTION()
 	virtual void BeginPlay() override;

@@ -22,7 +22,7 @@ void GG_RTS_MovementTask::BeginTask()
 	UAIBlueprintHelperLibrary::SimpleMoveToLocation(workerPtr->GetController(), moveLocation);
 }
 
-void GG_RTS_MovementTask::IsTaskComplete()
+void GG_RTS_MovementTask::IsTaskComplete(float deltaTime)
 {
 	FVector currentPos, targetVec;
 	currentPos = workerPtr->GetActorLocation();

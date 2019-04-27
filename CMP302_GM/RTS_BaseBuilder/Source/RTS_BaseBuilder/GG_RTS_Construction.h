@@ -24,9 +24,14 @@ public:
 
 	virtual void SetIsSelected(bool isSelected);
 
+	virtual float GetTimeUntilBuilt();
+	virtual void SetTimeUntilBuilt(float dt);
+
+	virtual float GetBuildTime();
+
+	virtual bool IsBuilt();
+	virtual void SetIsBuilt(bool bl);
+
 protected:
 	virtual void BeginPlay() override;
-
-private:	
-
 };

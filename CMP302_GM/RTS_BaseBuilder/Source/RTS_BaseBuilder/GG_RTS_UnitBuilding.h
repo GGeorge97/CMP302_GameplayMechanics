@@ -19,6 +19,14 @@ public:
 
 	void SetIsSelected(bool isSelected) override;
 
+	float GetTimeUntilBuilt() override;
+	void SetTimeUntilBuilt(float dt) override;
+
+	float GetBuildTime() override;
+
+	bool IsBuilt() override;
+	void SetIsBuilt(bool bl) override;
+
 private:
 	UPROPERTY(EditAnywhere)
 		USphereComponent* sphereComponent;
@@ -28,5 +36,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* staticMesh;
-	
+
+	bool isBuilt;
+
+	float timeUntilBuilt;
+	float buildTime;
 };

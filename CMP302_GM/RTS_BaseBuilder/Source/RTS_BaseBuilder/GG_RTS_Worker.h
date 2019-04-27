@@ -31,8 +31,8 @@ public:
 	FORCEINLINE class UDecalComponent* GetCursorToWorld() { return cursorToWorld; }
 
 	void SetIsSelected(bool isSelected);
-	void RunTask(Action actionType, FVector hitLocation, int formationIndex);
-	void AddTask(Action actionType, FVector hitLocation, int formationIndex);
+	void RunTask(Action actionType, AGG_RTS_Construction* buildingActor, FVector hitLocation, int formationIndex);
+	void AddTask(Action actionType, AGG_RTS_Construction* buildingActor, FVector hitLocation, int formationIndex);
 
 	TArray<GG_RTS_ActionTasks*> taskStack;
 

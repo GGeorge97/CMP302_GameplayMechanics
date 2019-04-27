@@ -25,7 +25,7 @@ public:
 	virtual ~GG_RTS_ActionTasks() = 0;
 
 	virtual void BeginTask() = 0;
-	virtual void IsTaskComplete() = 0;
+	virtual void IsTaskComplete(float deltaTime) = 0;
 
 	virtual TaskStatus GetTaskStatus() = 0;
 	virtual void SetTaskStatus(TaskStatus setVal) = 0;

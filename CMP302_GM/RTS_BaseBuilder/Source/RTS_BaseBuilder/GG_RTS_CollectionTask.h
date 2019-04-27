@@ -15,7 +15,7 @@ public:
 	~GG_RTS_CollectionTask();
 
 	void BeginTask();
-	void IsTaskComplete();
+	void IsTaskComplete(float deltaTime);
 
 	TaskStatus GetTaskStatus() { return taskStatus; };
 	void SetTaskStatus(TaskStatus setVal) { taskStatus = setVal; };

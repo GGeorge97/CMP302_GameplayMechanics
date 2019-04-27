@@ -28,9 +28,39 @@ AGG_RTS_UnitBuilding::AGG_RTS_UnitBuilding()
 	FTransform correctedTransform = staticMesh->GetComponentTransform();
 	correctedTransform.SetRotation(FQuat(FRotator(0.0f, -90.0f, 0.0f)));
 	staticMesh->SetRelativeTransform(correctedTransform);
+
+	timeUntilBuilt = 0.0f;
+	buildTime = 10.0f;
 }
 
 void AGG_RTS_UnitBuilding::SetIsSelected(bool isSelected)
 {
 	cursorToWorld->SetVisibility(isSelected);
+}
+
+float AGG_RTS_UnitBuilding::GetTimeUntilBuilt()
+{
+	return timeUntilBuilt;
+}
+
+void AGG_RTS_UnitBuilding::SetTimeUntilBuilt(float dt)
+{
+	timeUntilBuilt += dt;
+}
+
+float AGG_RTS_UnitBuilding::GetBuildTime()
+{
+	return buildTime;
+}
+
+bool AGG_RTS_UnitBuilding::IsBuilt()
+{
+	return isBuilt;
+}
+
+void AGG_RTS_UnitBuilding::SetIsBuilt(bool bl)
+{
+	isBuilt = bl;
+
+	staticMesh->SetWorldScale3D(FVector(2.0f, 2.0f, 2.0f));
 }

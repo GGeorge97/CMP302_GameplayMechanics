@@ -52,7 +52,7 @@ void AGG_RTS_Worker::Tick(float DeltaTime)
 	{
 		if (taskStack[0]->GetTaskStatus() == QUEUED) taskStack[0]->BeginTask(); 
 
-		else if (taskStack[0]->GetTaskStatus() == IN_PROGRESS) taskStack[0]->IsTaskComplete();
+		else if (taskStack[0]->GetTaskStatus() == IN_PROGRESS) taskStack[0]->IsTaskComplete(DeltaTime);
 
 		else if (taskStack[0]->GetTaskStatus() == COMPLETE) taskStack.RemoveAt(0, 1, true);
 	}
@@ -63,7 +63,7 @@ void AGG_RTS_Worker::SetIsSelected(bool isSelected)
 	cursorToWorld->SetVisibility(isSelected);
 }
 
-void AGG_RTS_Worker::RunTask(Action actionType, FVector hitLocation, int formationIndex)
+void AGG_RTS_Worker::RunTask(Action actionType, AGG_RTS_Construction* buildingActor, FVector hitLocation, int formationIndex)
 {
 	taskStack.Empty();
 	switch (actionType)
@@ -73,7 +73,7 @@ void AGG_RTS_Worker::RunTask(Action actionType, FVector hitLocation, int formati
 		break;
 
 	case CONSTRUCT:
-		taskStack.Push(new GG_RTS_ConstructionTask(this, hitLocation, formationIndex));
+		taskStack.Push(new GG_RTS_ConstructionTask(this, buildingActor, hitLocation, formationIndex));
 		break;
 
 	//case COLLECT:
@@ -85,7 +85,7 @@ void AGG_RTS_Worker::RunTask(Action actionType, FVector hitLocation, int formati
 	}
 }
 
-void AGG_RTS_Worker::AddTask(Action actionType, FVector hitLocation, int formationIndex)
+void AGG_RTS_Worker::AddTask(Action actionType, AGG_RTS_Construction* buildingActor, FVector hitLocation, int formationIndex)
 {
 	switch (actionType)
 	{
@@ -94,7 +94,7 @@ void AGG_RTS_Worker::AddTask(Action actionType, FVector hitLocation, int formati
 		break;
 
 	case CONSTRUCT:
-		taskStack.Push(new GG_RTS_ConstructionTask(this, hitLocation, formationIndex));
+		taskStack.Push(new GG_RTS_ConstructionTask(this, buildingActor, hitLocation, formationIndex));
 		break;
 
 	//case COLLECT:

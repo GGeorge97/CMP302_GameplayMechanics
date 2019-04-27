@@ -10,6 +10,15 @@ AGG_RTS_PlayerController::AGG_RTS_PlayerController()
 	EnableInput(this);
 }
 
+AGG_RTS_PlayerController::~AGG_RTS_PlayerController()
+{
+	if (newBuilding)
+	{
+		newBuilding = nullptr;
+		delete newBuilding;
+	}
+}
+
 void AGG_RTS_PlayerController::BeginPlay()
 {
 	Super::BeginPlay();
@@ -17,6 +26,7 @@ void AGG_RTS_PlayerController::BeginPlay()
 	HUDPtr = Cast<AGG_RTS_HUD>(GetHUD());
 
 	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_Pawn));
+	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_WorldStatic));
 }
 
 void AGG_RTS_PlayerController::SetupInputComponent()
@@ -55,6 +65,11 @@ void AGG_RTS_PlayerController::SelectPressed()
 	else if (currentAction == PLACE_BUILDING)
 	{
 		// Set building on location and set task for nearest worker
+		FHitResult hitResult;
+		GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
+
+		currentAction = CONSTRUCT;
+		ActionStartManual(hitResult.Location);
 		currentAction = MOVE;
 	}
 	else
@@ -85,12 +100,6 @@ void AGG_RTS_PlayerController::SelectReleased()
 			newBuilding = (AGG_RTS_ResourceBuilding*)GetWorld()->SpawnActor<AGG_RTS_ResourceBuilding>(Location, Rotation, SpawnInfo);
 			currentAction = PLACE_BUILDING;
 		}
-	}
-	else if (currentAction == PLACE_BUILDING)
-	{
-		// Set building on location and set task for nearest worker
-		newBuilding = nullptr;
-		currentAction = MOVE;
 	}
 	else if (currentAction == SPAWN)
 	{
@@ -129,9 +138,13 @@ void AGG_RTS_PlayerController::ActionStart()
 			{
 				GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
 				if (currentAction == CONSTRUCT)
+				{
+					selectedUnits[i]->AddTask(currentAction, newBuilding, hitResult.Location, i);
+					newBuilding = nullptr;
 					return;
+				}
 				else
-					selectedUnits[i]->AddTask(currentAction, hitResult.Location, i);
+					selectedUnits[i]->AddTask(currentAction, newBuilding, hitResult.Location, i);
 
 			}
 		}
@@ -142,9 +155,13 @@ void AGG_RTS_PlayerController::ActionStart()
 			{
 				GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
 				if (currentAction == CONSTRUCT)
+				{
+					selectedUnits[i]->RunTask(currentAction, newBuilding, hitResult.Location, i);
+					newBuilding = nullptr;
 					return;
+				}
 				else
-					selectedUnits[i]->RunTask(currentAction, hitResult.Location, i);
+					selectedUnits[i]->RunTask(currentAction, newBuilding, hitResult.Location, i);
 			}
 		}
 	}
@@ -160,10 +177,12 @@ void AGG_RTS_PlayerController::ActionStartManual(FVector actionLocation)
 			{
 				if (currentAction == CONSTRUCT)
 				{
+					selectedUnits[i]->AddTask(currentAction, newBuilding, actionLocation, i);
+					newBuilding = nullptr;
 					return;
 				}
 				else
-					selectedUnits[i]->AddTask(currentAction, actionLocation, i);
+					selectedUnits[i]->AddTask(currentAction, newBuilding, actionLocation, i);
 
 			}
 		}
@@ -173,10 +192,12 @@ void AGG_RTS_PlayerController::ActionStartManual(FVector actionLocation)
 			{
 				if (currentAction == CONSTRUCT)
 				{
+					selectedUnits[i]->RunTask(currentAction, newBuilding, actionLocation, i);
+					newBuilding = nullptr;
 					return;
 				}
 				else
-					selectedUnits[i]->RunTask(currentAction, actionLocation, i);
+					selectedUnits[i]->RunTask(currentAction, newBuilding, actionLocation, i);
 			}
 		}
 	}
