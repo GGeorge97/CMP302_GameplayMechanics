@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RTS_BaseBuilder.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D3D5782D-FE01-4D2D-9BE0-65FBA334CF66}</UniqueIdentifier>
+      <UniqueIdentifier>{C1D9712E-21DA-40D8-A2CF-2C5C69E25348}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RTS_BaseBuilder.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F174FD1A-D0B8-484A-8D87-AA9E73568354}</UniqueIdentifier>
+      <UniqueIdentifier>{AAEF8970-029B-4AA1-8DB7-59887C4458B2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RTS_BaseBuilder">
-      <UniqueIdentifier>{57954F20-C277-4342-B3EF-BD3A014BE9CB}</UniqueIdentifier>
+      <UniqueIdentifier>{DA52709E-AA4E-461B-A3AB-1C8D54E203FF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ActionTasks.cpp">
       <Filter>Source\RTS_BaseBuilder</Filter>
@@ -96,6 +96,18 @@
       <Filter>Source\RTS_BaseBuilder</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_PlayerState.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ResourceBuilding.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ResourceBuilding.h">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_UnitBuilding.cpp">
+      <Filter>Source\RTS_BaseBuilder</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_UnitBuilding.h">
       <Filter>Source\RTS_BaseBuilder</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Worker.cpp">

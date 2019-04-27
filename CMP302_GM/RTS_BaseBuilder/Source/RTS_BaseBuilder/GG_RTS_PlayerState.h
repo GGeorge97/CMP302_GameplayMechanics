@@ -13,5 +13,5 @@ UCLASS()
 class RTS_BASEBUILDER_API AGG_RTS_PlayerState : public APlayerState
 {
 	GENERATED_BODY()
-	
+
 };

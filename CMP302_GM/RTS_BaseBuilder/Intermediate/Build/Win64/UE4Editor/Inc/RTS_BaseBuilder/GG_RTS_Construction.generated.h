@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define RTS_BASEBUILDER_GG_RTS_Construction_generated_h
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_RPC_WRAPPERS
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_INCLASS_NO_PURE_DECLS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_RPC_WRAPPERS
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGG_RTS_Construction(); \
 	friend struct Z_Construct_UClass_AGG_RTS_Construction_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AGG_RTS_Construction)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_INCLASS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAGG_RTS_Construction(); \
 	friend struct Z_Construct_UClass_AGG_RTS_Construction_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AGG_RTS_Construction)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_STANDARD_CONSTRUCTORS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGG_RTS_Construction(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGG_RTS_Construction) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_ENHANCED_CONSTRUCTORS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGG_RTS_Construction(AGG_RTS_Construction&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_Construction); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGG_RTS_Construction)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_PRIVATE_PROPERTY_OFFSET
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_9_PROLOG
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_GENERATED_BODY_LEGACY \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_PRIVATE_PROPERTY_OFFSET
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_15_PROLOG
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_PRIVATE_PROPERTY_OFFSET \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_RPC_WRAPPERS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_INCLASS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_STANDARD_CONSTRUCTORS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_PRIVATE_PROPERTY_OFFSET \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_RPC_WRAPPERS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_INCLASS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_GENERATED_BODY \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_PRIVATE_PROPERTY_OFFSET \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_INCLASS_NO_PURE_DECLS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_12_ENHANCED_CONSTRUCTORS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_PRIVATE_PROPERTY_OFFSET \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_INCLASS_NO_PURE_DECLS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Construction_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

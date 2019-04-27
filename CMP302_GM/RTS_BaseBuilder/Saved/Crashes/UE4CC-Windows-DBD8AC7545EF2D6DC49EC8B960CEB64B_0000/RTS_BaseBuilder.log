@@ -1,0 +1,993 @@
+﻿Log file open, 04/25/19 23:24:12
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RTS_BaseBuilder
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.238770
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
+LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
+LogAudioMixer: Display: Failed to load Sound File dll
+LogAudioEditor: Display: LibSoundFile failed to load. Importing audio will not work correctly.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-5660361
+LogInit: Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU:        Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Mar 31 2019 02:05:09
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=Gavstrav -epicuserid=9246de1311d945dbb853968dcdaa98ea -epiclocale=en-GB
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.25-22.24.12:978][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.25-22.24.12:978][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.25-22.24.12:978][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.25-22.24.12:979][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.25-22.24.12:979][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.25-22.24.12:979][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.25-22.24.12:982][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.25-22.24.12:982][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.25-22.24.12:983][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:983][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.25-22.24.12:984][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.25-22.24.12:984][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.25-22.24.12:984][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.25-22.24.12:999][  0]LogHAL: Display: Platform has ~ 16 GB [17136181248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.04.25-22.24.12:999][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.25-22.24.12:999][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.25-22.24.12:999][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.04.25-22.24.13:000][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.25-22.24.13:001][  0]LogInit: Computer: GAV-PC
+[2019.04.25-22.24.13:001][  0]LogInit: User: GavinGeorge
+[2019.04.25-22.24.13:001][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.25-22.24.13:001][  0]LogInit: High frequency timer resolution =3.323586 MHz
+[2019.04.25-22.24.13:001][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.04.25-22.24.13:001][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.25-22.24.13:001][  0]LogMemory: Process Physical Memory: 96.68 MB used, 96.68 MB peak
+[2019.04.25-22.24.13:001][  0]LogMemory: Process Virtual Memory: 91.98 MB used, 91.98 MB peak
+[2019.04.25-22.24.13:001][  0]LogMemory: Physical Memory: 8942.02 MB used,  7400.31 MB free, 16342.34 MB total
+[2019.04.25-22.24.13:001][  0]LogMemory: Virtual Memory: 4648.03 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.04.25-22.24.13:037][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.25-22.24.13:037][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.25-22.24.13:038][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.25-22.24.13:253][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.25-22.24.13:291][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.25-22.24.13:291][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.25-22.24.13:515][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.04.25-22.24.13:515][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.25-22.24.13:605][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.04.25-22.24.13:605][  0]LogD3D11RHI:       6052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.25-22.24.13:608][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.25-22.24.13:608][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.25-22.24.13:608][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.25-22.24.13:617][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.25-22.24.13:617][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.25-22.24.13:617][  0]LogWindows: EnumDisplayDevices:
+[2019.04.25-22.24.13:617][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.04.25-22.24.13:618][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.25-22.24.13:618][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.25-22.24.13:618][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.25-22.24.13:619][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.25-22.24.13:619][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.04.25-22.24.13:619][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.04.25-22.24.13:619][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.04.25-22.24.13:619][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.04.25-22.24.13:682][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.25-22.24.13:687][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.04.25-22.24.13:687][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.04.25-22.24.13:687][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.04.25-22.24.13:696][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.25-22.24.14:116][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.04.25-22.24.14:135][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.04.25-22.24.14:154][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.04.25-22.24.14:174][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.04.25-22.24.14:193][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.04.25-22.24.14:212][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.04.25-22.24.14:232][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.04.25-22.24.14:251][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.04.25-22.24.14:262][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.04.25-22.24.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.04.25-22.24.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.04.25-22.24.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.04.25-22.24.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.04.25-22.24.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.04.25-22.24.14:367][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.04.25-22.24.14:368][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.04.25-22.24.14:370][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.04.25-22.24.14:428][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.04.25-22.24.14:428][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.04.25-22.24.14:458][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.04.25-22.24.14:458][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.04.25-22.24.14:473][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.04.25-22.24.14:488][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.04.25-22.24.14:504][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.04.25-22.24.14:520][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.04.25-22.24.14:575][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.04.25-22.24.14:575][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.04.25-22.24.14:575][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.25-22.24.14:590][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.04.25-22.24.14:684][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Intermediate/Shaders/WorkingDirectory/4748/).
+[2019.04.25-22.24.14:684][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Roy George/AppData/Local/Temp/UnrealShaderWorkingDir/65C7E4DD4A259A85B07A6CA3C6AFF7D6/'.
+[2019.04.25-22.24.14:689][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.25-22.24.14:689][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.25-22.24.14:689][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.25-22.24.15:305][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.25-22.24.15:385][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.04.25-22.24.15:385][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.04.25-22.24.15:385][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.25-22.24.15:386][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.25-22.24.15:386][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.25-22.24.15:386][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.25-22.24.15:398][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.25-22.24.15:398][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.25-22.24.15:398][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.25-22.24.15:411][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Roy George/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.25-22.24.15:411][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.25-22.24.15:411][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.25-22.24.15:439][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.25-22.24.15:441][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.25-22.24.15:441][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.25-22.24.15:548][  0]LogAssetRegistry: FAssetRegistry took 0.0359 seconds to start up
+[2019.04.25-22.24.16:033][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.25-22.24.16:210][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.25-22.24.16:210][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.04.25-22.24.16:210][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.25-22.24.16:210][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.04.25-22.24.16:210][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.04.25-22.24.16:224][  0]LogNetVersion: RTS_BaseBuilder 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1744979706)
+[2019.04.25-22.24.16:765][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.049734 seconds
+[2019.04.25-22.24.16:771][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.04.25-22.24.16:771][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.04.25-22.24.16:771][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.25-22.24.17:839][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.25-22.24.17:852][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.25-22.24.18:214][  0]SourceControl: Source control is disabled
+[2019.04.25-22.24.18:214][  0]SourceControl: Source control is disabled
+[2019.04.25-22.24.18:216][  0]SourceControl: Source control is disabled
+[2019.04.25-22.24.18:218][  0]SourceControl: Source control is disabled
+[2019.04.25-22.24.18:322][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.25-22.24.18:463][  0]LogOcInput: OculusInput pre-init called
+[2019.04.25-22.24.19:268][  0]LogEngine: Initializing Engine...
+[2019.04.25-22.24.19:274][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.04.25-22.24.19:276][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.04.25-22.24.19:514][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.25-22.24.19:538][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.25-22.24.19:653][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.25-22.24.19:671][  0]LogInit: FAudioDevice initialized.
+[2019.04.25-22.24.19:671][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.25-22.24.19:732][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.04.25-22.24.19:747][  0]LogInit: Texture streaming: Enabled
+[2019.04.25-22.24.19:778][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.25-22.24.19:813][  0]LogInit: Transaction tracking system initialized
+[2019.04.25-22.24.19:864][  0]BlueprintLog: New page: Editor Load
+[2019.04.25-22.24.20:013][  0]LocalizationService: Localization service is disabled
+[2019.04.25-22.24.20:139][  0]LogLinker: Warning: Asset '../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/TopDownCPP/TopDownOverview.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.04.25-22.24.20:391][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/' took 0.02s
+[2019.04.25-22.24.20:391][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.25-22.24.20:391][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.25-22.24.20:636][  0]SourceControl: Source control is disabled
+[2019.04.25-22.24.20:636][  0]Cmd: MAP LOAD FILE="../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.25-22.24.20:637][  0]LightingResults: New page: Lighting Build
+[2019.04.25-22.24.20:642][  0]MapCheck: New page: Map Check
+[2019.04.25-22.24.20:642][  0]LightingResults: New page: Lighting Build
+[2019.04.25-22.24.20:675][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2019.04.25-22.24.20:811][  0]LogAIModule: Creating AISystem for world DemoLevel
+[2019.04.25-22.24.20:875][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.25-22.24.20:937][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.04.25-22.24.20:937][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.25-22.24.20:938][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.219ms to complete.
+[2019.04.25-22.24.20:938][  0]LogFileHelpers: Loading map 'DemoLevel' took 0.302
+[2019.04.25-22.24.21:050][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-22.24.21:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-22.24.21:067][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-22.24.21:076][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-22.24.21:088][  0]LogCollectionManager: Loaded 0 collections in 0.004219 seconds
+[2019.04.25-22.24.21:106][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Collections/' took 0.01s
+[2019.04.25-22.24.21:106][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/Developers/GavinGeorge/Collections/' took 0.00s
+[2019.04.25-22.24.21:106][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/Collections/' took 0.00s
+[2019.04.25-22.24.21:106][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.25-22.24.21:119][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2745 classes and 661 folders.
+[2019.04.25-22.24.21:131][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.25-22.24.21:133][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:134][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:135][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:136][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:136][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:137][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:139][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:139][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:140][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:140][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:141][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:142][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:142][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:143][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:144][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:144][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:146][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:147][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:149][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.25-22.24.21:216][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.04.25-22.24.21:227][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2019.04.25-22.24.23:024][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.25-22.24.23:051][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.25-22.24.23:054][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.25-22.24.23:061][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.25-22.24.23:160][  0]LogRenderer: Reallocating scene render targets to support 972x572 Format 10 NumSamples 1 (Frame:1).
+[2019.04.25-22.24.23:227][  0]LogSlate: Took 0.000452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.25-22.24.23:322][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2019.04.25-22.24.23:323][  0]LogLoad: (Engine Initialization) Total time: 13.54 seconds
+[2019.04.25-22.24.23:323][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.25-22.24.23:452][  0]LogAssetRegistry: Asset discovery search completed in 7.9269 seconds
+[2019.04.25-22.24.23:455][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.25-22.24.23:455][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
+[2019.04.25-22.24.23:457][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.25-22.24.30:687][ 23]LogTemp: IOS device listing is disabled (to many failed attempts)!
+[2019.04.25-22.24.39:212][ 48]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-22.25.11:082][333]Candidate modules for hot reload:
+[2019.04.25-22.25.11:082][333]  RTS_BaseBuilder
+[2019.04.25-22.25.11:082][333]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,9643 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.04.25-22.25.11:087][333]Warning: Starting HotReload took  0.0s.
+[2019.04.25-22.25.27:498][201]CompilerResultsLog: New page: Compilation - 26 Apr 2019 00:25:27
+[2019.04.25-22.25.27:499][201]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.04.25-22.25.27:499][201]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.04.25-22.25.27:499][201]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.25-22.25.27:499][201]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 8.6450255 seconds
+[2019.04.25-22.25.27:499][201]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.25-22.25.27:499][201]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.04.25-22.25.27:499][201]CompilerResultsLog:   [1/4] GG_RTS_HUD.cpp
+[2019.04.25-22.25.27:499][201]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-9643.lib
+[2019.04.25-22.25.27:499][201]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-9643.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-9643.exp
+[2019.04.25-22.25.27:499][201]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-9643.dll
+[2019.04.25-22.25.27:499][201]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-9643.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-9643.suppressed.exp
+[2019.04.25-22.25.27:499][201]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.04.25-22.25.27:499][201]CompilerResultsLog: Total time in Parallel executor: 4.18 seconds
+[2019.04.25-22.25.27:499][201]CompilerResultsLog: Total execution time: 16.31 seconds
+[2019.04.25-22.25.27:499][201]LogMainFrame: MainFrame: Module compiling took 16.421 seconds
+[2019.04.25-22.25.27:521][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.04.25-22.25.27:551][201]LogClass: HUD_Element HotReload.
+[2019.04.25-22.25.27:558][201]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.04.25-22.25.27:667][201]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0010 seconds. Added 13 classes and 2 folders.
+[2019.04.25-22.25.27:670][201]Display: HotReload successful (13 functions remapped  1 scriptstructs remapped)
+[2019.04.25-22.25.27:767][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.04.25-22.25.27:783][201]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2746 classes and 663 folders.
+[2019.04.25-22.25.27:783][201]Display: HotReload took 16.7s.
+[2019.04.25-22.25.29:433][398]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.25-22.25.29:449][398]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.04.25-22.25.29:450][398]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.25-22.25.29:450][398]PIE: New page: PIE session: DemoLevel (26 Apr 2019 00:25:29)
+[2019.04.25-22.25.29:462][398]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.04.25-22.25.29:519][398]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055960s)
+[2019.04.25-22.25.29:519][398]LogAIModule: Creating AISystem for world DemoLevel
+[2019.04.25-22.25.29:519][398]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2019.04.25-22.25.29:519][398]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.057506s)
+[2019.04.25-22.25.29:543][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.04.25-22.25.29:571][398]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.25-22.25.29:583][398]LogInit: FAudioDevice initialized.
+[2019.04.25-22.25.29:623][398]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.04.25-22.25.29:628][398]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.04.25-23.25.29
+[2019.04.25-22.25.29:629][398]LogWorld: Bringing up level for play took: 0.004979
+[2019.04.25-22.25.29:699][398]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2019.04.25-22.25.29:700][398]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel -0.058
+[2019.04.25-22.25.29:700][398]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.04.25-22.25.32:425][723]LogTemp: Warning: OVER AN ACTOR
+[2019.04.25-22.25.32:866][776]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:874][777]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:883][778]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:891][779]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:899][780]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:908][781]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:916][782]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:924][783]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:933][784]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:941][785]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:949][786]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:958][787]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:966][788]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:974][789]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:983][790]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:991][791]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.32:999][792]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:008][793]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:016][794]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:024][795]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:033][796]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:041][797]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:050][798]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:058][799]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:066][800]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:075][801]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:083][802]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:091][803]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:099][804]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:108][805]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:116][806]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:125][807]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:133][808]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:141][809]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:149][810]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:158][811]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:166][812]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:175][813]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:183][814]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:191][815]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:200][816]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:208][817]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:216][818]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:225][819]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:233][820]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:241][821]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:251][822]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:258][823]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:266][824]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:275][825]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:283][826]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:291][827]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:300][828]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:308][829]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:316][830]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:325][831]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:333][832]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:341][833]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:349][834]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:358][835]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:366][836]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:374][837]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:383][838]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:391][839]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:399][840]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:408][841]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:416][842]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:424][843]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:433][844]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:442][845]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:450][846]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:458][847]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:466][848]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:475][849]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:483][850]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:491][851]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:499][852]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:508][853]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:516][854]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:525][855]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:533][856]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:541][857]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:549][858]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:558][859]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:566][860]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:574][861]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:583][862]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:591][863]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:599][864]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:608][865]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:616][866]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:624][867]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:633][868]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:641][869]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:650][870]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:658][871]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:666][872]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:675][873]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:683][874]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:691][875]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:700][876]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:708][877]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:716][878]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:725][879]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:733][880]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:741][881]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:750][882]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:758][883]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:767][884]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:775][885]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:783][886]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:792][887]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:800][888]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:808][889]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:816][890]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:825][891]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:833][892]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:842][893]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:850][894]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:858][895]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:866][896]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:875][897]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:883][898]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:891][899]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:900][900]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:908][901]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:916][902]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:925][903]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:933][904]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:941][905]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:950][906]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:958][907]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:966][908]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:975][909]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:983][910]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.33:992][911]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:000][912]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:008][913]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:016][914]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:025][915]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:033][916]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:041][917]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:050][918]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:058][919]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:066][920]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:075][921]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:083][922]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:091][923]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:100][924]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:108][925]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:116][926]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:125][927]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:133][928]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:141][929]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:150][930]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:158][931]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:166][932]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:175][933]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:183][934]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:191][935]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:200][936]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:208][937]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:216][938]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:225][939]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:233][940]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:241][941]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:250][942]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:258][943]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:266][944]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:275][945]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:283][946]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:291][947]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:300][948]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:308][949]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:316][950]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:325][951]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:333][952]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:341][953]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:350][954]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:358][955]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:366][956]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:375][957]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:383][958]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:391][959]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:400][960]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:408][961]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:416][962]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:425][963]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:433][964]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:441][965]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:450][966]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:458][967]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:466][968]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:475][969]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:483][970]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:491][971]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:500][972]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:508][973]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:516][974]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:525][975]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:533][976]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:541][977]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:550][978]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:558][979]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:566][980]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:575][981]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:583][982]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:591][983]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:600][984]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:608][985]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:616][986]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:625][987]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:633][988]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:641][989]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:650][990]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:658][991]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:666][992]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:675][993]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:683][994]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:691][995]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:700][996]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:708][997]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:716][998]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:725][999]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:733][  0]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:742][  1]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:750][  2]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:758][  3]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:766][  4]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:775][  5]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:783][  6]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:792][  7]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:800][  8]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:808][  9]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:817][ 10]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:825][ 11]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:833][ 12]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:842][ 13]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:850][ 14]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:858][ 15]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:866][ 16]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:875][ 17]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:883][ 18]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:892][ 19]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:900][ 20]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:908][ 21]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:916][ 22]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:925][ 23]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:933][ 24]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:942][ 25]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:950][ 26]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:958][ 27]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:967][ 28]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:975][ 29]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:983][ 30]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.34:992][ 31]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:000][ 32]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:008][ 33]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:017][ 34]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:025][ 35]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:033][ 36]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:042][ 37]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:050][ 38]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:058][ 39]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:066][ 40]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:075][ 41]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:083][ 42]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:092][ 43]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:100][ 44]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:108][ 45]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:116][ 46]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:125][ 47]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:133][ 48]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:142][ 49]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:150][ 50]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:158][ 51]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:167][ 52]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:175][ 53]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:183][ 54]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:192][ 55]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:200][ 56]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:208][ 57]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:217][ 58]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:228][ 59]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:235][ 60]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:245][ 61]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:251][ 62]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:260][ 63]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:269][ 64]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:276][ 65]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:284][ 66]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:293][ 67]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:301][ 68]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:310][ 69]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:318][ 70]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:326][ 71]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:335][ 72]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:343][ 73]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:351][ 74]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:359][ 75]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:368][ 76]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:376][ 77]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:384][ 78]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:393][ 79]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:401][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.25-22.25.35:402][ 80]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:468][ 88]LogTemp: Warning: UNIT SELECTED
+[2019.04.25-22.25.35:468][ 88]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.04.25-22.25.35:468][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-22.25.35:500][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.25-22.25.35:501][ 88]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.04.25-22.25.35:526][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.25-22.25.35:529][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.04.25-22.25.35:571][ 92]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.04.25-22.31.41:165][412]Candidate modules for hot reload:
+[2019.04.25-22.31.41:165][412]  RTS_BaseBuilder
+[2019.04.25-22.31.41:165][412]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,1966 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.04.25-22.31.41:171][412]Warning: Starting HotReload took  0.0s.
+[2019.04.25-22.32.06:652][273]CompilerResultsLog: New page: Compilation - 26 Apr 2019 00:32:06
+[2019.04.25-22.32.06:652][273]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.04.25-22.32.06:652][273]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.04.25-22.32.06:652][273]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.25-22.32.06:652][273]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.3201563 seconds
+[2019.04.25-22.32.06:652][273]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.25-22.32.06:653][273]CompilerResultsLog: Building 10 actions with 4 processes...
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [1/10] GG_RTS_Camera.gen.cpp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [2/10] GG_RTS_Camera.cpp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [3/10] GG_RTS_HUD.gen.cpp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [4/10] GG_RTS_PlayerController.gen.cpp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [5/10] GG_RTS_PlayerController.cpp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [6/10] GG_RTS_HUD.cpp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [7/10] GG_RTS_GameMode.cpp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [8/10] UE4Editor-RTS_BaseBuilder-1966.lib
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1966.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1966.exp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [9/10] UE4Editor-RTS_BaseBuilder-1966.dll
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1966.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1966.suppressed.exp
+[2019.04.25-22.32.06:653][273]CompilerResultsLog:   [10/10] RTS_BaseBuilderEditor.target
+[2019.04.25-22.32.06:653][273]CompilerResultsLog: Total time in Parallel executor: 12.41 seconds
+[2019.04.25-22.32.06:653][273]CompilerResultsLog: Total execution time: 25.38 seconds
+[2019.04.25-22.32.06:653][273]LogMainFrame: MainFrame: Module compiling took 25.491 seconds
+[2019.04.25-22.32.06:674][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.04.25-22.32.06:695][273]LogClass: Could not find existing class GG_RTS_HUD in package /Script/RTS_BaseBuilder for HotReload, assuming new class
+[2019.04.25-22.32.06:695][273]LogClass: Function BeginPlay is new.
+[2019.04.25-22.32.06:695][273]LogClass: Function DrawBuildingSelectedUI is new.
+[2019.04.25-22.32.06:695][273]LogClass: Function DrawButtonTooltip is new.
+[2019.04.25-22.32.06:695][273]LogClass: Function DrawHUD is new.
+[2019.04.25-22.32.06:695][273]LogClass: Function DrawSelectionBox is new.
+[2019.04.25-22.32.06:695][273]LogClass: Function DrawUnitSelectedUI is new.
+[2019.04.25-22.32.06:695][273]LogClass: Function IsCursorInBounds is new.
+[2019.04.25-22.32.06:703][273]LogClass: HUD_Element HotReload.
+[2019.04.25-22.32.06:706][273]LogHotReload: Re-instancing GG_RTS_GameMode after hot-reload.
+[2019.04.25-22.32.06:793][273]LogHotReload: Re-instancing GG_RTS_HUD after hot-reload.
+[2019.04.25-22.32.06:882][273]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.04.25-22.32.06:991][273]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0010 seconds. Added 13 classes and 2 folders.
+[2019.04.25-22.32.06:994][273]Display: HotReload successful (6 functions remapped  1 scriptstructs remapped)
+[2019.04.25-22.32.07:050][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.04.25-22.32.07:065][273]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2746 classes and 663 folders.
+[2019.04.25-22.32.07:065][273]Display: HotReload took 25.9s.
+[2019.04.25-22.32.08:863][473]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.25-22.32.08:880][473]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.04.25-22.32.08:880][473]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.25-22.32.08:880][473]PIE: New page: PIE session: DemoLevel (26 Apr 2019 00:32:08)
+[2019.04.25-22.32.08:880][473]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.04.25-22.32.08:928][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047787s)
+[2019.04.25-22.32.08:929][473]LogAIModule: Creating AISystem for world DemoLevel
+[2019.04.25-22.32.08:929][473]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2019.04.25-22.32.08:929][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.048821s)
+[2019.04.25-22.32.08:952][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.04.25-22.32.08:980][473]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.25-22.32.08:993][473]LogInit: FAudioDevice initialized.
+[2019.04.25-22.32.09:022][473]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.04.25-22.32.09:026][473]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.04.25-23.32.09
+[2019.04.25-22.32.09:028][473]LogWorld: Bringing up level for play took: 0.004646

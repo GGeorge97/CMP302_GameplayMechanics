@@ -5,6 +5,17 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Canvas.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasItem.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/Font.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/FontImportOptions.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\FontImportOptions.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\SlateCore\Public\Fonts/FontProviderInterface.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\FontProviderInterface.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Font.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\CanvasTypes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CanvasTypes.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Canvas.generated.h
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_Worker.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
@@ -39,4 +50,14 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\In
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_ConstructionTask.h
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_CollectionTask.h
 C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\GG_RTS_Worker.generated.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_Construction.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereComponent.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\GG_RTS_Construction.generated.h
 C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\GG_RTS_HUD.generated.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_PlayerController.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_UnitBuilding.h
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\GG_RTS_UnitBuilding.generated.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_ResourceBuilding.h
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\GG_RTS_ResourceBuilding.generated.h
+C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\GG_RTS_PlayerController.generated.h

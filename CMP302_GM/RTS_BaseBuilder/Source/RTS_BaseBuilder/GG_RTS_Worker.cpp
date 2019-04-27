@@ -50,22 +50,11 @@ void AGG_RTS_Worker::Tick(float DeltaTime)
 
 	if (taskStack.Num() > 0)
 	{
-		if (taskStack[0]->GetTaskStatus() == QUEUED)
-		{ 
-			UE_LOG(LogTemp, Log, TEXT("BEGIN"));
-			taskStack[0]->BeginTask(); 
-		}
+		if (taskStack[0]->GetTaskStatus() == QUEUED) taskStack[0]->BeginTask(); 
 
-		else if (taskStack[0]->GetTaskStatus() == IN_PROGRESS)
-		{
-			UE_LOG(LogTemp, Log, TEXT("RUNNING"));
-			taskStack[0]->IsTaskComplete();
-		}
-		else if (taskStack[0]->GetTaskStatus() == COMPLETE)
-		{
-			UE_LOG(LogTemp, Log, TEXT("POP"));
-			taskStack.RemoveAt(0, 1, true);
-		}
+		else if (taskStack[0]->GetTaskStatus() == IN_PROGRESS) taskStack[0]->IsTaskComplete();
+
+		else if (taskStack[0]->GetTaskStatus() == COMPLETE) taskStack.RemoveAt(0, 1, true);
 	}
 }
 
@@ -83,13 +72,16 @@ void AGG_RTS_Worker::RunTask(Action actionType, FVector hitLocation, int formati
 		taskStack.Push(new GG_RTS_MovementTask(this, hitLocation, formationIndex));
 		break;
 
-		//case COLLECT:
-		//	taskStack.Push(new GG_RTS_CollectionTask(this, hitLocation, formationIndex));
-		//	break;
+	case CONSTRUCT:
+		taskStack.Push(new GG_RTS_ConstructionTask(this, hitLocation, formationIndex));
+		break;
 
-		//case CONSTRUCT:
-		//	taskStack.Push(new GG_RTS_ConstructionTask(this, hitLocation, formationIndex));
-		//	break;
+	//case COLLECT:
+	//	taskStack.Push(new GG_RTS_CollectionTask(this, hitLocation, formationIndex));
+	//	break;
+
+	default:
+		break;
 	}
 }
 
@@ -101,13 +93,16 @@ void AGG_RTS_Worker::AddTask(Action actionType, FVector hitLocation, int formati
 		taskStack.Push(new GG_RTS_MovementTask(this, hitLocation, formationIndex));
 		break;
 
+	case CONSTRUCT:
+		taskStack.Push(new GG_RTS_ConstructionTask(this, hitLocation, formationIndex));
+		break;
+
 	//case COLLECT:
 	//	taskStack.Push(new GG_RTS_CollectionTask(this, hitLocation, formationIndex));
 	//	break;
 
-	//case CONSTRUCT:
-	//	taskStack.Push(new GG_RTS_ConstructionTask(this, hitLocation, formationIndex));
-	//	break;
+	default:
+		break;
 	}
 }
 

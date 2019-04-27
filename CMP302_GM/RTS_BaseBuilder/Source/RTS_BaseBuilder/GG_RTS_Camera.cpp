@@ -26,10 +26,10 @@ AGG_RTS_Camera::AGG_RTS_Camera()
 
 	viewportMargin = 20;
 	maxArmLength = 4000.0f;
-	minArmLength = -4000.0f;
+	minArmLength = -3000.0f;
 	maxPitch = -20.0f;
 	minPitch = -80.0f;
-	zoomSensitivity = 1000.0f;
+	zoomSensitivity = 500.0f;
 	moveSensitivity = 5000.0f;
 }
 
