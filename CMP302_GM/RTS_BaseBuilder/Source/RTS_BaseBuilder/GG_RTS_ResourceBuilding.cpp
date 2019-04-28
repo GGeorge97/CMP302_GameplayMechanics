@@ -15,20 +15,23 @@ AGG_RTS_ResourceBuilding::AGG_RTS_ResourceBuilding()
 	static ConstructorHelpers::FObjectFinder<UMaterial> DecalMaterialAsset(TEXT("Material'/Game/TopDownCPP/Blueprints/M_Cursor_Decal.M_Cursor_Decal'"));
 	if (DecalMaterialAsset.Succeeded())
 		cursorToWorld->SetDecalMaterial(DecalMaterialAsset.Object);
-	cursorToWorld->DecalSize = FVector(16.0f, 32.0f, 32.0f);
+	FTransform cursorTransform = cursorToWorld->GetComponentTransform();
+	cursorTransform.SetLocation(FVector(0.0f, 0.0f, 50.0f));
+	cursorToWorld->SetRelativeTransform(cursorTransform);
+	cursorToWorld->DecalSize = FVector(24.0f, 64.0f, 64.0f);
 	cursorToWorld->SetRelativeRotation(FRotator(90.0f, 0.0f, 0.0f).Quaternion());
 	cursorToWorld->SetVisibility(false);
 
 	staticMesh = CreateDefaultSubobject<UStaticMeshComponent>("StaticMesh");
 	staticMesh->SetupAttachment(RootComponent);
 	staticMesh->SetMobility(EComponentMobility::Movable);
-	UStaticMesh* staticMeshAsset = LoadObject<UStaticMesh>(nullptr, TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cone.Shape_Cone'"));
+	UStaticMesh* staticMeshAsset = LoadObject<UStaticMesh>(nullptr, TEXT("StaticMesh'/Game/StarterContent/Shapes/Shape_Cylinder.Shape_Cylinder'"));
 	staticMesh->SetStaticMesh(staticMeshAsset);
 	staticMesh->SetCollisionResponseToChannel(ECC_Visibility, ECollisionResponse::ECR_Ignore);
 	FTransform correctedTransform = staticMesh->GetComponentTransform();
 	correctedTransform.SetRotation(FQuat(FRotator(0.0f, -90.0f, 0.0f)));
 	staticMesh->SetRelativeTransform(correctedTransform);
-	staticMesh->SetWorldScale3D(FVector(2.0f, 2.0f, 0.5f));
+	staticMesh->SetWorldScale3D(FVector(1.0f, 1.0f, 0.5f));
 
 	buildingType = RES_BUILDING;
 	timeUntilBuilt = 0.0f;
@@ -65,7 +68,7 @@ void AGG_RTS_ResourceBuilding::SetIsBuilt(bool bl)
 {
 	isBuilt = bl;
 
-	staticMesh->SetWorldScale3D(FVector(4.0f, 4.0f, 1.0f));
+	staticMesh->SetWorldScale3D(FVector(4.0f, 4.0f, 6.0f));
 }
 
 OwningType AGG_RTS_ResourceBuilding::GetType()

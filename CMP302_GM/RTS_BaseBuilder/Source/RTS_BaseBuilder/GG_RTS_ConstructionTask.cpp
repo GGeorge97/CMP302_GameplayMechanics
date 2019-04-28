@@ -19,7 +19,7 @@ GG_RTS_ConstructionTask::~GG_RTS_ConstructionTask()
 void GG_RTS_ConstructionTask::BeginTask()
 {
 	taskStatus = IN_PROGRESS;
-	moveLocation = hitLoc + FVector(formIndex / 2 * 500, formIndex % 2 * 500, 0);
+	moveLocation = hitLoc;
 	UAIBlueprintHelperLibrary::SimpleMoveToLocation(workerPtr->GetController(), moveLocation);
 }
 
@@ -31,8 +31,9 @@ void GG_RTS_ConstructionTask::IsTaskComplete(float deltaTime)
 	targetVec = currentPos - targetVec;
 	float distanceToTarget = targetVec.Size();
 
-	if (distanceToTarget < 1000.0f)
+	if (distanceToTarget < 300.0f)
 	{
+		UAIBlueprintHelperLibrary::SimpleMoveToLocation(workerPtr->GetController(), workerPtr->GetActorLocation());
 		buildingPtr->SetTimeUntilBuilt(deltaTime);
 
 		if (buildingPtr->GetTimeUntilBuilt() >= buildingPtr->GetBuildTime())

@@ -26,6 +26,7 @@ void AGG_RTS_PlayerController::BeginPlay()
 	HUDPtr = Cast<AGG_RTS_HUD>(GetHUD());
 
 	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_Pawn));
+	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_WorldDynamic));
 }
 
 void AGG_RTS_PlayerController::SetupInputComponent()
@@ -44,14 +45,35 @@ void AGG_RTS_PlayerController::Tick(float DeltaTime)
 		FHitResult hitResult;
 		GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
 		newBuilding->SetActorLocation(hitResult.Location);
+
+		if (IsInputKeyDown(EKeys::Q))
+		{
+			newBuilding->Destroy();
+			newBuilding = nullptr;
+			currentAction = MOVE;
+		}
 	}
 
-	FHitResult hitResult;
-	bool bHitOccurred = GetHitResultUnderCursorForObjects(objectTypes, true, hitResult);
-	if (bHitOccurred)
+	if (currentAction != PLACE_BUILDING)
 	{
-		//UE_LOG(LogTemp, Warning, TEXT("OVER AN ACTOR"));
-		hitResult.GetActor();
+		FHitResult hitResult;
+		bool bHitOccurred = GetHitResultUnderCursorForObjects(objectTypes, true, hitResult);
+		if (bHitOccurred)
+		{
+			AActor* hitActor = hitResult.GetActor();
+
+			if (Cast<AGG_RTS_Worker>(hitActor))
+			{
+				AGG_RTS_Worker* workerActor = Cast<AGG_RTS_Worker>(hitActor);
+				currentAction = MOVE;
+				UE_LOG(LogTemp, Warning, TEXT("OVER WORKER"));
+			}
+			else if (Cast<AGG_RTS_Construction>(hitActor))
+			{
+				AGG_RTS_Construction* buildingActor = Cast<AGG_RTS_Construction>(hitActor);
+				UE_LOG(LogTemp, Warning, TEXT("OVER BUILDING"));
+			}
+		}
 	}
 }
 
@@ -68,7 +90,6 @@ void AGG_RTS_PlayerController::SelectPressed()
 	}
 	else if (currentAction == PLACE_BUILDING)
 	{
-		// Set building on location and set task for nearest worker
 		FHitResult hitResult;
 		GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
 
@@ -151,7 +172,8 @@ void AGG_RTS_PlayerController::ActionStart()
 				GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
 				if (currentAction == CONSTRUCT)
 				{
-					selectedUnits[i]->AddTask(currentAction, newBuilding, hitResult.Location, i);
+					if (newBuilding)
+						selectedUnits[i]->AddTask(currentAction, newBuilding, hitResult.Location, i);
 					newBuilding = nullptr;
 					return;
 				}
@@ -168,7 +190,8 @@ void AGG_RTS_PlayerController::ActionStart()
 				GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, hitResult);
 				if (currentAction == CONSTRUCT)
 				{
-					selectedUnits[i]->RunTask(currentAction, newBuilding, hitResult.Location, i);
+					if (newBuilding)
+						selectedUnits[i]->RunTask(currentAction, newBuilding, hitResult.Location, i);
 					newBuilding = nullptr;
 					return;
 				}
@@ -189,7 +212,8 @@ void AGG_RTS_PlayerController::ActionStartManual(FVector actionLocation)
 			{
 				if (currentAction == CONSTRUCT)
 				{
-					selectedUnits[i]->AddTask(currentAction, newBuilding, actionLocation, i);
+					if(newBuilding)
+						selectedUnits[i]->AddTask(currentAction, newBuilding, actionLocation, i);
 					newBuilding = nullptr;
 					return;
 				}
@@ -204,7 +228,8 @@ void AGG_RTS_PlayerController::ActionStartManual(FVector actionLocation)
 			{
 				if (currentAction == CONSTRUCT)
 				{
-					selectedUnits[i]->RunTask(currentAction, newBuilding, actionLocation, i);
+					if (newBuilding)
+						selectedUnits[i]->RunTask(currentAction, newBuilding, actionLocation, i);
 					newBuilding = nullptr;
 					return;
 				}
