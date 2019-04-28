@@ -43,6 +43,6 @@ private:
 	UPROPERTY()
 		class UDecalComponent* cursorToWorld;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 		class USkeletalMeshComponent* skeletalMesh;
 };

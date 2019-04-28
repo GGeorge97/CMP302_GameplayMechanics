@@ -13,14 +13,110 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeGG_RTS_UnitBuilding() {}
 // Cross Module References
+	RTS_BASEBUILDER_API UScriptStruct* Z_Construct_UScriptStruct_FQueuedUnit();
+	UPackage* Z_Construct_UPackage__Script_RTS_BaseBuilder();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FRotator();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_UnitBuilding_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_UnitBuilding();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Construction();
-	UPackage* Z_Construct_UPackage__Script_RTS_BaseBuilder();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UDecalComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+class UScriptStruct* FQueuedUnit::StaticStruct()
+{
+	static class UScriptStruct* Singleton = NULL;
+	if (!Singleton)
+	{
+		extern RTS_BASEBUILDER_API uint32 Get_Z_Construct_UScriptStruct_FQueuedUnit_Hash();
+		Singleton = GetStaticStruct(Z_Construct_UScriptStruct_FQueuedUnit, Z_Construct_UPackage__Script_RTS_BaseBuilder(), TEXT("QueuedUnit"), sizeof(FQueuedUnit), Get_Z_Construct_UScriptStruct_FQueuedUnit_Hash());
+	}
+	return Singleton;
+}
+template<> RTS_BASEBUILDER_API UScriptStruct* StaticStruct<FQueuedUnit>()
+{
+	return FQueuedUnit::StaticStruct();
+}
+static FCompiledInDeferStruct Z_CompiledInDeferStruct_UScriptStruct_FQueuedUnit(FQueuedUnit::StaticStruct, TEXT("/Script/RTS_BaseBuilder"), TEXT("QueuedUnit"), false, nullptr, nullptr);
+static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFQueuedUnit
+{
+	FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFQueuedUnit()
+	{
+		UScriptStruct::DeferCppStructOps(FName(TEXT("QueuedUnit")),new UScriptStruct::TCppStructOps<FQueuedUnit>);
+	}
+} ScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFQueuedUnit;
+	struct Z_Construct_UScriptStruct_FQueuedUnit_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[];
+#endif
+		static void* NewStructOps();
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_spawnRotation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_spawnRotation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_spawnPoint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_spawnPoint;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+		static const UE4CodeGen_Private::FStructParams ReturnStructParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQueuedUnit_Statics::Struct_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
+	};
+#endif
+	void* Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewStructOps()
+	{
+		return (UScriptStruct::ICppStructOps*)new UScriptStruct::TCppStructOps<FQueuedUnit>();
+	}
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnRotation_MetaData[] = {
+		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnRotation = { "spawnRotation", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FQueuedUnit, spawnRotation), Z_Construct_UScriptStruct_FRotator, METADATA_PARAMS(Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnRotation_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnRotation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnPoint_MetaData[] = {
+		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnPoint = { "spawnPoint", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FQueuedUnit, spawnPoint), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnPoint_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnPoint_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FQueuedUnit_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnRotation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FQueuedUnit_Statics::NewProp_spawnPoint,
+	};
+	const UE4CodeGen_Private::FStructParams Z_Construct_UScriptStruct_FQueuedUnit_Statics::ReturnStructParams = {
+		(UObject* (*)())Z_Construct_UPackage__Script_RTS_BaseBuilder,
+		nullptr,
+		&NewStructOps,
+		"QueuedUnit",
+		sizeof(FQueuedUnit),
+		alignof(FQueuedUnit),
+		Z_Construct_UScriptStruct_FQueuedUnit_Statics::PropPointers,
+		ARRAY_COUNT(Z_Construct_UScriptStruct_FQueuedUnit_Statics::PropPointers),
+		RF_Public|RF_Transient|RF_MarkAsNative,
+		EStructFlags(0x00000001),
+		METADATA_PARAMS(Z_Construct_UScriptStruct_FQueuedUnit_Statics::Struct_MetaDataParams, ARRAY_COUNT(Z_Construct_UScriptStruct_FQueuedUnit_Statics::Struct_MetaDataParams))
+	};
+	UScriptStruct* Z_Construct_UScriptStruct_FQueuedUnit()
+	{
+#if WITH_HOT_RELOAD
+		extern uint32 Get_Z_Construct_UScriptStruct_FQueuedUnit_Hash();
+		UPackage* Outer = Z_Construct_UPackage__Script_RTS_BaseBuilder();
+		static UScriptStruct* ReturnStruct = FindExistingStructIfHotReloadOrDynamic(Outer, TEXT("QueuedUnit"), sizeof(FQueuedUnit), Get_Z_Construct_UScriptStruct_FQueuedUnit_Hash(), false);
+#else
+		static UScriptStruct* ReturnStruct = nullptr;
+#endif
+		if (!ReturnStruct)
+		{
+			UE4CodeGen_Private::ConstructUScriptStruct(ReturnStruct, Z_Construct_UScriptStruct_FQueuedUnit_Statics::ReturnStructParams);
+		}
+		return ReturnStruct;
+	}
+	uint32 Get_Z_Construct_UScriptStruct_FQueuedUnit_Hash() { return 1655193205U; }
 	void AGG_RTS_UnitBuilding::StaticRegisterNativesAGG_RTS_UnitBuilding()
 	{
 	}
@@ -34,6 +130,11 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_UnitBuilding() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_unitQueue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_unitQueue;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_unitQueue_Inner;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_staticMesh_MetaData[];
 #endif
@@ -61,6 +162,14 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_UnitBuilding() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue_MetaData[] = {
+		{ "Category", "GG_RTS_UnitBuilding" },
+		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue = { "unitQueue", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_UnitBuilding, unitQueue), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue_Inner = { "unitQueue", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FQueuedUnit, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_staticMesh_MetaData[] = {
 		{ "Category", "GG_RTS_UnitBuilding" },
 		{ "EditInline", "true" },
@@ -85,6 +194,8 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_UnitBuilding() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_sphereComponent = { "sphereComponent", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_UnitBuilding, sphereComponent), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_sphereComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_sphereComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_staticMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_cursorToWorld,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_sphereComponent,
@@ -116,7 +227,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_UnitBuilding() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_UnitBuilding, 3788117971);
+	IMPLEMENT_CLASS(AGG_RTS_UnitBuilding, 3259225989);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_UnitBuilding>()
 	{
 		return AGG_RTS_UnitBuilding::StaticClass();

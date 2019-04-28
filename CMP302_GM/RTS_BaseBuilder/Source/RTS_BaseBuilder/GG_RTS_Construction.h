@@ -12,6 +12,11 @@
 #include "Components/StaticMeshComponent.h"
 #include "GG_RTS_Construction.generated.h"
 
+enum OwningType
+{
+	WORKER, UNIT_BUILDING, RES_BUILDING
+};
+
 UCLASS()
 class RTS_BASEBUILDER_API AGG_RTS_Construction : public AActor
 {
@@ -31,6 +36,8 @@ public:
 
 	virtual bool IsBuilt();
 	virtual void SetIsBuilt(bool bl);
+
+	virtual OwningType GetType();
 
 protected:
 	virtual void BeginPlay() override;

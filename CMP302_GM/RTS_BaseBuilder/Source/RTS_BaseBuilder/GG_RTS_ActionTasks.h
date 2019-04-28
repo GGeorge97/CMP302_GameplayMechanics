@@ -7,12 +7,13 @@
 /**
  * 
  */
-
+UENUM()
 enum Action
 {
 	MOVE, COLLECT, CONSTRUCT, PLACE_BUILDING, SPAWN, NULL_ACTION
 };
 
+UENUM()
 enum TaskStatus
 {
 	QUEUED, IN_PROGRESS, COMPLETE

@@ -26,7 +26,6 @@ void AGG_RTS_PlayerController::BeginPlay()
 	HUDPtr = Cast<AGG_RTS_HUD>(GetHUD());
 
 	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_Pawn));
-	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_WorldStatic));
 }
 
 void AGG_RTS_PlayerController::SetupInputComponent()
@@ -51,8 +50,8 @@ void AGG_RTS_PlayerController::Tick(float DeltaTime)
 	bool bHitOccurred = GetHitResultUnderCursorForObjects(objectTypes, true, hitResult);
 	if (bHitOccurred)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("OVER AN ACTOR"));
-		//hitResult.GetActor();
+		//UE_LOG(LogTemp, Warning, TEXT("OVER AN ACTOR"));
+		hitResult.GetActor();
 	}
 }
 
@@ -61,6 +60,11 @@ void AGG_RTS_PlayerController::SelectPressed()
 	if (currentAction == CONSTRUCT)
 	{
 		HUDPtr->SetUnitUIEnabled(false);
+	}
+	else if (currentAction == SPAWN)
+	{
+		HUDPtr->SetBuildingUIEnabled(true);
+		currentAction = SPAWN;
 	}
 	else if (currentAction == PLACE_BUILDING)
 	{
@@ -85,34 +89,42 @@ void AGG_RTS_PlayerController::SelectReleased()
 	{
 		if (constructionType == 0)
 		{
-			FVector Location(0.0f, 0.0f, 0.0f);
-			FRotator Rotation(0.0f, 0.0f, 0.0f);
-			FActorSpawnParameters SpawnInfo;
-			newBuilding = (AGG_RTS_UnitBuilding*)GetWorld()->SpawnActor<AGG_RTS_UnitBuilding>(Location, Rotation, SpawnInfo);
+			FVector spawnPos(0.0f, 0.0f, 0.0f);
+			FRotator spawnRotation(0.0f, 0.0f, 0.0f);
+			FActorSpawnParameters spawnInfo;
+			newBuilding = (AGG_RTS_UnitBuilding*)GetWorld()->SpawnActor<AGG_RTS_UnitBuilding>(spawnPos, spawnRotation, spawnInfo);
 			currentAction = PLACE_BUILDING;
 
 		}
 		else if (constructionType == 1)
 		{
-			FVector Location(0.0f, 0.0f, 0.0f);
-			FRotator Rotation(0.0f, 0.0f, 0.0f);
-			FActorSpawnParameters SpawnInfo;
-			newBuilding = (AGG_RTS_ResourceBuilding*)GetWorld()->SpawnActor<AGG_RTS_ResourceBuilding>(Location, Rotation, SpawnInfo);
+			FVector spawnPos(0.0f, 0.0f, 0.0f);
+			FRotator spawnRotation(0.0f, 0.0f, 0.0f);
+			FActorSpawnParameters spawnInfo;
+			newBuilding = (AGG_RTS_ResourceBuilding*)GetWorld()->SpawnActor<AGG_RTS_ResourceBuilding>(spawnPos, spawnRotation, spawnInfo);
 			currentAction = PLACE_BUILDING;
 		}
 	}
 	else if (currentAction == SPAWN)
 	{
-		FVector Location(0.0f, 0.0f, 0.0f);
-		FRotator Rotation(0.0f, 0.0f, 0.0f);
-		FActorSpawnParameters SpawnInfo;
-		GetWorld()->SpawnActor<AGG_RTS_Worker>(Location, Rotation, SpawnInfo);
-		currentAction = MOVE;
+		for (int i = 0; i < selectedBuildings.Num(); i++)
+		{
+			if (selectedBuildings[i]->GetType() == UNIT_BUILDING)
+			{
+				FVector spawnPos = selectedBuildings[i]->GetActorLocation();
+				spawnPos += FVector(0.0f, -500.0f, 100.0f);
+				FRotator spawnRotation(0.0f, 0.0f, 0.0f);
+				AGG_RTS_UnitBuilding* selectedUnitBuilding = Cast<AGG_RTS_UnitBuilding>(selectedBuildings[i]);
+				selectedUnitBuilding->TrainUnit(spawnPos, spawnRotation);
+			}
+		}
+		currentAction = SPAWN;
 	}
 	else 
 	{
 		HUDPtr->SetStartSelect(false);
 		selectedUnits = HUDPtr->GetFoundUnits();
+
 		selectedBuildings = HUDPtr->GetFoundBuildings();
 
 		if (selectedUnits.Num() > 0)

@@ -1,0 +1,2616 @@
+﻿Log file open, 04/27/19 23:39:06
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RTS_BaseBuilder
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.223232
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
+LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
+LogAudioMixer: Display: Failed to load Sound File dll
+LogAudioEditor: Display: LibSoundFile failed to load. Importing audio will not work correctly.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-5660361
+LogInit: Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU:        Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Mar 31 2019 02:05:09
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -EpicPortal -epicusername=Gavstrav -epicuserid=9246de1311d945dbb853968dcdaa98ea -epiclocale=en-GB
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.04.27-22.39.07:425][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.04.27-22.39.07:425][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.27-22.39.07:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.04.27-22.39.07:426][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.27-22.39.07:426][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.27-22.39.07:429][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.27-22.39.07:429][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.27-22.39.07:430][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.27-22.39.07:430][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.27-22.39.07:430][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.27-22.39.07:445][  0]LogHAL: Display: Platform has ~ 16 GB [17136181248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.04.27-22.39.07:445][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.27-22.39.07:445][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.04.27-22.39.07:445][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.04.27-22.39.07:446][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.04.27-22.39.07:446][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.04.27-22.39.07:447][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.04.27-22.39.07:447][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.04.27-22.39.07:447][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.04.27-22.39.07:447][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.04.27-22.39.07:447][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.04.27-22.39.07:447][  0]LogInit: Computer: GAV-PC
+[2019.04.27-22.39.07:447][  0]LogInit: User: GavinGeorge
+[2019.04.27-22.39.07:447][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.27-22.39.07:447][  0]LogInit: High frequency timer resolution =3.323586 MHz
+[2019.04.27-22.39.07:447][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.04.27-22.39.07:447][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.27-22.39.07:447][  0]LogMemory: Process Physical Memory: 96.87 MB used, 96.87 MB peak
+[2019.04.27-22.39.07:447][  0]LogMemory: Process Virtual Memory: 91.94 MB used, 91.94 MB peak
+[2019.04.27-22.39.07:447][  0]LogMemory: Physical Memory: 8344.18 MB used,  7998.16 MB free, 16342.34 MB total
+[2019.04.27-22.39.07:447][  0]LogMemory: Virtual Memory: 4648.03 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.04.27-22.39.07:482][  0]LogInit: Using OS detected language (en-GB).
+[2019.04.27-22.39.07:482][  0]LogInit: Using OS detected locale (en-GB).
+[2019.04.27-22.39.07:484][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.04.27-22.39.07:696][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.27-22.39.07:738][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.27-22.39.07:738][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.27-22.39.07:956][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.04.27-22.39.07:956][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.27-22.39.08:043][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.04.27-22.39.08:043][  0]LogD3D11RHI:       6052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.27-22.39.08:046][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.27-22.39.08:046][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.27-22.39.08:046][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.27-22.39.08:055][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.27-22.39.08:055][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.27-22.39.08:055][  0]LogWindows: EnumDisplayDevices:
+[2019.04.27-22.39.08:056][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.04.27-22.39.08:056][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.27-22.39.08:056][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.27-22.39.08:057][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.04.27-22.39.08:057][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.27-22.39.08:057][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.04.27-22.39.08:057][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.04.27-22.39.08:057][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.04.27-22.39.08:057][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.04.27-22.39.08:120][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.27-22.39.08:125][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.04.27-22.39.08:125][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.04.27-22.39.08:125][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.04.27-22.39.08:134][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.27-22.39.08:546][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.04.27-22.39.08:566][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.04.27-22.39.08:586][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.04.27-22.39.08:605][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.04.27-22.39.08:626][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.04.27-22.39.08:644][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.04.27-22.39.08:665][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.04.27-22.39.08:684][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.04.27-22.39.08:694][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.04.27-22.39.08:800][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.04.27-22.39.08:803][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.04.27-22.39.08:860][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.04.27-22.39.08:860][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.04.27-22.39.08:891][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.04.27-22.39.08:891][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.04.27-22.39.08:906][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.04.27-22.39.08:922][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.04.27-22.39.08:938][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.04.27-22.39.08:954][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.04.27-22.39.09:010][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.04.27-22.39.09:010][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.04.27-22.39.09:010][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.27-22.39.09:025][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.04.27-22.39.09:119][  0]LogShaderCompilers: Guid format shader working directory is -42 characters bigger than the processId version (../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Intermediate/Shaders/WorkingDirectory/12768/).
+[2019.04.27-22.39.09:120][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Roy George/AppData/Local/Temp/UnrealShaderWorkingDir/3FBAEBC9441C94DEF6B9FB8286611F83/'.
+[2019.04.27-22.39.09:124][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.27-22.39.09:124][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.27-22.39.09:124][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.27-22.39.09:741][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.27-22.39.09:824][  0]LogDerivedDataCache: Loaded boot cache 0.08s 75MB C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.04.27-22.39.09:825][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.04.27-22.39.09:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.27-22.39.09:825][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.27-22.39.09:825][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.27-22.39.09:825][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.27-22.39.09:838][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.27-22.39.09:838][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.27-22.39.09:838][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.04.27-22.39.09:850][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Roy George/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.27-22.39.09:850][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.27-22.39.09:850][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.27-22.39.09:876][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.27-22.39.09:877][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.27-22.39.09:877][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.27-22.39.09:979][  0]LogAssetRegistry: FAssetRegistry took 0.0366 seconds to start up
+[2019.04.27-22.39.10:419][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.27-22.39.10:595][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.27-22.39.10:595][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.04.27-22.39.10:595][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.27-22.39.10:595][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.04.27-22.39.10:595][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.04.27-22.39.10:608][  0]LogNetVersion: RTS_BaseBuilder 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1744979706)
+[2019.04.27-22.39.11:151][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.053812 seconds
+[2019.04.27-22.39.11:157][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.04.27-22.39.11:157][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.04.27-22.39.11:157][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.27-22.39.12:253][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.27-22.39.12:266][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.27-22.39.12:637][  0]SourceControl: Source control is disabled
+[2019.04.27-22.39.12:637][  0]SourceControl: Source control is disabled
+[2019.04.27-22.39.12:640][  0]SourceControl: Source control is disabled
+[2019.04.27-22.39.12:641][  0]SourceControl: Source control is disabled
+[2019.04.27-22.39.12:749][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.27-22.39.12:894][  0]LogOcInput: OculusInput pre-init called
+[2019.04.27-22.39.13:704][  0]LogEngine: Initializing Engine...
+[2019.04.27-22.39.13:710][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.04.27-22.39.13:711][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.04.27-22.39.13:948][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.27-22.39.13:972][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.27-22.39.14:106][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.27-22.39.14:122][  0]LogInit: FAudioDevice initialized.
+[2019.04.27-22.39.14:123][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.27-22.39.14:187][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.04.27-22.39.14:203][  0]LogInit: Texture streaming: Enabled
+[2019.04.27-22.39.14:236][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.27-22.39.14:273][  0]LogInit: Transaction tracking system initialized
+[2019.04.27-22.39.14:326][  0]BlueprintLog: New page: Editor Load
+[2019.04.27-22.39.14:480][  0]LocalizationService: Localization service is disabled
+[2019.04.27-22.39.14:608][  0]LogLinker: Warning: Asset '../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/TopDownCPP/TopDownOverview.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.04.27-22.39.14:867][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/' took 0.02s
+[2019.04.27-22.39.14:867][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.27-22.39.14:867][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.27-22.39.15:115][  0]SourceControl: Source control is disabled
+[2019.04.27-22.39.15:115][  0]Cmd: MAP LOAD FILE="../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.27-22.39.15:115][  0]LightingResults: New page: Lighting Build
+[2019.04.27-22.39.15:121][  0]MapCheck: New page: Map Check
+[2019.04.27-22.39.15:121][  0]LightingResults: New page: Lighting Build
+[2019.04.27-22.39.15:150][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2019.04.27-22.39.15:292][  0]LogAIModule: Creating AISystem for world DemoLevel
+[2019.04.27-22.39.15:356][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.27-22.39.15:419][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.04.27-22.39.15:419][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.27-22.39.15:419][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.181ms to complete.
+[2019.04.27-22.39.15:419][  0]LogFileHelpers: Loading map 'DemoLevel' took 0.304
+[2019.04.27-22.39.15:545][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.27-22.39.15:554][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.27-22.39.15:563][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.27-22.39.15:573][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.27-22.39.15:585][  0]LogCollectionManager: Loaded 0 collections in 0.004138 seconds
+[2019.04.27-22.39.15:606][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Collections/' took 0.01s
+[2019.04.27-22.39.15:606][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/Developers/GavinGeorge/Collections/' took 0.00s
+[2019.04.27-22.39.15:606][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/Collections/' took 0.00s
+[2019.04.27-22.39.15:606][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.27-22.39.15:618][  0]LogContentBrowser: Native class hierarchy populated in 0.0121 seconds. Added 2745 classes and 661 folders.
+[2019.04.27-22.39.15:631][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.04.27-22.39.15:632][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:634][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:637][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:638][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:638][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:639][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:639][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:640][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:646][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:646][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.04.27-22.39.15:716][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2019.04.27-22.39.15:727][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.04.27-22.39.17:645][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.04.27-22.39.17:672][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.27-22.39.17:675][  0]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.27-22.39.17:680][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.27-22.39.17:681][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.27-22.39.17:818][  0]LogRenderer: Reallocating scene render targets to support 1144x572 Format 10 NumSamples 1 (Frame:1).
+[2019.04.27-22.39.17:960][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2019.04.27-22.39.17:960][  0]LogLoad: (Engine Initialization) Total time: 13.72 seconds
+[2019.04.27-22.39.17:960][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.27-22.39.17:970][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.27-22.39.18:059][  0]LogAssetRegistry: Asset discovery search completed in 8.1027 seconds
+[2019.04.27-22.39.18:062][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.04.27-22.39.18:062][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000212 seconds (updated 0 objects)
+[2019.04.27-22.39.18:063][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.27-22.39.22:382][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.27-22.39.22:414][503]Candidate modules for hot reload:
+[2019.04.27-22.39.22:414][503]  RTS_BaseBuilder
+[2019.04.27-22.39.22:414][503]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,4819 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.04.27-22.39.22:419][503]Warning: Starting HotReload took  0.0s.
+[2019.04.27-22.39.25:108][766]LogTemp: IOS device listing is disabled (to many failed attempts)!
+[2019.04.27-22.39.40:884][650]CompilerResultsLog: New page: Compilation - 28 Apr 2019 00:39:40
+[2019.04.27-22.39.40:884][650]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.04.27-22.39.40:885][650]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.04.27-22.39.40:885][650]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.04.27-22.39.40:885][650]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.2243137 seconds
+[2019.04.27-22.39.40:885][650]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.04.27-22.39.40:886][650]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.04.27-22.39.40:886][650]CompilerResultsLog:   [1/4] GG_RTS_HUD.cpp
+[2019.04.27-22.39.40:886][650]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-4819.lib
+[2019.04.27-22.39.40:886][650]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-4819.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-4819.exp
+[2019.04.27-22.39.40:886][650]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-4819.dll
+[2019.04.27-22.39.40:886][650]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-4819.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-4819.suppressed.exp
+[2019.04.27-22.39.40:887][650]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.04.27-22.39.40:887][650]CompilerResultsLog: Total time in Parallel executor: 5.14 seconds
+[2019.04.27-22.39.40:887][650]CompilerResultsLog: Total execution time: 18.35 seconds
+[2019.04.27-22.39.40:887][650]LogMainFrame: MainFrame: Module compiling took 18.477 seconds
+[2019.04.27-22.39.40:910][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.04.27-22.39.40:940][650]LogClass: HUD_Element HotReload.
+[2019.04.27-22.39.40:949][650]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.04.27-22.39.41:046][650]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0009 seconds. Added 13 classes and 2 folders.
+[2019.04.27-22.39.41:049][650]Display: HotReload successful (14 functions remapped  1 scriptstructs remapped)
+[2019.04.27-22.39.41:146][650]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2019.04.27-22.39.41:161][650]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2746 classes and 663 folders.
+[2019.04.27-22.39.41:161][650]Display: HotReload took 18.8s.
+[2019.04.27-22.39.43:309][902]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.27-22.39.43:327][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.04.27-22.39.43:328][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.27-22.39.43:328][902]PIE: New page: PIE session: DemoLevel (28 Apr 2019 00:39:43)
+[2019.04.27-22.39.43:340][902]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.04.27-22.39.43:391][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049934s)
+[2019.04.27-22.39.43:392][902]LogAIModule: Creating AISystem for world DemoLevel
+[2019.04.27-22.39.43:392][902]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2019.04.27-22.39.43:392][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.052113s)
+[2019.04.27-22.39.43:416][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.04.27-22.39.43:445][902]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.27-22.39.43:457][902]LogInit: FAudioDevice initialized.
+[2019.04.27-22.39.43:500][902]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.04.27-22.39.43:504][902]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.04.27-23.39.43
+[2019.04.27-22.39.43:506][902]LogWorld: Bringing up level for play took: 0.004644
+[2019.04.27-22.39.43:581][902]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2019.04.27-22.39.43:582][902]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 0.584
+[2019.04.27-22.39.43:582][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.04.27-22.39.43:597][903]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:624][904]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:632][905]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:640][906]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:648][907]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:657][908]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:665][909]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:673][910]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:682][911]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:690][912]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:698][913]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:707][914]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:715][915]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:723][916]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:732][917]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:740][918]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:748][919]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:757][920]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:765][921]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:773][922]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:782][923]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:790][924]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:798][925]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:807][926]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:815][927]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:823][928]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:832][929]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:840][930]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:848][931]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:857][932]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:865][933]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:873][934]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:882][935]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:890][936]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:898][937]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:907][938]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:915][939]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:923][940]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:932][941]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:940][942]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:948][943]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:957][944]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:965][945]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:973][946]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:982][947]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:990][948]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.43:998][949]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:007][950]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:015][951]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:023][952]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:032][953]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:040][954]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:048][955]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:057][956]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:065][957]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:073][958]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:082][959]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:090][960]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:099][961]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:107][962]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:115][963]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:123][964]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:132][965]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:140][966]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:148][967]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:157][968]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:165][969]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:173][970]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:182][971]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:190][972]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:198][973]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:207][974]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:215][975]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:224][976]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:232][977]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:240][978]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:248][979]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:257][980]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:265][981]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:273][982]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:282][983]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:290][984]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:298][985]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:307][986]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:315][987]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:323][988]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:332][989]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:340][990]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:348][991]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:357][992]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:365][993]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:373][994]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:382][995]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:390][996]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:398][997]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:407][998]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:415][999]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:423][  0]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:432][  1]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:440][  2]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:449][  3]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:457][  4]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:465][  5]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:474][  6]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:482][  7]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:490][  8]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:499][  9]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:507][ 10]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:515][ 11]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:524][ 12]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:532][ 13]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:540][ 14]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:549][ 15]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:558][ 16]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:565][ 17]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:574][ 18]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:582][ 19]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:590][ 20]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:599][ 21]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:607][ 22]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:615][ 23]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:624][ 24]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:632][ 25]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:640][ 26]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:649][ 27]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:657][ 28]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:665][ 29]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:674][ 30]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:682][ 31]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:690][ 32]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:698][ 33]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:707][ 34]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:715][ 35]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:724][ 36]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:732][ 37]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:740][ 38]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:749][ 39]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:757][ 40]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:765][ 41]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:773][ 42]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:782][ 43]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:791][ 44]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:798][ 45]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:807][ 46]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:815][ 47]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:823][ 48]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:832][ 49]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:841][ 50]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:849][ 51]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:857][ 52]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:865][ 53]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:874][ 54]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:882][ 55]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:891][ 56]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:899][ 57]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:907][ 58]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:916][ 59]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:924][ 60]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:932][ 61]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:940][ 62]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:949][ 63]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:957][ 64]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:965][ 65]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:974][ 66]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:982][ 67]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:990][ 68]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.44:999][ 69]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:007][ 70]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:015][ 71]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:024][ 72]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:032][ 73]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:040][ 74]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:049][ 75]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:057][ 76]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:066][ 77]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:074][ 78]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:082][ 79]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:090][ 80]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:099][ 81]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:107][ 82]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:115][ 83]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:124][ 84]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:132][ 85]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:140][ 86]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:148][ 87]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:158][ 88]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:165][ 89]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:174][ 90]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:182][ 91]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:190][ 92]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:199][ 93]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:207][ 94]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:215][ 95]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:224][ 96]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:232][ 97]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:240][ 98]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:249][ 99]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:257][100]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:265][101]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:274][102]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:282][103]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:291][104]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:299][105]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:307][106]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:315][107]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:324][108]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:332][109]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:340][110]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:349][111]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:357][112]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:365][113]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:374][114]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:382][115]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:390][116]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:399][117]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:407][118]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:415][119]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:424][120]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:432][121]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:440][122]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:449][123]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:457][124]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:465][125]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:474][126]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:482][127]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:490][128]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:499][129]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:507][130]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:516][131]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:524][132]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:532][133]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:540][134]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:549][135]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:557][136]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:566][137]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:574][138]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:582][139]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:591][140]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:599][141]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:607][142]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:616][143]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:624][144]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:632][145]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:641][146]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:649][147]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:657][148]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:666][149]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:674][150]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:682][151]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:690][152]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:699][153]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:707][154]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:716][155]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:724][156]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:732][157]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:741][158]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:749][159]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:758][160]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:766][161]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:774][162]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:783][163]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:791][164]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:799][165]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:808][166]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:816][167]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:824][168]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:833][169]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:841][170]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:849][171]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:858][172]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:866][173]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:874][174]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:883][175]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:891][176]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:899][177]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:908][178]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:916][179]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:924][180]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:933][181]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:941][182]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:949][183]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:958][184]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:966][185]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:975][186]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:983][187]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:991][188]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.45:999][189]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:008][190]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:016][191]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:024][192]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:033][193]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:041][194]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:049][195]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:058][196]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:066][197]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:074][198]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:083][199]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:091][200]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:099][201]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:108][202]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:116][203]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:124][204]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:133][205]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:141][206]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:150][207]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:158][208]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:166][209]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:174][210]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:183][211]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:191][212]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:199][213]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:208][214]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:216][215]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:224][216]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:233][217]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:241][218]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:249][219]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:258][220]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:267][221]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:274][222]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:283][223]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:292][224]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:300][225]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:308][226]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:316][227]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:325][228]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:333][229]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:341][230]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:350][231]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:358][232]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:366][233]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:375][234]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:383][235]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:391][236]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:400][237]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:408][238]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:417][239]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:425][240]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:433][241]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:441][242]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:450][243]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:458][244]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:466][245]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:475][246]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:483][247]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:491][248]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:499][249]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:508][250]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:516][251]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:525][252]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:533][253]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:541][254]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:549][255]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:558][256]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:566][257]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:574][258]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:583][259]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:591][260]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:600][261]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:608][262]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:616][263]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:624][264]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:633][265]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:641][266]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:650][267]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:658][268]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:666][269]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:675][270]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:683][271]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:691][272]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:700][273]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:708][274]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:716][275]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:725][276]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:733][277]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:741][278]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:750][279]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:758][280]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:766][281]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:775][282]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:783][283]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:791][284]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:800][285]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:808][286]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:816][287]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:824][288]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:833][289]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:841][290]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:850][291]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:858][292]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:866][293]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:875][294]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:883][295]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:891][296]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:899][297]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:908][298]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:916][299]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:924][300]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:933][301]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:941][302]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:949][303]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:958][304]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:967][305]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:976][306]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:983][307]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.46:991][308]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:000][309]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:008][310]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:017][311]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:025][312]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:034][313]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:042][314]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:050][315]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:059][316]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:067][317]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:075][318]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:084][319]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:092][320]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:100][321]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:109][322]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:117][323]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:125][324]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:134][325]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:142][326]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:150][327]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:158][328]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:167][329]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:175][330]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:184][331]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:192][332]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:200][333]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:209][334]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:217][335]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:225][336]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:234][337]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:242][338]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:251][339]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:259][340]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:267][341]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:275][342]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:284][343]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:292][344]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:301][345]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:309][346]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:318][347]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:325][348]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:334][349]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:342][350]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:351][351]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:359][352]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:367][353]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:375][354]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:384][355]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:392][356]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:401][357]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:409][358]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:417][359]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:426][360]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:434][361]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:442][362]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:451][363]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:459][364]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:468][365]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:476][366]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:484][367]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:492][368]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:501][369]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:509][370]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:517][371]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:526][372]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:534][373]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:542][374]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:551][375]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:559][376]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:567][377]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:576][378]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:584][379]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:592][380]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:601][381]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:609][382]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:618][383]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:626][384]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:634][385]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:643][386]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:651][387]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:659][388]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:668][389]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:676][390]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:684][391]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:693][392]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:701][393]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:709][394]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:718][395]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:726][396]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:734][397]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:743][398]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:751][399]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:759][400]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:768][401]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:776][402]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:784][403]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:793][404]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:801][405]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:809][406]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:818][407]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:826][408]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:835][409]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:843][410]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:851][411]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:860][412]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:868][413]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:876][414]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:885][415]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:893][416]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:901][417]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:910][418]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:918][419]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:926][420]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:935][421]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:943][422]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:951][423]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:959][424]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:968][425]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:976][426]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:985][427]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.47:993][428]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:001][429]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:009][430]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:018][431]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:026][432]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:035][433]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:043][434]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:051][435]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:059][436]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:068][437]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:076][438]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:085][439]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:093][440]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:102][441]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:111][442]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:119][443]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:127][444]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:136][445]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:144][446]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:152][447]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:161][448]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:168][449]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:177][450]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:185][451]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:194][452]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:202][453]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:210][454]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:219][455]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:227][456]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:235][457]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:244][458]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:252][459]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:260][460]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:269][461]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:278][462]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:286][463]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:294][464]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:303][465]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:311][466]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:319][467]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:328][468]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:336][469]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:344][470]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:353][471]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:361][472]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:369][473]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:378][474]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:386][475]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:395][476]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:403][477]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:411][478]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:420][479]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:428][480]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:436][481]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:445][482]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:453][483]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:461][484]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:470][485]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:478][486]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:486][487]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:495][488]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:503][489]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:511][490]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:520][491]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:528][492]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:536][493]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:545][494]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:553][495]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:561][496]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:570][497]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:578][498]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:586][499]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:595][500]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:603][501]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:611][502]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:620][503]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:628][504]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:637][505]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:645][506]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:653][507]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:661][508]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:670][509]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:678][510]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:686][511]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:695][512]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:703][513]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:711][514]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:720][515]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:729][516]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:736][517]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:745][518]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:753][519]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:761][520]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:770][521]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:778][522]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:787][523]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:795][524]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:803][525]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:812][526]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:820][527]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:828][528]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:837][529]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:845][530]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:853][531]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:861][532]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:870][533]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:878][534]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:886][535]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:895][536]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:903][537]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:911][538]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:921][539]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:928][540]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:937][541]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:945][542]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:953][543]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:962][544]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:970][545]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:978][546]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:987][547]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.48:995][548]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:003][549]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:011][550]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:020][551]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:028][552]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:037][553]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:045][554]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:053][555]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:062][556]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:070][557]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:078][558]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:087][559]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:095][560]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:104][561]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:111][562]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:120][563]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:128][564]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:137][565]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:145][566]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:153][567]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:162][568]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:170][569]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:178][570]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:187][571]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:195][572]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:203][573]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:212][574]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:220][575]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:229][576]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:237][577]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:245][578]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:253][579]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:262][580]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:270][581]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:278][582]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:287][583]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:295][584]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:303][585]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:312][586]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:320][587]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:328][588]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:337][589]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:345][590]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:354][591]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:362][592]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:370][593]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:378][594]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:387][595]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:395][596]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:404][597]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:412][598]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:420][599]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:428][600]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:437][601]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:445][602]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:454][603]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:462][604]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:470][605]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:478][606]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:487][607]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:495][608]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:504][609]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:512][610]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:520][611]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:529][612]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:537][613]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:545][614]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:553][615]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:562][616]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:570][617]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:578][618]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:588][619]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:595][620]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:604][621]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:612][622]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:620][623]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:629][624]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:637][625]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:645][626]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:654][627]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:662][628]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:670][629]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:678][630]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:687][631]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:695][632]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:704][633]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:712][634]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:720][635]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:729][636]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:737][637]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:745][638]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:753][639]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:762][640]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:770][641]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:778][642]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:787][643]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:795][644]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:804][645]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:812][646]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:820][647]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:829][648]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:838][649]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:845][650]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:854][651]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:862][652]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:870][653]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:878][654]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:887][655]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:895][656]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:904][657]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:912][658]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:920][659]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:929][660]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:937][661]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:945][662]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:954][663]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:962][664]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:970][665]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:979][666]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:987][667]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.49:995][668]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:004][669]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:012][670]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:021][671]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:029][672]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:037][673]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:045][674]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:054][675]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:062][676]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:070][677]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:079][678]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:087][679]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:096][680]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:104][681]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:112][682]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:120][683]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:129][684]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:137][685]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:145][686]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:154][687]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:162][688]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:170][689]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:179][690]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:187][691]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:196][692]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:204][693]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:212][694]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:220][695]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:229][696]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:237][697]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:245][698]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:254][699]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:262][700]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:270][701]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:279][702]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:287][703]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:296][704]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:304][705]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:312][706]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:320][707]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:329][708]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:337][709]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:345][710]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:354][711]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:362][712]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:371][713]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:379][714]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:387][715]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:396][716]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:404][717]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:412][718]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:421][719]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:429][720]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:437][721]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:445][722]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:454][723]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:463][724]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:470][725]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:479][726]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:487][727]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:496][728]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:504][729]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:512][730]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:521][731]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:529][732]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:537][733]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:545][734]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:554][735]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:563][736]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:571][737]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:579][738]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:587][739]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:596][740]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:604][741]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:612][742]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:621][743]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:629][744]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:638][745]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:646][746]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:655][747]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:662][748]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:671][749]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:679][750]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:688][751]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:696][752]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:704][753]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:712][754]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:721][755]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:729][756]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:737][757]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:746][758]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:755][759]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:762][760]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:771][761]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:779][762]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:787][763]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:796][764]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:804][765]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:812][766]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:821][767]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:829][768]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:838][769]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:845][770]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:854][771]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:862][772]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:871][773]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:879][774]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:887][775]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:895][776]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:904][777]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:912][778]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:921][779]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:929][780]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:937][781]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:946][782]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:954][783]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:962][784]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:971][785]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:979][786]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:987][787]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.50:996][788]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:004][789]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:012][790]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:021][791]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:029][792]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:038][793]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:046][794]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:054][795]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:062][796]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:071][797]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:079][798]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:088][799]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:096][800]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:104][801]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:113][802]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:121][803]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:129][804]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:137][805]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:146][806]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:154][807]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:162][808]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:171][809]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:179][810]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:187][811]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:196][812]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:204][813]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:212][814]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:221][815]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:229][816]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:237][817]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:246][818]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:254][819]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:262][820]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:271][821]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:280][822]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:287][823]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:296][824]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:304][825]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:312][826]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:321][827]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:329][828]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:338][829]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:346][830]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:354][831]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:362][832]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:371][833]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:379][834]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:387][835]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:396][836]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:404][837]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:412][838]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:421][839]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:429][840]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:437][841]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:446][842]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:454][843]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:462][844]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:471][845]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:479][846]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:487][847]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:496][848]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:504][849]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:512][850]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:521][851]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:529][852]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:537][853]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:546][854]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:554][855]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:562][856]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:571][857]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:579][858]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:587][859]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:596][860]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:604][861]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:612][862]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:621][863]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:629][864]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:638][865]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:646][866]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:654][867]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:662][868]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:671][869]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:679][870]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:687][871]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:696][872]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:704][873]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:713][874]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:721][875]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:729][876]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:738][877]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:746][878]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:754][879]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:762][880]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:771][881]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:779][882]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:787][883]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:796][884]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:804][885]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:813][886]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:821][887]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:829][888]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:838][889]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:846][890]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:854][891]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:862][892]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:871][893]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:879][894]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:888][895]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:896][896]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:905][897]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:912][898]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:921][899]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:929][900]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:938][901]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:946][902]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:954][903]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:962][904]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:971][905]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:979][906]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:988][907]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.51:996][908]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:004][909]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:013][910]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:021][911]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:029][912]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:038][913]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:046][914]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:054][915]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:062][916]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:071][917]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:079][918]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:088][919]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:096][920]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:105][921]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:113][922]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:121][923]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:129][924]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:138][925]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:146][926]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:155][927]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:162][928]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:171][929]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:179][930]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:188][931]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:196][932]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:204][933]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:212][934]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:221][935]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:229][936]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:238][937]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:246][938]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:254][939]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:263][940]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:271][941]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:279][942]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:288][943]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:296][944]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:305][945]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:313][946]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:322][947]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:329][948]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:338][949]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:346][950]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:354][951]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:362][952]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:371][953]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:379][954]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:388][955]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:396][956]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:404][957]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:413][958]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:421][959]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:429][960]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:438][961]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:446][962]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:454][963]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:463][964]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:471][965]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:479][966]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:488][967]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:496][968]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:505][969]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:513][970]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:521][971]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:528][972]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:537][973]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:545][974]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:554][975]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:562][976]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:570][977]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:578][978]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:587][979]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:595][980]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:604][981]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:611][982]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:620][983]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:628][984]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:637][985]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:645][986]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:653][987]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:661][988]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:670][989]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:679][990]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:687][991]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:695][992]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:703][993]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:711][994]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:720][995]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:728][996]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:737][997]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:745][998]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:753][999]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:762][  0]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:770][  1]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:778][  2]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:787][  3]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:795][  4]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:803][  5]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:812][  6]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:820][  7]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:828][  8]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:837][  9]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:845][ 10]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:853][ 11]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:862][ 12]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:870][ 13]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:878][ 14]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:887][ 15]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:895][ 16]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:903][ 17]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:912][ 18]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:920][ 19]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:928][ 20]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:937][ 21]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:945][ 22]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:953][ 23]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:962][ 24]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:970][ 25]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:978][ 26]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:987][ 27]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.52:995][ 28]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:003][ 29]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:012][ 30]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:020][ 31]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:029][ 32]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:037][ 33]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:046][ 34]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:054][ 35]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:062][ 36]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:070][ 37]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:079][ 38]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:087][ 39]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:095][ 40]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:104][ 41]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:112][ 42]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:120][ 43]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:129][ 44]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:137][ 45]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:145][ 46]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:154][ 47]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:162][ 48]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:170][ 49]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:179][ 50]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:187][ 51]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:196][ 52]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:204][ 53]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:212][ 54]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:221][ 55]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:229][ 56]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:237][ 57]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:245][ 58]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:254][ 59]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:262][ 60]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:270][ 61]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:279][ 62]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:287][ 63]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:296][ 64]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:304][ 65]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:312][ 66]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:320][ 67]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:329][ 68]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:337][ 69]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:345][ 70]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:354][ 71]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:362][ 72]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:371][ 73]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:379][ 74]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:388][ 75]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:396][ 76]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:404][ 77]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:412][ 78]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:420][ 79]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:429][ 80]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:437][ 81]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:445][ 82]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:454][ 83]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:462][ 84]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:471][ 85]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:479][ 86]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:487][ 87]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:496][ 88]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:504][ 89]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:512][ 90]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:520][ 91]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:529][ 92]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:537][ 93]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:545][ 94]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:554][ 95]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:563][ 96]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:570][ 97]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:579][ 98]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:587][ 99]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:596][100]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:604][101]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:612][102]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:620][103]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:629][104]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:637][105]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:645][106]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:654][107]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:662][108]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:670][109]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:679][110]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:687][111]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:695][112]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:704][113]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:712][114]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:721][115]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:729][116]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:737][117]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:745][118]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:754][119]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:763][120]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:771][121]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:779][122]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:787][123]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:795][124]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:804][125]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:812][126]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:821][127]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:829][128]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:837][129]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:846][130]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:854][131]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:862][132]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:870][133]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:879][134]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:887][135]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:895][136]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:904][137]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:912][138]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:921][139]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:929][140]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:937][141]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:945][142]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:954][143]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:963][144]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:971][145]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:979][146]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:987][147]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.53:996][148]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:004][149]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:012][150]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:021][151]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:029][152]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:038][153]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:046][154]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:054][155]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:062][156]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:071][157]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:080][158]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:088][159]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:096][160]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:105][161]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:114][162]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:122][163]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:130][164]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:138][165]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:146][166]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:155][167]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:163][168]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:172][169]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:180][170]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:188][171]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:196][172]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:205][173]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:213][174]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:222][175]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:230][176]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:238][177]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:246][178]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:255][179]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:263][180]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:272][181]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:280][182]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:289][183]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:297][184]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:305][185]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:313][186]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:322][187]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:330][188]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:338][189]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:346][190]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:355][191]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:363][192]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:372][193]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:380][194]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:388][195]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:397][196]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:405][197]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:413][198]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:422][199]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:430][200]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:438][201]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:447][202]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:455][203]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:464][204]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:472][205]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:480][206]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:488][207]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:497][208]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:505][209]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:513][210]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:522][211]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:530][212]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:538][213]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:547][214]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:555][215]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:563][216]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:572][217]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:580][218]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:588][219]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:597][220]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:605][221]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:613][222]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:621][223]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:630][224]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:638][225]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:647][226]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:655][227]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:663][228]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:672][229]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:680][230]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:688][231]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:697][232]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:705][233]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:713][234]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:722][235]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:730][236]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:738][237]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:747][238]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:755][239]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:763][240]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:772][241]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:780][242]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:788][243]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:797][244]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:805][245]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:813][246]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:822][247]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:830][248]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:838][249]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:847][250]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:856][251]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:863][252]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:872][253]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:880][254]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:888][255]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:897][256]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:905][257]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:913][258]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:922][259]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:930][260]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:938][261]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:947][262]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:955][263]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:963][264]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:972][265]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:980][266]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:988][267]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.54:997][268]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:005][269]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:013][270]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:022][271]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:030][272]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:038][273]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:048][274]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:055][275]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:063][276]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:072][277]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:080][278]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:088][279]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:097][280]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:105][281]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:113][282]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:122][283]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:130][284]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:138][285]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:147][286]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:155][287]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:163][288]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:172][289]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:180][290]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:188][291]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:197][292]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:205][293]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:213][294]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:222][295]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:230][296]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:238][297]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:247][298]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:255][299]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:263][300]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:272][301]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:280][302]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:288][303]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:297][304]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:305][305]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:313][306]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:322][307]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:330][308]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:338][309]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:347][310]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:355][311]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:363][312]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:372][313]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:380][314]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:388][315]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:397][316]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:405][317]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:413][318]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:422][319]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:430][320]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:438][321]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:447][322]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:455][323]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:463][324]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:472][325]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:480][326]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:488][327]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:497][328]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:505][329]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:514][330]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:522][331]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:530][332]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:539][333]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:547][334]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:555][335]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:564][336]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:572][337]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:580][338]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:589][339]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:597][340]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:605][341]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:614][342]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:622][343]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:630][344]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:639][345]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:647][346]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:655][347]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:664][348]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:672][349]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:680][350]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:689][351]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:697][352]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:705][353]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:714][354]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:722][355]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:730][356]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:739][357]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:747][358]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:755][359]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:764][360]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:772][361]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:780][362]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:789][363]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:797][364]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:805][365]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:814][366]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:822][367]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:830][368]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:838][369]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:847][370]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:855][371]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:863][372]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:872][373]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:880][374]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:889][375]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:898][376]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:905][377]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:913][378]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:922][379]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:930][380]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:938][381]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:947][382]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:955][383]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:964][384]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:972][385]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:980][386]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:988][387]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.55:997][388]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:005][389]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:013][390]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:022][391]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:030][392]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:039][393]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:047][394]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:055][395]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:064][396]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:072][397]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:080][398]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:089][399]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:097][400]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:105][401]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:114][402]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:122][403]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:130][404]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:139][405]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:147][406]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:155][407]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:164][408]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:172][409]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:180][410]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:189][411]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:197][412]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:205][413]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:214][414]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:222][415]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:230][416]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:239][417]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:247][418]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:255][419]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:264][420]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:272][421]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:280][422]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:289][423]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:297][424]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:305][425]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:313][426]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:322][427]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:330][428]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:339][429]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:347][430]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:355][431]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:364][432]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:372][433]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:380][434]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:389][435]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:397][436]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:405][437]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:413][438]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:422][439]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:430][440]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:438][441]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:447][442]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:455][443]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:463][444]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:473][445]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:480][446]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:488][447]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:497][448]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:505][449]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:514][450]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:522][451]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:530][452]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:539][453]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:547][454]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:555][455]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:564][456]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:572][457]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:580][458]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:589][459]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:597][460]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:605][461]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:614][462]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:622][463]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:630][464]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:639][465]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:647][466]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:655][467]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:664][468]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:672][469]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:680][470]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:689][471]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:697][472]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:705][473]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:714][474]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:722][475]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:730][476]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:739][477]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:747][478]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:755][479]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:764][480]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:772][481]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:781][482]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:789][483]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:797][484]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:805][485]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:814][486]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:822][487]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:830][488]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:839][489]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:847][490]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:856][491]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:864][492]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:872][493]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:880][494]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:889][495]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:897][496]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:905][497]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:914][498]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:922][499]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:930][500]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:939][501]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:947][502]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:955][503]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:964][504]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:972][505]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:980][506]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:989][507]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.56:997][508]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:005][509]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:014][510]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:022][511]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:030][512]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:039][513]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:047][514]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:055][515]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:064][516]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:072][517]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:080][518]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:089][519]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:097][520]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:105][521]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:114][522]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:122][523]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:130][524]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:139][525]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:147][526]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:155][527]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:164][528]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:172][529]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:180][530]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:189][531]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:197][532]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:205][533]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:214][534]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:222][535]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:230][536]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:239][537]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:247][538]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:255][539]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:264][540]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:272][541]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:280][542]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:289][543]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:297][544]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:306][545]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:314][546]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:322][547]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:330][548]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:339][549]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:347][550]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:355][551]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:364][552]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:372][553]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:380][554]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:389][555]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:397][556]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:405][557]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:414][558]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:422][559]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:430][560]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:439][561]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:447][562]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:455][563]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:464][564]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:472][565]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:480][566]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:489][567]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:497][568]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:505][569]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:514][570]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:522][571]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:531][572]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:539][573]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:547][574]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:556][575]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:564][576]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:572][577]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:580][578]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:589][579]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:597][580]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:605][581]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:614][582]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:622][583]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:630][584]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:639][585]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:647][586]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:655][587]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:664][588]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:672][589]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:680][590]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:689][591]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:697][592]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:705][593]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:714][594]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:722][595]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:730][596]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:739][597]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:747][598]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:755][599]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:764][600]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:772][601]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:780][602]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:789][603]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:797][604]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:805][605]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:814][606]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:822][607]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:830][608]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:839][609]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:847][610]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:856][611]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:864][612]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:872][613]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:880][614]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:889][615]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:897][616]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:905][617]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:914][618]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:922][619]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:930][620]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:939][621]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:947][622]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:955][623]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:964][624]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:972][625]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:980][626]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:989][627]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.57:997][628]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:005][629]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:014][630]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:022][631]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:030][632]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:039][633]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:047][634]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:055][635]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:064][636]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:072][637]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:080][638]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:089][639]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:097][640]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:105][641]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:114][642]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:122][643]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:130][644]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:139][645]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:147][646]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:155][647]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:164][648]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:172][649]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:180][650]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:189][651]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:197][652]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:205][653]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:214][654]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:222][655]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:231][656]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:240][657]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:248][658]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:257][659]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:265][660]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:275][661]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:290][662]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:298][663]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:306][664]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:315][665]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:323][666]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:331][667]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:340][668]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:348][669]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:356][670]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:365][671]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:373][672]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:381][673]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:390][674]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:398][675]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:406][676]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:415][677]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:423][678]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:431][679]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:440][680]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:448][681]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:456][682]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:465][683]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:473][684]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:481][685]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:490][686]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:498][687]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:506][688]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:515][689]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:523][690]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:531][691]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:540][692]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:548][693]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:556][694]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:565][695]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:573][696]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:581][697]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:590][698]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:598][699]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:606][700]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:615][701]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:623][702]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:631][703]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:640][704]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:648][705]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:656][706]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:665][707]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:673][708]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:681][709]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:690][710]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:698][711]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:706][712]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:715][713]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:723][714]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:731][715]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:740][716]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:748][717]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:756][718]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:765][719]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:773][720]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:781][721]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:790][722]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:798][723]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:806][724]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:815][725]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:823][726]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:831][727]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:840][728]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:848][729]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:856][730]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:865][731]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:873][732]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:881][733]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:890][734]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:898][735]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:906][736]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:915][737]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:923][738]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:931][739]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:940][740]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:948][741]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:956][742]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:965][743]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:973][744]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:982][745]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:990][746]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.58:998][747]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:007][748]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:015][749]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:023][750]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:032][751]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:040][752]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:048][753]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:057][754]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:065][755]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:073][756]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:082][757]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:090][758]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:099][759]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:107][760]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:115][761]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:123][762]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:132][763]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:140][764]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:148][765]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:157][766]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:165][767]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:173][768]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:182][769]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:190][770]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:198][771]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:206][772]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:215][773]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:223][774]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:232][775]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:240][776]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:248][777]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:257][778]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:265][779]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:273][780]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:282][781]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:290][782]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:298][783]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:307][784]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:315][785]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:323][786]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:332][787]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:340][788]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:348][789]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:357][790]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:365][791]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:373][792]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:382][793]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:390][794]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:398][795]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:407][796]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:415][797]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:423][798]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:432][799]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:440][800]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:448][801]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:457][802]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:465][803]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:473][804]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:481][805]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:490][806]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:499][807]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:506][808]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:515][809]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:523][810]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:531][811]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:540][812]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:548][813]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:557][814]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:565][815]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:573][816]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:581][817]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:590][818]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:598][819]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:606][820]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:615][821]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:623][822]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:631][823]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:640][824]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:648][825]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:656][826]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:665][827]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:673][828]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:682][829]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:690][830]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:698][831]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:706][832]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:715][833]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:723][834]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:732][835]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:740][836]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:748][837]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:756][838]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:765][839]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:773][840]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:781][841]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:790][842]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:798][843]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:807][844]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:815][845]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:823][846]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:832][847]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:840][848]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:848][849]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:857][850]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:865][851]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:873][852]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:882][853]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:890][854]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:898][855]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:907][856]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:915][857]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:923][858]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:932][859]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:940][860]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:948][861]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:957][862]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:966][863]LogTemp: Warning: OVER AN ACTOR
+[2019.04.27-22.39.59:966][863]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.04.27-22.39.59:967][863]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.04.27-22.40.01:596][863]LogWindows: Error: === Critical error: ===
+[2019.04.27-22.40.01:596][863]LogWindows: Error: 
+[2019.04.27-22.40.01:596][863]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 611] 
+[2019.04.27-22.40.01:596][863]LogWindows: Error: Array index out of bounds: -1 from an array of size 0
+[2019.04.27-22.40.01:596][863]LogWindows: Error: 
+[2019.04.27-22.40.01:596][863]LogWindows: Error: 
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffab1f0a388 KERNELBASE.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa72391f07 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa723946b7 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa721a7cea UE4Editor-Core.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa7212fe07 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa72130499 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa4838a418 UE4Editor-RTS_BaseBuilder-4819.dll!DispatchCheckVerify<void,<lambda_a9aa84ace76dee0f5e0380044d8d37a0> >() [c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\misc\assertionmacros.h:162]
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa4837943c UE4Editor-RTS_BaseBuilder-4819.dll!AGG_RTS_HUD::DrawBuildingSelectedUI() [c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\gg_rts_hud.cpp:121]
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa68dd4147 UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa68d621bb UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa6969d74e UE4Editor-Engine.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa6bd20b14 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffa6c53c3d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ff792386bb1 UE4Editor.exe!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ff79239554c UE4Editor.exe!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ff7923955ca UE4Editor.exe!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ff7923a315c UE4Editor.exe!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ff7923a5b7e UE4Editor.exe!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffab5344034 KERNEL32.DLL!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: [Callstack] 0x00007ffab59f3691 ntdll.dll!UnknownFunction []
+[2019.04.27-22.40.01:596][863]LogWindows: Error: 
+[2019.04.27-22.40.01:615][863]LogExit: Executing StaticShutdownAfterError
+[2019.04.27-22.40.01:618][863]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.04.27-22.40.01:630][863]Log file closed, 04/27/19 23:40:01

@@ -21,14 +21,16 @@ void AGG_RTS_HUD::BeginPlay()
 	if(GEngine)
 		GEngine->GameViewport->GetViewportSize(canvasSize);
 
-	unitHUDButtons.Push(FHUD_Element(WORKER, 1, "Unit Building", FVector4(canvasSize.X - 250.0f, canvasSize.Y - 50.0f, 50.0f, 50.0f)));
-	unitHUDButtons.Push(FHUD_Element(WORKER, 2, "Resource Building", FVector4(canvasSize.X - 100.0f, canvasSize.Y - 50.0f, 50.0f, 50.0f)));
+	unitHUDButtons.Push(FHUD_Element(WORKER, 1, "Unit Building", FVector4(canvasSize.X - 250.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
+	unitHUDButtons.Push(FHUD_Element(WORKER, 2, "Resource Building", FVector4(canvasSize.X - 100.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
 
-	buildingHUDButtons.Push(FHUD_Element(UNIT_BUILDING, 3, "Build Worker", FVector4(125.0f, canvasSize.Y - 50.0f, 50.0f, 50.0f)));
+	buildingHUDButtons.Push(FHUD_Element(UNIT_BUILDING, 3, "Build Worker", FVector4(125.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
 }
 
 void AGG_RTS_HUD::DrawHUD()
 {
+
+
 	if (bStartSelect)
 	{
 		DrawSelectionBox();
@@ -47,7 +49,8 @@ void AGG_RTS_HUD::DrawHUD()
 	{
 		bUnitSelectUI = false;
 
-		DrawBuildingSelectedUI();
+		if(foundBuildings.Num() > 0 && foundBuildings[0]->GetType() == UNIT_BUILDING)
+			DrawBuildingSelectedUI();
 
 		return;
 	}
@@ -67,26 +70,31 @@ void AGG_RTS_HUD::DrawSelectionBox()
 
 	currentPoint = GetMousePos2D();
 	DrawRect(FLinearColor(0.0f, 1.0f, 0.25f, 0.25f), initalPoint.X, initalPoint.Y, currentPoint.X - initalPoint.X, currentPoint.Y - initalPoint.Y);
+
 	GetActorsInSelectionRectangle<AGG_RTS_Worker>(initalPoint, currentPoint, foundUnits, false, false);
+
 	if (foundUnits.Num() > 0)
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Units Selected"));
+		if (foundUnits.Num() > 0)
+			for (int i = 0; i < foundUnits.Num(); i++)
+				foundUnits[i]->SetIsSelected(true);
+
+		return;
 	}
 	else
 	{
 		GetActorsInSelectionRectangle<AGG_RTS_Construction>(initalPoint, currentPoint, foundBuildings, true, false);
+
+		if (foundBuildings.Num() > 0)
+		{
+			for (int i = 0; i < foundBuildings.Num(); i++)
+				if (!foundBuildings[i]->IsBuilt())
+					foundBuildings.RemoveAt(i);
+
+			for (int i = 0; i < foundBuildings.Num(); i++)
+				foundBuildings[i]->SetIsSelected(true);
+		}
 	}
-
-	if (foundUnits.Num() > 0)
-		for (int i = 0; i < foundUnits.Num(); i++)
-			foundUnits[i]->SetIsSelected(true);
-
-	if (foundBuildings.Num() > 0)
-		for (int i = 0; i < foundBuildings.Num(); i++)
-			foundBuildings[i]->SetIsSelected(true);
-
-	if (foundBuildings.Num() > 0)
-		UE_LOG(LogTemp, Warning, TEXT("Buildings Selected"));
 }
 
 void AGG_RTS_HUD::DrawUnitSelectedUI()
@@ -108,17 +116,17 @@ void AGG_RTS_HUD::DrawUnitSelectedUI()
 void AGG_RTS_HUD::DrawBuildingSelectedUI()
 {
 	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.5f), 0.0f, canvasSize.Y - 200.0f, 300.0f, 200.0f);
-
 	for (int i = 0; i < buildingHUDButtons.Num(); i++)
 	{
-		if (buildingHUDButtons[i].owningType == UNIT_BUILDING)
+		DrawRect(FLinearColor(0.8f, 0.8f, 0.8f, 1.0f), buildingHUDButtons[i].AABB.X, buildingHUDButtons[i].AABB.Y, buildingHUDButtons[i].AABB.Z, buildingHUDButtons[i].AABB.W);
+		if (IsCursorInBounds(buildingHUDButtons[i]))
 		{
-			DrawRect(FLinearColor(0.8f, 0.8f, 0.8f, 1.0f), buildingHUDButtons[i].AABB.X, buildingHUDButtons[i].AABB.Y, buildingHUDButtons[i].AABB.Z, buildingHUDButtons[i].AABB.W);
-			if (IsCursorInBounds(buildingHUDButtons[i]))
-			{
-				DrawButtonTooltip(buildingHUDButtons[i]);
-			}
+			DrawButtonTooltip(buildingHUDButtons[i]);
+			PCPtr->SetCurrentAction(SPAWN);
+			PCPtr->SetConstructType(i);
 		}
+		else
+			PCPtr->SetCurrentAction(MOVE);
 	}
 }
 

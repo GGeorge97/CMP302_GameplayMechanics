@@ -2,9 +2,12 @@
 
 
 #include "GG_RTS_UnitBuilding.h"
+#include "GG_RTS_Worker.h"
 
 AGG_RTS_UnitBuilding::AGG_RTS_UnitBuilding()
 {
+	PrimaryActorTick.bCanEverTick = true;
+
 	sphereComponent = CreateDefaultSubobject<USphereComponent>(TEXT("RootComponent"));
 	RootComponent = sphereComponent;
 	sphereComponent->InitSphereRadius(40.0f);
@@ -28,9 +31,43 @@ AGG_RTS_UnitBuilding::AGG_RTS_UnitBuilding()
 	FTransform correctedTransform = staticMesh->GetComponentTransform();
 	correctedTransform.SetRotation(FQuat(FRotator(0.0f, -90.0f, 0.0f)));
 	staticMesh->SetRelativeTransform(correctedTransform);
+	staticMesh->SetWorldScale3D(FVector(2.0f, 2.0f, 0.5f));
 
+	buildingType = UNIT_BUILDING;
+	timeUntilBuilt = 0.0f;
+	trainTime = 2.5f;
 	timeUntilBuilt = 0.0f;
 	buildTime = 10.0f;
+	isBuilt = false;
+	trainingUnit = false;
+}
+
+void AGG_RTS_UnitBuilding::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if (trainingUnit)
+	{
+		timeUntilTrained += DeltaTime;
+		if (timeUntilTrained >= trainTime)
+		{
+			timeUntilTrained = 0.0f;
+			FQueuedUnit newUnitInfo = unitQueue.Pop(true);
+			FActorSpawnParameters spawnInfo;
+			AGG_RTS_Worker* newUnit = GetWorld()->SpawnActor<AGG_RTS_Worker>(newUnitInfo.spawnPoint, newUnitInfo.spawnRotation, spawnInfo);
+			newUnit->AutoPossessAI = EAutoPossessAI::PlacedInWorldOrSpawned;
+			newUnit->SpawnDefaultController();
+		}
+	}
+
+	if(unitQueue.Num() <= 0)
+		trainingUnit = false;
+}
+
+void AGG_RTS_UnitBuilding::TrainUnit(FVector spawnPos, FRotator spawnRot)
+{
+	unitQueue.Push(struct FQueuedUnit(spawnPos, spawnRot));
+	trainingUnit = true;
 }
 
 void AGG_RTS_UnitBuilding::SetIsSelected(bool isSelected)
@@ -62,5 +99,10 @@ void AGG_RTS_UnitBuilding::SetIsBuilt(bool bl)
 {
 	isBuilt = bl;
 
-	staticMesh->SetWorldScale3D(FVector(2.0f, 2.0f, 2.0f));
+	staticMesh->SetWorldScale3D(FVector(4.0f, 4.0f, 1.0f));
+}
+
+OwningType AGG_RTS_UnitBuilding::GetType()
+{
+	return buildingType;
 }

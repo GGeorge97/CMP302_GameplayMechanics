@@ -36,6 +36,8 @@ AGG_RTS_Worker::AGG_RTS_Worker()
 	correctedTransform.SetLocation(FVector(0.0f, 0.0f, -90.0f));
 	correctedTransform.SetRotation(FQuat(FRotator(0.0f, -90.0f, 0.0f)));
 	skeletalMesh->SetRelativeTransform(correctedTransform);
+	static ConstructorHelpers::FObjectFinder<UAnimBlueprint> skeletalAnimBP(TEXT("AnimBlueprint'/Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP'"));
+	skeletalMesh->SetAnimInstanceClass(skeletalAnimBP.Object->GetAnimBlueprintGeneratedClass());
 }
 
 void AGG_RTS_Worker::BeginPlay()

@@ -50,3 +50,8 @@ void AGG_RTS_Construction::SetIsBuilt(bool bl)
 
 }
 
+OwningType AGG_RTS_Construction::GetType()
+{
+	return UNIT_BUILDING;
+}
+

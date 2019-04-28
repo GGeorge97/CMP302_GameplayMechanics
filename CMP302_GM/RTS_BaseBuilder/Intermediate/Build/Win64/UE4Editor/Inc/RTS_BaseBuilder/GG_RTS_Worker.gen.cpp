@@ -58,11 +58,12 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Worker() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh_MetaData[] = {
+		{ "Category", "GG_RTS_Worker" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "GG_RTS_Worker.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh = { "skeletalMesh", nullptr, (EPropertyFlags)0x0040000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Worker, skeletalMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh = { "skeletalMesh", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Worker, skeletalMesh), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_skeletalMesh_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Worker_Statics::NewProp_cursorToWorld_MetaData[] = {
 		{ "EditInline", "true" },
@@ -101,7 +102,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Worker() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_Worker, 1523122231);
+	IMPLEMENT_CLASS(AGG_RTS_Worker, 2868711912);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_Worker>()
 	{
 		return AGG_RTS_Worker::StaticClass();

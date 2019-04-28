@@ -14,11 +14,6 @@
 /**
  * 
  */
-enum OwningType
-{
-	WORKER, UNIT_BUILDING, RES_BUILDING
-};
-
 USTRUCT()
 struct FHUD_Element
 {

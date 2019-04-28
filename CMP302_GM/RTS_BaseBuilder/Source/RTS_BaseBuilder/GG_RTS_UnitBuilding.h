@@ -9,6 +9,31 @@
 /**
  * 
  */
+USTRUCT()
+struct FQueuedUnit
+{
+	GENERATED_USTRUCT_BODY()
+
+public:
+	UPROPERTY()
+	FVector spawnPoint;
+	UPROPERTY()
+	FRotator spawnRotation;
+
+	FQueuedUnit()
+	{
+		spawnPoint = FVector();
+		spawnRotation = FRotator();
+	}
+
+	FQueuedUnit(FVector spawnPos, FRotator spawnRot)
+	{
+		spawnPoint = spawnPos;
+		spawnRotation = spawnRot;
+	}
+
+};
+
 UCLASS()
 class RTS_BASEBUILDER_API AGG_RTS_UnitBuilding : public AGG_RTS_Construction
 {
@@ -16,6 +41,8 @@ class RTS_BASEBUILDER_API AGG_RTS_UnitBuilding : public AGG_RTS_Construction
 
 public:
 	AGG_RTS_UnitBuilding();
+
+	void Tick(float DeltaTime) override;
 
 	void SetIsSelected(bool isSelected) override;
 
@@ -27,6 +54,10 @@ public:
 	bool IsBuilt() override;
 	void SetIsBuilt(bool bl) override;
 
+	void TrainUnit(FVector spawnPos, FRotator spawnRot);
+
+	OwningType GetType() override;
+
 private:
 	UPROPERTY(EditAnywhere)
 		USphereComponent* sphereComponent;
@@ -37,8 +68,17 @@ private:
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* staticMesh;
 
+	UPROPERTY(EditAnywhere)
+		TArray<struct FQueuedUnit> unitQueue;
+
+	OwningType buildingType;
+
 	bool isBuilt;
+	bool trainingUnit;
 
 	float timeUntilBuilt;
 	float buildTime;
+
+	float timeUntilTrained;
+	float trainTime;
 };

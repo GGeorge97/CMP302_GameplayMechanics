@@ -14,14 +14,14 @@ struct FHUD_Element;
 #endif
 #define RTS_BASEBUILDER_GG_RTS_HUD_generated_h
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_25_GENERATED_BODY \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_20_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FHUD_Element_Statics; \
 	RTS_BASEBUILDER_API static class UScriptStruct* StaticStruct();
 
 
 template<> RTS_BASEBUILDER_API UScriptStruct* StaticStruct<struct FHUD_Element>();
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_RPC_WRAPPERS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execIsCursorInBounds) \
 	{ \
@@ -82,7 +82,7 @@ template<> RTS_BASEBUILDER_API UScriptStruct* StaticStruct<struct FHUD_Element>(
 	}
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_RPC_WRAPPERS_NO_PURE_DECLS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execIsCursorInBounds) \
 	{ \
@@ -143,7 +143,7 @@ template<> RTS_BASEBUILDER_API UScriptStruct* StaticStruct<struct FHUD_Element>(
 	}
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_INCLASS_NO_PURE_DECLS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGG_RTS_HUD(); \
 	friend struct Z_Construct_UClass_AGG_RTS_HUD_Statics; \
@@ -152,7 +152,7 @@ public: \
 	DECLARE_SERIALIZER(AGG_RTS_HUD)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_INCLASS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_INCLASS \
 private: \
 	static void StaticRegisterNativesAGG_RTS_HUD(); \
 	friend struct Z_Construct_UClass_AGG_RTS_HUD_Statics; \
@@ -161,7 +161,7 @@ public: \
 	DECLARE_SERIALIZER(AGG_RTS_HUD)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_STANDARD_CONSTRUCTORS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGG_RTS_HUD(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGG_RTS_HUD) \
@@ -174,7 +174,7 @@ private: \
 public:
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_ENHANCED_CONSTRUCTORS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGG_RTS_HUD(AGG_RTS_HUD&&); \
@@ -185,7 +185,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_HUD); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGG_RTS_HUD)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_PRIVATE_PROPERTY_OFFSET \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__initalPoint() { return STRUCT_OFFSET(AGG_RTS_HUD, initalPoint); } \
 	FORCEINLINE static uint32 __PPO__currentPoint() { return STRUCT_OFFSET(AGG_RTS_HUD, currentPoint); } \
 	FORCEINLINE static uint32 __PPO__canvasSize() { return STRUCT_OFFSET(AGG_RTS_HUD, canvasSize); } \
@@ -197,25 +197,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_HUD); \
 	FORCEINLINE static uint32 __PPO__PCPtr() { return STRUCT_OFFSET(AGG_RTS_HUD, PCPtr); }
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_52_PROLOG
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_GENERATED_BODY_LEGACY \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_47_PROLOG
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_PRIVATE_PROPERTY_OFFSET \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_RPC_WRAPPERS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_INCLASS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_STANDARD_CONSTRUCTORS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_PRIVATE_PROPERTY_OFFSET \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_RPC_WRAPPERS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_INCLASS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_GENERATED_BODY \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_PRIVATE_PROPERTY_OFFSET \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_RPC_WRAPPERS_NO_PURE_DECLS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_INCLASS_NO_PURE_DECLS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_55_ENHANCED_CONSTRUCTORS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_PRIVATE_PROPERTY_OFFSET \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_RPC_WRAPPERS_NO_PURE_DECLS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_INCLASS_NO_PURE_DECLS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_HUD_h_50_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

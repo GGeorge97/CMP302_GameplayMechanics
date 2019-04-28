@@ -27,6 +27,8 @@ public:
 	bool IsBuilt() override;
 	void SetIsBuilt(bool bl) override;
 
+	OwningType GetType() override;
+
 private:
 	UPROPERTY(EditAnywhere)
 		USphereComponent* sphereComponent;
@@ -36,6 +38,8 @@ private:
 
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* staticMesh;
+
+	OwningType buildingType;
 
 	bool isBuilt;
 
