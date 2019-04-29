@@ -11,4 +11,5 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_ResourceManager.h
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\intermediate\build\win64\ue4editor\inc\rts_basebuilder\GG_RTS_GameMode.generated.h

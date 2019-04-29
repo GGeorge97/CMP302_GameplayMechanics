@@ -1,26 +1,26 @@
-﻿  Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
-  Parsing headers for RTS_BaseBuilderEditor
+﻿  Parsing headers for RTS_BaseBuilderEditor
     Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RTS_BaseBuilderEditor in 8.1239315 seconds
+  Reflection code generated for RTS_BaseBuilderEditor in 8.1263945 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 16 actions with 4 processes...
-    [1/16] GG_RTS_Worker.gen.cpp
-    [2/16] GG_RTS_PlayerController.gen.cpp
-    [3/16] GG_RTS_HUD.gen.cpp
-    [4/16] GG_RTS_Camera.gen.cpp
-    [5/16] GG_RTS_CollectionTask.cpp
-    [6/16] GG_RTS_ConstructionTask.cpp
-    [7/16] GG_RTS_HUD.cpp
-    [8/16] GG_RTS_Camera.cpp
-    [9/16] GG_RTS_MovementTask.cpp
-    [10/16] GG_RTS_UnitBuilding.cpp
-    [11/16] GG_RTS_GameMode.cpp
-    [12/16] GG_RTS_PlayerController.cpp
-    [13/16] GG_RTS_Worker.cpp
-    [14/16] UE4Editor-RTS_BaseBuilder-0492.lib
-       Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0492.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0492.exp
-    [15/16] UE4Editor-RTS_BaseBuilder-0492.dll
-       Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0492.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0492.suppressed.exp
-    [16/16] RTS_BaseBuilderEditor.target
-  Total time in Parallel executor: 9.08 seconds
-  Total execution time: 20.05 seconds
+  Building 17 actions with 4 processes...
+    [1/17] GG_RTS_UnitBuilding.cpp
+    [2/17] GG_RTS_Worker.cpp
+    [3/17] GG_RTS_Camera.gen.cpp
+    [4/17] GG_RTS_PlayerController.cpp
+    [5/17] GG_RTS_MovementTask.cpp
+    [6/17] GG_RTS_ConstructionTask.cpp
+    [7/17] GG_RTS_HUD.cpp
+    [8/17] RTS_BaseBuilder.init.gen.cpp
+    [9/17] GG_RTS_GameMode.cpp
+    [10/17] GG_RTS_Camera.cpp
+    [11/17] GG_RTS_Worker.gen.cpp
+    [12/17] GG_RTS_PlayerController.gen.cpp
+    [13/17] GG_RTS_HUD.gen.cpp
+    [14/17] GG_RTS_CollectionTask.cpp
+    [15/17] UE4Editor-RTS_BaseBuilder-0509.lib
+       Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0509.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0509.exp
+    [16/17] UE4Editor-RTS_BaseBuilder-0509.dll
+       Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0509.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0509.suppressed.exp
+    [17/17] RTS_BaseBuilderEditor.target
+  Total time in Parallel executor: 10.33 seconds
+  Total execution time: 20.11 seconds

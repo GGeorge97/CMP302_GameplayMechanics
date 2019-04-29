@@ -41,4 +41,16 @@ c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\in
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_CollectionTask.h
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_Resource.h
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\intermediate\build\win64\ue4editor\inc\rts_basebuilder\GG_RTS_Resource.generated.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_GameMode.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUD.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/HUDHitBox.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_ResourceManager.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\intermediate\build\win64\ue4editor\inc\rts_basebuilder\GG_RTS_GameMode.generated.h
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\intermediate\build\win64\ue4editor\inc\rts_basebuilder\GG_RTS_Worker.generated.h

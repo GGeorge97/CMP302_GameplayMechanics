@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "GameFramework/HUD.h"
+#include "GG_RTS_ResourceManager.h"
 #include "GG_RTS_GameMode.generated.h"
 
 /**
@@ -17,4 +18,6 @@ class RTS_BASEBUILDER_API AGG_RTS_GameMode : public AGameModeBase
 	
 public:
 	AGG_RTS_GameMode();
+
+	GG_RTS_ResourceManager resourceManager;
 };

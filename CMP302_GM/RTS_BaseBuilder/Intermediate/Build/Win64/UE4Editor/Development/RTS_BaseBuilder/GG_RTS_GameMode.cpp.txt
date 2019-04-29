@@ -9,6 +9,7 @@ C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/DebugTextInfo.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugTextInfo.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HUD.generated.h
+c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_ResourceManager.h
 C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Inc\RTS_BaseBuilder\GG_RTS_GameMode.generated.h
 c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\GG_RTS_Camera.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h

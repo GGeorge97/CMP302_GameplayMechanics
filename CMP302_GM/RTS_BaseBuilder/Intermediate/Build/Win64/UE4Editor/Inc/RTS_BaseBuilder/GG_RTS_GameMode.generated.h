@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define RTS_BASEBUILDER_GG_RTS_GameMode_generated_h
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_RPC_WRAPPERS
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_INCLASS_NO_PURE_DECLS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_RPC_WRAPPERS
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGG_RTS_GameMode(); \
 	friend struct Z_Construct_UClass_AGG_RTS_GameMode_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AGG_RTS_GameMode)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_INCLASS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAGG_RTS_GameMode(); \
 	friend struct Z_Construct_UClass_AGG_RTS_GameMode_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AGG_RTS_GameMode)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_STANDARD_CONSTRUCTORS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGG_RTS_GameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGG_RTS_GameMode) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_ENHANCED_CONSTRUCTORS \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGG_RTS_GameMode(AGG_RTS_GameMode&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_GameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGG_RTS_GameMode)
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_PRIVATE_PROPERTY_OFFSET
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_13_PROLOG
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_GENERATED_BODY_LEGACY \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_PRIVATE_PROPERTY_OFFSET
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_14_PROLOG
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_PRIVATE_PROPERTY_OFFSET \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_RPC_WRAPPERS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_INCLASS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_STANDARD_CONSTRUCTORS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_PRIVATE_PROPERTY_OFFSET \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_RPC_WRAPPERS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_INCLASS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_GENERATED_BODY \
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_PRIVATE_PROPERTY_OFFSET \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_INCLASS_NO_PURE_DECLS \
-	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_16_ENHANCED_CONSTRUCTORS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_PRIVATE_PROPERTY_OFFSET \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_INCLASS_NO_PURE_DECLS \
+	RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_GameMode_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

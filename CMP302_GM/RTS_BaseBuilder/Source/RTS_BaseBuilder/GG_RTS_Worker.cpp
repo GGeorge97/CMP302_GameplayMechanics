@@ -81,7 +81,7 @@ void AGG_RTS_Worker::RunTask(Action actionType, AGG_RTS_Construction* buildingAc
 
 	case COLLECT:
 		lastResourceTaskType = resourceActor->GetType();
-		taskStack.Push(new GG_RTS_CollectionTask(this, resourceActor, hitLocation));
+		taskStack.Push(new GG_RTS_CollectionTask(this, resourceActor, (AGG_RTS_GameMode*)GetWorld()->GetAuthGameMode(), hitLocation));
 		break;
 
 	default:
@@ -103,7 +103,7 @@ void AGG_RTS_Worker::AddTask(Action actionType, AGG_RTS_Construction* buildingAc
 
 	case COLLECT:
 		lastResourceTaskType = resourceActor->GetType();
-		taskStack.Push(new GG_RTS_CollectionTask(this, resourceActor, hitLocation));
+		taskStack.Push(new GG_RTS_CollectionTask(this, resourceActor, (AGG_RTS_GameMode*)GetWorld()->GetAuthGameMode(), hitLocation));
 		break;
 
 	default:

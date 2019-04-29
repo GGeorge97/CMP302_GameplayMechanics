@@ -9,6 +9,7 @@
 #include "Engine/Font.h"
 #include "GG_RTS_Worker.h"
 #include "GG_RTS_Construction.h"
+#include "GG_RTS_ResourceManager.h"
 #include "GG_RTS_HUD.generated.h"
 
 /**
@@ -82,6 +83,8 @@ protected:
 	virtual void DrawHUD() override;
 
 	UFUNCTION()
+	void DrawResourceStatus();
+	UFUNCTION()
 	void DrawSelectionBox();
 	UFUNCTION()
 	void DrawUnitSelectedUI();
@@ -119,6 +122,8 @@ private:
 
 	UPROPERTY()
 	class AGG_RTS_PlayerController* PCPtr;
+	UPROPERTY()
+	class AGG_RTS_GameMode* gameMode;
 
 	bool bStartSelect = false;
 	bool bUnitSelectUI = false;

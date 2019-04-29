@@ -4,6 +4,7 @@
 #include "GG_RTS_HUD.h"
 #include "GameFrameWork/PlayerController.h"
 #include "GG_RTS_PlayerController.h"
+#include "GG_RTS_GameMode.h"
 
 AGG_RTS_HUD::AGG_RTS_HUD()
 {
@@ -17,6 +18,7 @@ void AGG_RTS_HUD::BeginPlay()
 	Super::BeginPlay();
 
 	PCPtr = Cast<AGG_RTS_PlayerController>(GetOwningPlayerController());
+	gameMode = Cast<AGG_RTS_GameMode>(GetWorld()->GetAuthGameMode());
 
 	if(GEngine)
 		GEngine->GameViewport->GetViewportSize(canvasSize);
@@ -29,7 +31,7 @@ void AGG_RTS_HUD::BeginPlay()
 
 void AGG_RTS_HUD::DrawHUD()
 {
-
+	DrawResourceStatus();
 
 	if (bStartSelect)
 	{
@@ -54,6 +56,17 @@ void AGG_RTS_HUD::DrawHUD()
 
 		return;
 	}
+}
+
+void AGG_RTS_HUD::DrawResourceStatus()
+{
+	FString woodText = "WOOD : " + FString::FromInt(gameMode->resourceManager.GetWood());
+	FString stoneText = "STONE : " + FString::FromInt(gameMode->resourceManager.GetStone());
+
+	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.5f), 0.0f, 0.0f, 300.0f, 30.0f);
+
+	DrawText(woodText, FLinearColor::Green, 25.0f, 10.0f, font, 1.0f, false);
+	DrawText(stoneText, FLinearColor::Green, 175.0f, 10.0f, font, 1.0f, false);
 }
 
 void AGG_RTS_HUD::DrawSelectionBox()

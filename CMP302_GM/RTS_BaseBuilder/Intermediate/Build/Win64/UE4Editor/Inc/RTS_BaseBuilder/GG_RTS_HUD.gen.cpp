@@ -23,9 +23,11 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_HUD() {}
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawBuildingSelectedUI();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawButtonTooltip();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawHUD();
+	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawSelectionBox();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawUnitSelectedUI();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_IsCursorInBounds();
+	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_GameMode_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_PlayerController_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Construction_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Worker_NoRegister();
@@ -144,6 +146,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 			{ "DrawBuildingSelectedUI", &AGG_RTS_HUD::execDrawBuildingSelectedUI },
 			{ "DrawButtonTooltip", &AGG_RTS_HUD::execDrawButtonTooltip },
 			{ "DrawHUD", &AGG_RTS_HUD::execDrawHUD },
+			{ "DrawResourceStatus", &AGG_RTS_HUD::execDrawResourceStatus },
 			{ "DrawSelectionBox", &AGG_RTS_HUD::execDrawSelectionBox },
 			{ "DrawUnitSelectedUI", &AGG_RTS_HUD::execDrawUnitSelectedUI },
 			{ "IsCursorInBounds", &AGG_RTS_HUD::execIsCursorInBounds },
@@ -248,6 +251,28 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_HUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGG_RTS_HUD, nullptr, "DrawResourceStatus", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AGG_RTS_HUD_DrawSelectionBox_Statics
 	{
 #if WITH_METADATA
@@ -345,6 +370,10 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_gameMode_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_gameMode;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PCPtr_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PCPtr;
@@ -405,6 +434,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawBuildingSelectedUI, "DrawBuildingSelectedUI" }, // 3491204944
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawButtonTooltip, "DrawButtonTooltip" }, // 3412676787
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawHUD, "DrawHUD" }, // 1075962298
+		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus, "DrawResourceStatus" }, // 181681445
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawSelectionBox, "DrawSelectionBox" }, // 781780488
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawUnitSelectedUI, "DrawUnitSelectedUI" }, // 1757923709
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_IsCursorInBounds, "IsCursorInBounds" }, // 2615408585
@@ -417,6 +447,12 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_gameMode_MetaData[] = {
+		{ "ModuleRelativePath", "GG_RTS_HUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_gameMode = { "gameMode", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_HUD, gameMode), Z_Construct_UClass_AGG_RTS_GameMode_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_gameMode_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_gameMode_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_PCPtr_MetaData[] = {
 		{ "ModuleRelativePath", "GG_RTS_HUD.h" },
@@ -488,6 +524,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_initalPoint = { "initalPoint", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_HUD, initalPoint), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_initalPoint_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_initalPoint_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGG_RTS_HUD_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_gameMode,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_PCPtr,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_buildingHUDButtons,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_buildingHUDButtons_Inner,
@@ -531,7 +568,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_HUD, 1936149191);
+	IMPLEMENT_CLASS(AGG_RTS_HUD, 2927797005);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_HUD>()
 	{
 		return AGG_RTS_HUD::StaticClass();

@@ -497,6 +497,8 @@
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Resource.h"/>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ResourceBuilding.cpp"/>
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ResourceBuilding.h"/>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ResourceManager.cpp"/>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ResourceManager.h"/>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Stone.cpp"/>
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Stone.h"/>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_UnitBuilding.cpp"/>

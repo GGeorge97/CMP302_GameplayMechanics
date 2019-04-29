@@ -3,11 +3,12 @@
 
 #include "GG_RTS_CollectionTask.h"
 
-GG_RTS_CollectionTask::GG_RTS_CollectionTask(class AGG_RTS_Worker* workerActor, class AGG_RTS_Resource* resourceActor, FVector hitLocation)
+GG_RTS_CollectionTask::GG_RTS_CollectionTask(class AGG_RTS_Worker* workerActor, class AGG_RTS_Resource* resourceActor, AGG_RTS_GameMode* gameMode, FVector hitLocation)
 {
 	taskStatus = QUEUED;
 	workerPtr = workerActor;
 	resourcePtr = resourceActor;
+	GMPtr = gameMode;
 	hitLoc = hitLocation;
 	gatherTime = 0.0f;
 	isCollecting = true;
@@ -109,7 +110,10 @@ void GG_RTS_CollectionTask::DepositResource()
 	if (distanceToTarget < 300.0f)
 	{
 		// Deposit Resources
-
+		if(resourcePtr->GetType() == WOOD)
+			GMPtr->resourceManager.AddWood(10);
+		else if (resourcePtr->GetType() == STONE)
+			GMPtr->resourceManager.AddStone(10);
 
 		// Empty worker inventory
 		workerPtr->SetWoodCarried(0);
