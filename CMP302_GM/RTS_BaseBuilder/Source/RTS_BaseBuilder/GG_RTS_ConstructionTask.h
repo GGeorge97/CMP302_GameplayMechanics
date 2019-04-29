@@ -13,7 +13,7 @@
 class RTS_BASEBUILDER_API GG_RTS_ConstructionTask : public GG_RTS_ActionTasks
 {
 public:
-	GG_RTS_ConstructionTask(class AGG_RTS_Worker* workerActor, class AGG_RTS_Construction* buildingActor, FVector hitLocation, int formationIndex);
+	GG_RTS_ConstructionTask(class AGG_RTS_Worker* workerActor, class AGG_RTS_Construction* buildingActor, FVector hitLocation);
 	~GG_RTS_ConstructionTask();
 
 	void BeginTask();
@@ -30,6 +30,4 @@ private:
 
 	FVector moveLocation;
 	FVector hitLoc;
-
-	int formIndex;
 };

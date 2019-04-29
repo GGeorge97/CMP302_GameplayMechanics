@@ -53,28 +53,6 @@ void AGG_RTS_PlayerController::Tick(float DeltaTime)
 			currentAction = MOVE;
 		}
 	}
-
-	if (currentAction != PLACE_BUILDING)
-	{
-		FHitResult hitResult;
-		bool bHitOccurred = GetHitResultUnderCursorForObjects(objectTypes, true, hitResult);
-		if (bHitOccurred)
-		{
-			AActor* hitActor = hitResult.GetActor();
-
-			if (Cast<AGG_RTS_Worker>(hitActor))
-			{
-				AGG_RTS_Worker* workerActor = Cast<AGG_RTS_Worker>(hitActor);
-				currentAction = MOVE;
-				UE_LOG(LogTemp, Warning, TEXT("OVER WORKER"));
-			}
-			else if (Cast<AGG_RTS_Construction>(hitActor))
-			{
-				AGG_RTS_Construction* buildingActor = Cast<AGG_RTS_Construction>(hitActor);
-				UE_LOG(LogTemp, Warning, TEXT("OVER BUILDING"));
-			}
-		}
-	}
 }
 
 void AGG_RTS_PlayerController::SelectPressed()
@@ -82,6 +60,7 @@ void AGG_RTS_PlayerController::SelectPressed()
 	if (currentAction == CONSTRUCT)
 	{
 		HUDPtr->SetUnitUIEnabled(false);
+		currentAction = CONSTRUCT;
 	}
 	else if (currentAction == SPAWN)
 	{
@@ -164,6 +143,40 @@ void AGG_RTS_PlayerController::ActionStart()
 {
 	if (selectedUnits.Num() > 0)
 	{
+		if (currentAction != PLACE_BUILDING)
+		{
+			FHitResult hitResult;
+			bool bHitOccurred = GetHitResultUnderCursorForObjects(objectTypes, true, hitResult);
+			if (bHitOccurred)
+			{
+				AActor* hitActor = hitResult.GetActor();
+
+				if (Cast<AGG_RTS_Worker>(hitActor))
+				{
+					UE_LOG(LogTemp, Warning, TEXT("WORKER"));
+					AGG_RTS_Worker* workerActor = Cast<AGG_RTS_Worker>(hitActor);
+					currentAction = MOVE;
+				}
+				else if (Cast<AGG_RTS_Construction>(hitActor))
+				{
+					UE_LOG(LogTemp, Warning, TEXT("BUILDING"));
+					AGG_RTS_Construction* buildingActor = Cast<AGG_RTS_Construction>(hitActor);
+					if (!buildingActor->IsBuilt())
+					{
+						newBuilding = buildingActor;
+						currentAction = CONSTRUCT;
+					}
+				}
+				else if (Cast<AGG_RTS_Resource>(hitActor))
+				{
+					UE_LOG(LogTemp, Warning, TEXT("RESOURCE"));
+					AGG_RTS_Resource* resourceActor = Cast<AGG_RTS_Resource>(hitActor);
+					clickedResource = resourceActor;
+					currentAction = COLLECT;
+				}
+			}
+		}
+
 		if (IsInputKeyDown(EKeys::LeftShift))
 		{
 			FHitResult hitResult;
@@ -173,13 +186,24 @@ void AGG_RTS_PlayerController::ActionStart()
 				if (currentAction == CONSTRUCT)
 				{
 					if (newBuilding)
-						selectedUnits[i]->AddTask(currentAction, newBuilding, hitResult.Location, i);
+						selectedUnits[i]->AddTask(currentAction, newBuilding, clickedResource, hitResult.Location, i);
 					newBuilding = nullptr;
+					currentAction = MOVE;
 					return;
 				}
+				else if (currentAction == COLLECT)
+				{
+					if (clickedResource)
+						selectedUnits[i]->AddTask(currentAction, newBuilding, clickedResource, hitResult.Location, i);
+				}
 				else
-					selectedUnits[i]->AddTask(currentAction, newBuilding, hitResult.Location, i);
+					selectedUnits[i]->AddTask(currentAction, newBuilding, clickedResource, hitResult.Location, i);
 
+			}
+			if (currentAction == COLLECT)
+			{
+				clickedResource = nullptr;
+				currentAction = MOVE;
 			}
 		}
 		else
@@ -191,12 +215,23 @@ void AGG_RTS_PlayerController::ActionStart()
 				if (currentAction == CONSTRUCT)
 				{
 					if (newBuilding)
-						selectedUnits[i]->RunTask(currentAction, newBuilding, hitResult.Location, i);
+						selectedUnits[i]->RunTask(currentAction, newBuilding, clickedResource, hitResult.Location, i);
 					newBuilding = nullptr;
+					currentAction = MOVE;
 					return;
 				}
+				else if (currentAction == COLLECT)
+				{
+					if (clickedResource)
+						selectedUnits[i]->RunTask(currentAction, newBuilding, clickedResource, hitResult.Location, i);
+				}
 				else
-					selectedUnits[i]->RunTask(currentAction, newBuilding, hitResult.Location, i);
+					selectedUnits[i]->RunTask(currentAction, newBuilding, clickedResource, hitResult.Location, i);
+			}
+			if (currentAction == COLLECT)
+			{
+				clickedResource = nullptr;
+				currentAction = MOVE;
 			}
 		}
 	}
@@ -213,12 +248,13 @@ void AGG_RTS_PlayerController::ActionStartManual(FVector actionLocation)
 				if (currentAction == CONSTRUCT)
 				{
 					if(newBuilding)
-						selectedUnits[i]->AddTask(currentAction, newBuilding, actionLocation, i);
+						selectedUnits[i]->AddTask(currentAction, newBuilding, clickedResource, actionLocation, i);
 					newBuilding = nullptr;
+					currentAction = MOVE;
 					return;
 				}
 				else
-					selectedUnits[i]->AddTask(currentAction, newBuilding, actionLocation, i);
+					selectedUnits[i]->AddTask(currentAction, newBuilding, clickedResource, actionLocation, i);
 
 			}
 		}
@@ -229,12 +265,13 @@ void AGG_RTS_PlayerController::ActionStartManual(FVector actionLocation)
 				if (currentAction == CONSTRUCT)
 				{
 					if (newBuilding)
-						selectedUnits[i]->RunTask(currentAction, newBuilding, actionLocation, i);
+						selectedUnits[i]->RunTask(currentAction, newBuilding, clickedResource, actionLocation, i);
 					newBuilding = nullptr;
+					currentAction = MOVE;
 					return;
 				}
 				else
-					selectedUnits[i]->RunTask(currentAction, newBuilding, actionLocation, i);
+					selectedUnits[i]->RunTask(currentAction, newBuilding, clickedResource, actionLocation, i);
 			}
 		}
 	}

@@ -2,6 +2,7 @@
 
 
 #include "GG_RTS_Worker.h"
+#include "GG_RTS_Resourcebuilding.h"
 
 AGG_RTS_Worker::AGG_RTS_Worker()
 {
@@ -65,7 +66,7 @@ void AGG_RTS_Worker::SetIsSelected(bool isSelected)
 	cursorToWorld->SetVisibility(isSelected);
 }
 
-void AGG_RTS_Worker::RunTask(Action actionType, AGG_RTS_Construction* buildingActor, FVector hitLocation, int formationIndex)
+void AGG_RTS_Worker::RunTask(Action actionType, AGG_RTS_Construction* buildingActor, AGG_RTS_Resource* resourceActor, FVector hitLocation, int formationIndex)
 {
 	taskStack.Empty();
 	switch (actionType)
@@ -75,19 +76,20 @@ void AGG_RTS_Worker::RunTask(Action actionType, AGG_RTS_Construction* buildingAc
 		break;
 
 	case CONSTRUCT:
-		taskStack.Push(new GG_RTS_ConstructionTask(this, buildingActor, hitLocation, formationIndex));
+		taskStack.Push(new GG_RTS_ConstructionTask(this, buildingActor, hitLocation));
 		break;
 
-	//case COLLECT:
-	//	taskStack.Push(new GG_RTS_CollectionTask(this, hitLocation, formationIndex));
-	//	break;
+	case COLLECT:
+		lastResourceTaskType = resourceActor->GetType();
+		taskStack.Push(new GG_RTS_CollectionTask(this, resourceActor, hitLocation));
+		break;
 
 	default:
 		break;
 	}
 }
 
-void AGG_RTS_Worker::AddTask(Action actionType, AGG_RTS_Construction* buildingActor, FVector hitLocation, int formationIndex)
+void AGG_RTS_Worker::AddTask(Action actionType, AGG_RTS_Construction* buildingActor, AGG_RTS_Resource* resourceActor, FVector hitLocation, int formationIndex)
 {
 	switch (actionType)
 	{
@@ -96,15 +98,69 @@ void AGG_RTS_Worker::AddTask(Action actionType, AGG_RTS_Construction* buildingAc
 		break;
 
 	case CONSTRUCT:
-		taskStack.Push(new GG_RTS_ConstructionTask(this, buildingActor, hitLocation, formationIndex));
+		taskStack.Push(new GG_RTS_ConstructionTask(this, buildingActor, hitLocation));
 		break;
 
-	//case COLLECT:
-	//	taskStack.Push(new GG_RTS_CollectionTask(this, hitLocation, formationIndex));
-	//	break;
+	case COLLECT:
+		lastResourceTaskType = resourceActor->GetType();
+		taskStack.Push(new GG_RTS_CollectionTask(this, resourceActor, hitLocation));
+		break;
 
 	default:
 		break;
 	}
 }
 
+bool AGG_RTS_Worker::FindNearestDepot()
+{
+	bool depotAvailable = false;
+	depotDistance = 10000.0f;
+	for (TActorIterator<AActor> actorItr(GetWorld(), AGG_RTS_ResourceBuilding::StaticClass(), EActorIteratorFlags::AllActors); actorItr; ++actorItr)
+	{
+		AGG_RTS_ResourceBuilding* resDepot = Cast<AGG_RTS_ResourceBuilding>(*actorItr);
+		if (resDepot->IsBuilt())
+		{
+			depotAvailable = true;
+
+			FVector workerPos = this->GetActorLocation();
+			FVector depotPos = resDepot->GetActorLocation();
+			FVector workerToDepot = workerPos - depotPos;
+
+			float distanceToDepot = workerToDepot.Size();
+
+			if (distanceToDepot < depotDistance)
+			{
+				depotDistance = distanceToDepot;
+				nearestDepot = depotPos;
+			}
+		}
+	}
+	return depotAvailable;
+}
+
+bool AGG_RTS_Worker::FindNearestResource()
+{
+	bool resAvailable = false;
+	resourceDistance = 10000.0f;
+	for (TActorIterator<AActor> actorItr(GetWorld(), AGG_RTS_Resource::StaticClass(), EActorIteratorFlags::AllActors); actorItr; ++actorItr)
+	{
+		AGG_RTS_Resource* resourcePtr = Cast<AGG_RTS_Resource>(*actorItr);
+		if (resourcePtr->GetType() == lastResourceTaskType)
+		{
+			resAvailable = true;
+
+			FVector workerPos = this->GetActorLocation();
+			FVector resPos = resourcePtr->GetActorLocation();
+			FVector workerToRes = workerPos - resPos;
+
+			float distanceToRes = workerToRes.Size();
+
+			if (distanceToRes < resourceDistance)
+			{
+				resourceDistance = distanceToRes;
+				nearestResource = resourcePtr;
+			}
+		}
+	}
+	return resAvailable;
+}

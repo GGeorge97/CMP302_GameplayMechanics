@@ -3,13 +3,12 @@
 
 #include "GG_RTS_ConstructionTask.h"
 
-GG_RTS_ConstructionTask::GG_RTS_ConstructionTask(class AGG_RTS_Worker* workerActor, class AGG_RTS_Construction* buildingActor, FVector hitLocation, int formationIndex)
+GG_RTS_ConstructionTask::GG_RTS_ConstructionTask(class AGG_RTS_Worker* workerActor, class AGG_RTS_Construction* buildingActor, FVector hitLocation)
 {
 	taskStatus = QUEUED;
 	workerPtr = workerActor;
 	buildingPtr = buildingActor;
 	hitLoc = hitLocation;
-	formIndex = formationIndex;
 }
 
 GG_RTS_ConstructionTask::~GG_RTS_ConstructionTask()

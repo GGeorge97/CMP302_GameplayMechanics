@@ -68,7 +68,7 @@ void AGG_RTS_ResourceBuilding::SetIsBuilt(bool bl)
 {
 	isBuilt = bl;
 
-	staticMesh->SetWorldScale3D(FVector(4.0f, 4.0f, 6.0f));
+	staticMesh->SetWorldScale3D(FVector(4.0f, 4.0f, 4.0f));
 }
 
 OwningType AGG_RTS_ResourceBuilding::GetType()

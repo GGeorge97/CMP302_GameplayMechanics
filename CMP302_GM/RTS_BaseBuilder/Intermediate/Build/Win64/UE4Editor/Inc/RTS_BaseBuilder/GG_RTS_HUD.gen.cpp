@@ -369,6 +369,14 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_foundUnits;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_foundUnits_Inner;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stoneAmount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_stoneAmount;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_woodAmount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_woodAmount;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_font_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_font;
@@ -444,6 +452,18 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundUnits = { "foundUnits", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_HUD, foundUnits), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundUnits_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundUnits_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundUnits_Inner = { "foundUnits", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AGG_RTS_Worker_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_stoneAmount_MetaData[] = {
+		{ "ModuleRelativePath", "GG_RTS_HUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_stoneAmount = { "stoneAmount", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_HUD, stoneAmount), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_stoneAmount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_stoneAmount_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_woodAmount_MetaData[] = {
+		{ "ModuleRelativePath", "GG_RTS_HUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_woodAmount = { "woodAmount", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_HUD, woodAmount), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_woodAmount_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_woodAmount_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_font_MetaData[] = {
 		{ "ModuleRelativePath", "GG_RTS_HUD.h" },
 	};
@@ -477,6 +497,8 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundBuildings_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundUnits,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_foundUnits_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_stoneAmount,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_woodAmount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_font,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_canvasSize,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_HUD_Statics::NewProp_currentPoint,
@@ -509,7 +531,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_HUD, 916159927);
+	IMPLEMENT_CLASS(AGG_RTS_HUD, 1936149191);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_HUD>()
 	{
 		return AGG_RTS_HUD::StaticClass();

@@ -104,6 +104,11 @@ private:
 	UFont* font;
 
 	UPROPERTY()
+	int32 woodAmount;
+	UPROPERTY()
+	int32 stoneAmount;
+
+	UPROPERTY()
 	TArray<AGG_RTS_Worker*> foundUnits;
 	UPROPERTY()
 	TArray<AGG_RTS_Construction*> foundBuildings;

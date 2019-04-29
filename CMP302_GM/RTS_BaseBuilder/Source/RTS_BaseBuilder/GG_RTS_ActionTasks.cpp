@@ -5,6 +5,7 @@
 
 GG_RTS_ActionTasks::GG_RTS_ActionTasks()
 {
+
 }
 
 GG_RTS_ActionTasks::~GG_RTS_ActionTasks()

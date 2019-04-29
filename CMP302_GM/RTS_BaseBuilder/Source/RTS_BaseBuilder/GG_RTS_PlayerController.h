@@ -53,6 +53,8 @@ private:
 	AGG_RTS_HUD* HUDPtr;
 	UPROPERTY()
 	AGG_RTS_Construction* newBuilding;
+	UPROPERTY()
+	AGG_RTS_Resource* clickedResource;
 
 	UPROPERTY()
 	TArray<AGG_RTS_Worker*> selectedUnits;

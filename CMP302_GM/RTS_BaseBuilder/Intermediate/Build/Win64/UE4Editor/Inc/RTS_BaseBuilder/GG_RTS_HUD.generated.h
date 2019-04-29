@@ -190,6 +190,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_HUD); \
 	FORCEINLINE static uint32 __PPO__currentPoint() { return STRUCT_OFFSET(AGG_RTS_HUD, currentPoint); } \
 	FORCEINLINE static uint32 __PPO__canvasSize() { return STRUCT_OFFSET(AGG_RTS_HUD, canvasSize); } \
 	FORCEINLINE static uint32 __PPO__font() { return STRUCT_OFFSET(AGG_RTS_HUD, font); } \
+	FORCEINLINE static uint32 __PPO__woodAmount() { return STRUCT_OFFSET(AGG_RTS_HUD, woodAmount); } \
+	FORCEINLINE static uint32 __PPO__stoneAmount() { return STRUCT_OFFSET(AGG_RTS_HUD, stoneAmount); } \
 	FORCEINLINE static uint32 __PPO__foundUnits() { return STRUCT_OFFSET(AGG_RTS_HUD, foundUnits); } \
 	FORCEINLINE static uint32 __PPO__foundBuildings() { return STRUCT_OFFSET(AGG_RTS_HUD, foundBuildings); } \
 	FORCEINLINE static uint32 __PPO__unitHUDButtons() { return STRUCT_OFFSET(AGG_RTS_HUD, unitHUDButtons); } \

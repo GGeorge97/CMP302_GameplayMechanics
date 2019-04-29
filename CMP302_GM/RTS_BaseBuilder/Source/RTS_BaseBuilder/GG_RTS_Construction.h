@@ -7,7 +7,6 @@
 #include "UObject/ConstructorHelpers.h"
 #include "Components/SphereComponent.h"
 #include "Components/DecalComponent.h"
-#include "Components/CapsuleComponent.h"
 #include "Materials/Material.h"
 #include "Components/StaticMeshComponent.h"
 #include "GG_RTS_Construction.generated.h"

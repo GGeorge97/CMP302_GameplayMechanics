@@ -493,10 +493,16 @@
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_PlayerController.h"/>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_PlayerState.cpp"/>
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_PlayerState.h"/>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Resource.cpp"/>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Resource.h"/>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ResourceBuilding.cpp"/>
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_ResourceBuilding.h"/>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Stone.cpp"/>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Stone.h"/>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_UnitBuilding.cpp"/>
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_UnitBuilding.h"/>
+    <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Wood.cpp"/>
+    <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Wood.h"/>
     <ClCompile Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Worker.cpp"/>
     <ClInclude Include="..\..\Source\RTS_BaseBuilder\GG_RTS_Worker.h"/>
     <None Include="..\..\Source\RTS_BaseBuilder\RTS_BaseBuilder.Build.cs"/>
