@@ -1,0 +1,1536 @@
+﻿Log file open, 05/02/19 00:19:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: RTS_BaseBuilder
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.233482
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogWindows: Failed to load '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' (GetLastError=126)
+LogWindows: File '../../../Engine/Binaries/ThirdParty/libsndfile/Win64/libsndfile-1.dll' does not exist
+LogAudioMixer: Display: Failed to load Sound File dll
+LogAudioEditor: Display: LibSoundFile failed to load. Importing audio will not work correctly.
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-5660361
+LogInit: Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1803) (), CPU:        Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Mar 31 2019 02:05:09
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.01-23.19.57:453][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.01-23.19.57:453][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.01-23.19.57:453][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.05.01-23.19.57:453][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.01-23.19.57:453][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.05.01-23.19.57:453][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.05.01-23.19.57:453][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.01-23.19.57:454][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.05.01-23.19.57:454][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.05.01-23.19.57:457][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.01-23.19.57:457][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.01-23.19.57:458][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.01-23.19.57:458][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.01-23.19.57:458][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.01-23.19.57:479][  0]LogHAL: Display: Platform has ~ 16 GB [17136181248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.05.01-23.19.57:479][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.01-23.19.57:479][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.01-23.19.57:479][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.05.01-23.19.57:480][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Config/Windows/Engine.ini]
+[2019.05.01-23.19.57:481][  0]LogInit: Computer: GAV-PC
+[2019.05.01-23.19.57:481][  0]LogInit: User: GavinGeorge
+[2019.05.01-23.19.57:481][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.01-23.19.57:481][  0]LogInit: High frequency timer resolution =3.323586 MHz
+[2019.05.01-23.19.57:481][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.05.01-23.19.57:481][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.01-23.19.57:481][  0]LogMemory: Process Physical Memory: 96.68 MB used, 96.68 MB peak
+[2019.05.01-23.19.57:481][  0]LogMemory: Process Virtual Memory: 92.15 MB used, 92.15 MB peak
+[2019.05.01-23.19.57:481][  0]LogMemory: Physical Memory: 5744.20 MB used,  10598.14 MB free, 16342.34 MB total
+[2019.05.01-23.19.57:481][  0]LogMemory: Virtual Memory: 4648.03 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2019.05.01-23.19.57:516][  0]LogInit: Using OS detected language (en-GB).
+[2019.05.01-23.19.57:516][  0]LogInit: Using OS detected locale (en-GB).
+[2019.05.01-23.19.57:518][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.05.01-23.19.57:719][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.01-23.19.57:763][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.01-23.19.57:763][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.01-23.19.57:979][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.05.01-23.19.57:979][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.01-23.19.58:079][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.05.01-23.19.58:079][  0]LogD3D11RHI:       6052/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.05.01-23.19.58:085][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.01-23.19.58:085][  0]LogD3D11RHI:       0/0/8171 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.01-23.19.58:085][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.01-23.19.58:092][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.01-23.19.58:092][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.01-23.19.58:093][  0]LogWindows: EnumDisplayDevices:
+[2019.05.01-23.19.58:093][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.05.01-23.19.58:093][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.01-23.19.58:094][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.01-23.19.58:094][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.01-23.19.58:094][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.01-23.19.58:094][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.05.01-23.19.58:094][  0]LogD3D11RHI:   Driver Version: 425.31 (internal:25.21.14.2531, unified:425.31)
+[2019.05.01-23.19.58:094][  0]LogD3D11RHI:      Driver Date: 4-9-2019
+[2019.05.01-23.19.58:094][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.05.01-23.19.58:157][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.01-23.19.58:162][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.01-23.19.58:162][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.01-23.19.58:162][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.05.01-23.19.58:171][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.05.01-23.19.58:623][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.05.01-23.19.58:644][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.05.01-23.19.58:665][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.05.01-23.19.58:685][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.05.01-23.19.58:705][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.05.01-23.19.58:726][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.05.01-23.19.58:746][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.05.01-23.19.58:766][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.05.01-23.19.58:777][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.05.01-23.19.58:885][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.05.01-23.19.58:888][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.05.01-23.19.58:946][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.05.01-23.19.58:946][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.05.01-23.19.58:975][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.05.01-23.19.58:975][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.05.01-23.19.58:991][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.05.01-23.19.59:007][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.05.01-23.19.59:023][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.05.01-23.19.59:040][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.05.01-23.19.59:097][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.05.01-23.19.59:097][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.05.01-23.19.59:097][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.01-23.19.59:112][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.05.01-23.19.59:212][  0]LogShaderCompilers: Guid format shader working directory is -41 characters bigger than the processId version (../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Intermediate/Shaders/WorkingDirectory/7472/).
+[2019.05.01-23.19.59:213][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Roy George/AppData/Local/Temp/UnrealShaderWorkingDir/5F760BC3437A5F0C085206BA0ADD6A55/'.
+[2019.05.01-23.19.59:218][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.01-23.19.59:218][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.01-23.19.59:218][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.01-23.19.59:835][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.01-23.19.59:926][  0]LogDerivedDataCache: Loaded boot cache 0.09s 75MB C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.01-23.19.59:926][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.05.01-23.19.59:926][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.01-23.19.59:926][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.01-23.19.59:926][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.01-23.19.59:926][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.01-23.19.59:940][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.01-23.19.59:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.01-23.19.59:940][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.01-23.19.59:953][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Roy George/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.01-23.19.59:953][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.01-23.19.59:953][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.01-23.19.59:979][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.01-23.19.59:981][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.01-23.19.59:981][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.01-23.20.00:084][  0]LogAssetRegistry: FAssetRegistry took 0.0370 seconds to start up
+[2019.05.01-23.20.00:518][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.01-23.20.00:693][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.01-23.20.00:693][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.05.01-23.20.00:693][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.01-23.20.00:693][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.05.01-23.20.00:693][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.05.01-23.20.00:705][  0]LogNetVersion: RTS_BaseBuilder 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1744979706)
+[2019.05.01-23.20.01:195][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.055585 seconds
+[2019.05.01-23.20.01:207][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.05.01-23.20.01:207][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.05.01-23.20.01:207][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.01-23.20.02:290][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.01-23.20.02:303][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.01-23.20.02:947][  0]SourceControl: Source control is disabled
+[2019.05.01-23.20.02:947][  0]SourceControl: Source control is disabled
+[2019.05.01-23.20.02:950][  0]SourceControl: Source control is disabled
+[2019.05.01-23.20.02:951][  0]SourceControl: Source control is disabled
+[2019.05.01-23.20.03:055][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.01-23.20.03:203][  0]LogOcInput: OculusInput pre-init called
+[2019.05.01-23.20.03:997][  0]LogEngine: Initializing Engine...
+[2019.05.01-23.20.04:003][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.05.01-23.20.04:004][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.05.01-23.20.04:255][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.01-23.20.04:281][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.01-23.20.04:315][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.20.04:346][  0]LogInit: FAudioDevice initialized.
+[2019.05.01-23.20.04:346][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.01-23.20.04:410][  0]LogDerivedDataCache: Saved boot cache 0.06s 75MB C:/Users/Roy George/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.05.01-23.20.04:439][  0]LogInit: Texture streaming: Enabled
+[2019.05.01-23.20.04:471][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.01-23.20.04:514][  0]LogInit: Transaction tracking system initialized
+[2019.05.01-23.20.04:571][  0]BlueprintLog: New page: Editor Load
+[2019.05.01-23.20.04:735][  0]LocalizationService: Localization service is disabled
+[2019.05.01-23.20.04:867][  0]LogLinker: Warning: Asset '../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/TopDownCPP/TopDownOverview.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2019.05.01-23.20.05:121][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/' took 0.03s
+[2019.05.01-23.20.05:121][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.01-23.20.05:121][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.01-23.20.05:376][  0]SourceControl: Source control is disabled
+[2019.05.01-23.20.05:376][  0]Cmd: MAP LOAD FILE="../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/DemoLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.01-23.20.05:381][  0]LightingResults: New page: Lighting Build
+[2019.05.01-23.20.05:387][  0]MapCheck: New page: Map Check
+[2019.05.01-23.20.05:387][  0]LightingResults: New page: Lighting Build
+[2019.05.01-23.20.05:417][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.05.01-23.20.06:335][  0]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.20.07:715][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.01-23.20.07:778][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.05.01-23.20.07:778][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.01-23.20.07:778][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.188ms to complete.
+[2019.05.01-23.20.07:778][  0]LogFileHelpers: Loading map 'DemoLevel' took 2.401
+[2019.05.01-23.20.07:919][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.20.07:928][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.20.07:937][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.20.07:947][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.20.07:963][  0]LogCollectionManager: Loaded 0 collections in 0.004906 seconds
+[2019.05.01-23.20.07:995][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Collections/' took 0.01s
+[2019.05.01-23.20.07:995][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/Developers/GavinGeorge/Collections/' took 0.00s
+[2019.05.01-23.20.07:995][  0]LogFileCache: Scanning file cache for directory 'C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Content/Collections/' took 0.00s
+[2019.05.01-23.20.07:995][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.05.01-23.20.08:010][  0]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 2748 classes and 661 folders.
+[2019.05.01-23.20.08:030][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2019.05.01-23.20.08:038][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:043][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:045][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:048][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:050][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:052][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:055][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:057][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:059][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:062][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:064][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:066][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:068][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:073][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:075][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:077][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:079][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:081][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:084][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:086][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:088][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:090][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:092][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:095][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-23.20.08:233][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2019.05.01-23.20.08:254][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0013 seconds. Added 1 classes and 2 folders.
+[2019.05.01-23.20.09:807][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.01-23.20.09:835][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.01-23.20.09:839][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.01-23.20.09:849][  0]LogSlate: Took 0.002920 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.01-23.20.09:959][  0]LogRenderer: Reallocating scene render targets to support 1144x572 Format 10 NumSamples 1 (Frame:1).
+[2019.05.01-23.20.10:048][  0]LogSlate: Took 0.001470 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.01-23.20.10:182][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2019.05.01-23.20.10:182][  0]LogLoad: (Engine Initialization) Total time: 16.28 seconds
+[2019.05.01-23.20.10:182][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.01-23.20.10:192][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.01-23.20.10:341][  0]LogAssetRegistry: Asset discovery search completed in 10.2787 seconds
+[2019.05.01-23.20.10:344][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.01-23.20.10:344][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000093 seconds (updated 0 objects)
+[2019.05.01-23.20.10:345][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.05.01-23.20.13:711][377]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.20.13:794][387]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-23.20.13:810][387]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.20.13:810][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-23.20.13:812][387]PIE: New page: PIE session: DemoLevel (2 May 2019 01:20:13)
+[2019.05.01-23.20.13:824][387]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.01-23.20.13:880][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055780s)
+[2019.05.01-23.20.13:881][387]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.20.13:881][387]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2019.05.01-23.20.13:881][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.056930s)
+[2019.05.01-23.20.13:905][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.05.01-23.20.13:943][387]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.20.13:954][387]LogInit: FAudioDevice initialized.
+[2019.05.01-23.20.13:997][387]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.01-23.20.14:005][387]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-00.20.14
+[2019.05.01-23.20.14:010][387]LogWorld: Bringing up level for play took: 0.010954
+[2019.05.01-23.20.14:038][387]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0013 seconds. Added 20 classes and 0 folders.
+[2019.05.01-23.20.14:039][387]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 0.407
+[2019.05.01-23.20.14:039][387]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.20.15:200][523]LogTemp: IOS device listing is disabled (to many failed attempts)!
+[2019.05.01-23.20.18:026][858]LogTemp: Warning: BUILDING
+[2019.05.01-23.20.30:801][391]LogTemp: Warning: RESOURCE
+[2019.05.01-23.20.31:835][515]LogTemp: Warning: RESOURCE
+[2019.05.01-23.20.40:628][570]LogTemp: Warning: RESOURCE
+[2019.05.01-23.20.42:328][774]LogTemp: Warning: RESOURCE
+[2019.05.01-23.20.44:678][ 56]LogTemp: Warning: RESOURCE
+[2019.05.01-23.20.57:989][653]LogTemp: Warning: RESOURCE
+[2019.05.01-23.21.41:212][837]LogTemp: Warning: RESOURCE
+[2019.05.01-23.21.43:838][152]LogTemp: Warning: RESOURCE
+[2019.05.01-23.22.00:522][154]LogTemp: Warning: RESOURCE
+[2019.05.01-23.22.08:299][ 87]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.22.08:375][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.22.08:376][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.22.08:409][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-23.22.08:409][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.22.08:435][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.22.08:439][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2019.05.01-23.22.08:477][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.05.01-23.22.23:814][511]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.01-23.22.23:821][511]LogAssetEditorManager: Opening Asset editor for Class /Script/RTS_BaseBuilder.GG_RTS_Stone
+[2019.05.01-23.23.29:809][987]LogHttp: Warning: 0000025084774A40: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.05.01-23.23.29:809][987]LogHttp: Warning: 0000025084774A40: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x250ae5ebf70 [can pipeline])
+[2019.05.01-23.23.29:809][987]LogHttp: Warning: 0000025084774A40: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2019.05.01-23.23.29:809][987]LogHttp: Warning: 0000025084774A40: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.233.90.22) port 443 (#0))
+[2019.05.01-23.23.29:809][987]LogHttp: Warning: 0000025084774A40: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.05.01-23.23.29:809][987]LogHttp: Warning: 0000025084774A40: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.05.01-23.23.29:809][987]LogHttp: Warning: 0000025084774A40: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.05.01-23.23.29:810][987]LogHttp: Warning: 0000025084774A40: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.05.01-23.23.29:810][987]LogHttp: Warning: 0000025084774A40: libcurl info message cache 7 (Closing connection 0)
+[2019.05.01-23.23.30:136][988]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.25.34:616][341]LogHttp: Warning: 0000025084774A40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.25.34:616][341]LogHttp: Warning: 0000025084774A40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.25.34:616][341]LogHttp: Warning: 0000025084774A40: libcurl info message cache 1 (Closing connection 1)
+[2019.05.01-23.25.34:950][342]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.27.41:862][721]LogHttp: Warning: 0000025084774A40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.27.41:862][721]LogHttp: Warning: 0000025084774A40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.27.41:862][721]LogHttp: Warning: 0000025084774A40: libcurl info message cache 1 (Closing connection 2)
+[2019.05.01-23.27.42:201][722]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.29.54:573][117]LogHttp: Warning: 0000025084774A40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.29.54:573][117]LogHttp: Warning: 0000025084774A40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.29.54:573][117]LogHttp: Warning: 0000025084774A40: libcurl info message cache 1 (Closing connection 3)
+[2019.05.01-23.29.54:909][118]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.32.04:332][505]LogHttp: Warning: 0000025084774A40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.32.04:332][505]LogHttp: Warning: 0000025084774A40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.32.04:332][505]LogHttp: Warning: 0000025084774A40: libcurl info message cache 1 (Closing connection 4)
+[2019.05.01-23.32.04:665][506]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.34.15:621][896]LogHttp: Warning: 0000025084774A40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.34.15:621][896]LogHttp: Warning: 0000025084774A40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.34.15:621][896]LogHttp: Warning: 0000025084774A40: libcurl info message cache 1 (Closing connection 5)
+[2019.05.01-23.34.15:621][896]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.36.27:697][289]LogHttp: Warning: 0000025084774A40: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.36.27:697][289]LogHttp: Warning: 0000025084774A40: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.36.27:697][289]LogHttp: Warning: 0000025084774A40: libcurl info message cache 1 (Closing connection 6)
+[2019.05.01-23.36.28:030][290]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.37.10:387][ 64]Candidate modules for hot reload:
+[2019.05.01-23.37.10:387][ 64]  RTS_BaseBuilder
+[2019.05.01-23.37.10:387][ 64]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,571 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.01-23.37.10:392][ 64]Warning: Starting HotReload took  0.2s.
+[2019.05.01-23.37.46:331][953]CompilerResultsLog: New page: Compilation - 2 May 2019 01:37:46
+[2019.05.01-23.37.46:331][953]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.01-23.37.46:331][953]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.01-23.37.46:331][953]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-23.37.46:331][953]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 11.8229442 seconds
+[2019.05.01-23.37.46:331][953]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-23.37.46:332][953]CompilerResultsLog: Building 19 actions with 4 processes...
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [1/19] GG_RTS_Camera.gen.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [2/19] GG_RTS_PlayerController.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [3/19] GG_RTS_Worker.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [4/19] GG_RTS_UnitBuilding.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [5/19] GG_RTS_ResourceManager.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [6/19] GG_RTS_ConstructionTask.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [7/19] GG_RTS_MovementTask.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [8/19] RTS_BaseBuilder.init.gen.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [9/19] GG_RTS_HUD.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [10/19] GG_RTS_GameMode.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [11/19] GG_RTS_Camera.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [12/19] GG_RTS_Worker.gen.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [13/19] GG_RTS_PlayerController.gen.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [14/19] GG_RTS_GameMode.gen.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [15/19] GG_RTS_HUD.gen.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [16/19] GG_RTS_CollectionTask.cpp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [17/19] UE4Editor-RTS_BaseBuilder-0571.lib
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0571.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0571.exp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [18/19] UE4Editor-RTS_BaseBuilder-0571.dll
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0571.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0571.suppressed.exp
+[2019.05.01-23.37.46:332][953]CompilerResultsLog:   [19/19] RTS_BaseBuilderEditor.target
+[2019.05.01-23.37.46:332][953]CompilerResultsLog: Total time in Parallel executor: 19.71 seconds
+[2019.05.01-23.37.46:332][953]CompilerResultsLog: Total execution time: 35.51 seconds
+[2019.05.01-23.37.46:332][953]LogMainFrame: MainFrame: Module compiling took 35.950 seconds
+[2019.05.01-23.37.46:354][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2019.05.01-23.37.46:370][953]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2749 classes and 663 folders.
+[2019.05.01-23.37.46:371][953]Display: HotReload took 36.1s.
+[2019.05.01-23.38.09:207][140]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-23.38.09:225][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.38.09:225][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-23.38.09:225][140]PIE: New page: PIE session: DemoLevel (2 May 2019 01:38:09)
+[2019.05.01-23.38.09:225][140]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.01-23.38.09:278][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052618s)
+[2019.05.01-23.38.09:279][140]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.38.09:279][140]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2019.05.01-23.38.09:279][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.053851s)
+[2019.05.01-23.38.09:301][140]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2019.05.01-23.38.09:331][140]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.38.09:343][140]LogInit: FAudioDevice initialized.
+[2019.05.01-23.38.09:372][140]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.01-23.38.09:378][140]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-00.38.09
+[2019.05.01-23.38.09:380][140]LogWorld: Bringing up level for play took: 0.007086
+[2019.05.01-23.38.09:393][140]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel -0.24
+[2019.05.01-23.38.09:393][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.38.20:787][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.38.20:871][510]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.38.20:872][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.38.20:902][510]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-23.38.20:902][510]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.38.20:928][510]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.38.20:932][510]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.05.01-23.38.20:974][513]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.05.01-23.38.33:488][679]LogHttp: Warning: 00000250AE644540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.38.33:488][679]LogHttp: Warning: 00000250AE644540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.38.33:488][679]LogHttp: Warning: 00000250AE644540: libcurl info message cache 1 (Closing connection 7)
+[2019.05.01-23.38.33:828][680]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.40.40:483][ 59]LogHttp: Warning: 00000250AE644540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.40.40:483][ 59]LogHttp: Warning: 00000250AE644540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.40.40:483][ 59]LogHttp: Warning: 00000250AE644540: libcurl info message cache 1 (Closing connection 8)
+[2019.05.01-23.40.40:820][ 60]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.42.41:173][419]LogHttp: Warning: 00000250AE644540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.42.41:173][419]LogHttp: Warning: 00000250AE644540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.42.41:173][419]LogHttp: Warning: 00000250AE644540: libcurl info message cache 1 (Closing connection 9)
+[2019.05.01-23.42.41:507][420]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.44.42:082][780]LogHttp: Warning: 00000250AE644540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.44.42:082][780]LogHttp: Warning: 00000250AE644540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.44.42:082][780]LogHttp: Warning: 00000250AE644540: libcurl info message cache 1 (Closing connection 10)
+[2019.05.01-23.44.42:083][780]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.46.51:445][167]LogHttp: Warning: 00000250AE644540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.46.51:445][167]LogHttp: Warning: 00000250AE644540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.46.51:445][167]LogHttp: Warning: 00000250AE644540: libcurl info message cache 1 (Closing connection 11)
+[2019.05.01-23.46.51:784][168]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.48.57:163][543]LogHttp: Warning: 00000250AE644540: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.48.57:163][543]LogHttp: Warning: 00000250AE644540: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.48.57:164][543]LogHttp: Warning: 00000250AE644540: libcurl info message cache 1 (Closing connection 12)
+[2019.05.01-23.48.57:492][544]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.50.24:102][885]Candidate modules for hot reload:
+[2019.05.01-23.50.24:102][885]  RTS_BaseBuilder
+[2019.05.01-23.50.24:102][885]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,1120 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.01-23.50.24:107][885]Warning: Starting HotReload took  0.0s.
+[2019.05.01-23.50.46:556][228]CompilerResultsLog: New page: Compilation - 2 May 2019 01:50:46
+[2019.05.01-23.50.46:556][228]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.01-23.50.46:556][228]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.01-23.50.46:556][228]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-23.50.46:556][228]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.4759476 seconds
+[2019.05.01-23.50.46:556][228]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-23.50.46:556][228]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.01-23.50.46:556][228]CompilerResultsLog:   [1/4] GG_RTS_PlayerController.cpp
+[2019.05.01-23.50.46:556][228]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-1120.lib
+[2019.05.01-23.50.46:556][228]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1120.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1120.exp
+[2019.05.01-23.50.46:556][228]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-1120.dll
+[2019.05.01-23.50.46:556][228]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1120.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1120.suppressed.exp
+[2019.05.01-23.50.46:556][228]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.05.01-23.50.46:556][228]CompilerResultsLog: Total time in Parallel executor: 8.51 seconds
+[2019.05.01-23.50.46:556][228]CompilerResultsLog: Total execution time: 22.32 seconds
+[2019.05.01-23.50.46:556][228]LogMainFrame: MainFrame: Module compiling took 22.458 seconds
+[2019.05.01-23.50.46:577][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2019.05.01-23.50.46:607][228]LogClass: Could not find existing class GG_RTS_GameMode in package /Script/RTS_BaseBuilder for HotReload, assuming new class
+[2019.05.01-23.50.46:610][228]LogClass: Could not find existing class GG_RTS_PlayerController in package /Script/RTS_BaseBuilder for HotReload, assuming new class
+[2019.05.01-23.50.46:610][228]LogClass: Function ActionStart is new.
+[2019.05.01-23.50.46:610][228]LogClass: Function ActionStartManual is new.
+[2019.05.01-23.50.46:610][228]LogClass: Function BeginPlay is new.
+[2019.05.01-23.50.46:610][228]LogClass: Function SelectPressed is new.
+[2019.05.01-23.50.46:610][228]LogClass: Function SelectReleased is new.
+[2019.05.01-23.50.46:610][228]LogClass: Function SetupInputComponent is new.
+[2019.05.01-23.50.46:610][228]LogClass: Function Tick is new.
+[2019.05.01-23.50.46:620][228]LogClass: TaskStatus HotReload.
+[2019.05.01-23.50.46:620][228]LogClass: Action HotReload.
+[2019.05.01-23.50.46:620][228]LogClass: HUD_Element HotReload.
+[2019.05.01-23.50.46:620][228]LogClass: QueuedUnit HotReload.
+[2019.05.01-23.50.46:628][228]LogHotReload: Re-instancing GG_RTS_Camera after hot-reload.
+[2019.05.01-23.50.46:794][228]LogHotReload: Re-instancing GG_RTS_GameMode after hot-reload.
+[2019.05.01-23.50.46:882][228]LogHotReload: Re-instancing GG_RTS_PlayerController after hot-reload.
+[2019.05.01-23.50.46:970][228]LogHotReload: Re-instancing GG_RTS_ResourceBuilding after hot-reload.
+[2019.05.01-23.50.47:066][228]LogHotReload: Re-instancing GG_RTS_Stone after hot-reload.
+[2019.05.01-23.50.47:158][228]LogHotReload: Re-instancing GG_RTS_UnitBuilding after hot-reload.
+[2019.05.01-23.50.47:249][228]LogHotReload: Re-instancing GG_RTS_Wood after hot-reload.
+[2019.05.01-23.50.47:362][228]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.05.01-23.50.47:468][228]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0014 seconds. Added 16 classes and 2 folders.
+[2019.05.01-23.50.47:471][228]Display: HotReload successful (8 functions remapped  2 scriptstructs remapped)
+[2019.05.01-23.50.47:573][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.05.01-23.50.47:588][228]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2749 classes and 663 folders.
+[2019.05.01-23.50.47:588][228]Display: HotReload took 23.5s.
+[2019.05.01-23.50.57:962][435]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.51.05:453][218]LogHttp: Warning: 00000250CAAD42C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.51.05:453][218]LogHttp: Warning: 00000250CAAD42C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.51.05:453][218]LogHttp: Warning: 00000250CAAD42C0: libcurl info message cache 1 (Closing connection 13)
+[2019.05.01-23.51.05:453][218]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.51.11:716][867]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.01-23.51.12:644][963]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.51.12:693][969]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-23.51.12:711][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.51.12:711][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-23.51.12:711][969]PIE: New page: PIE session: DemoLevel (2 May 2019 01:51:12)
+[2019.05.01-23.51.12:712][969]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.01-23.51.12:763][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051207s)
+[2019.05.01-23.51.12:764][969]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.51.12:764][969]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2019.05.01-23.51.12:764][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.052637s)
+[2019.05.01-23.51.12:786][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.05.01-23.51.12:815][969]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.51.12:828][969]LogInit: FAudioDevice initialized.
+[2019.05.01-23.51.12:857][969]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.01-23.51.12:863][969]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-00.51.12
+[2019.05.01-23.51.12:865][969]LogWorld: Bringing up level for play took: 0.006819
+[2019.05.01-23.51.12:878][969]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel -0.755
+[2019.05.01-23.51.12:878][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.51.22:338][101]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.51.22:405][109]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.51.22:406][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.51.22:435][109]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-23.51.22:436][109]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.51.22:462][109]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.51.22:467][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.05.01-23.51.22:526][112]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.05.01-23.52.23:831][538]Candidate modules for hot reload:
+[2019.05.01-23.52.23:831][538]  RTS_BaseBuilder
+[2019.05.01-23.52.23:831][538]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,8089 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.01-23.52.23:835][538]Warning: Starting HotReload took  0.0s.
+[2019.05.01-23.52.49:154][269]CompilerResultsLog: New page: Compilation - 2 May 2019 01:52:49
+[2019.05.01-23.52.49:154][269]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.01-23.52.49:154][269]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.01-23.52.49:154][269]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-23.52.49:154][269]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.7419678 seconds
+[2019.05.01-23.52.49:154][269]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-23.52.49:154][269]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.01-23.52.49:154][269]CompilerResultsLog:   [1/4] GG_RTS_PlayerController.cpp
+[2019.05.01-23.52.49:154][269]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-8089.lib
+[2019.05.01-23.52.49:154][269]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-8089.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-8089.exp
+[2019.05.01-23.52.49:154][269]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-8089.dll
+[2019.05.01-23.52.49:154][269]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-8089.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-8089.suppressed.exp
+[2019.05.01-23.52.49:154][269]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.05.01-23.52.49:154][269]CompilerResultsLog: Total time in Parallel executor: 11.24 seconds
+[2019.05.01-23.52.49:154][269]CompilerResultsLog: Total execution time: 25.20 seconds
+[2019.05.01-23.52.49:154][269]LogMainFrame: MainFrame: Module compiling took 25.327 seconds
+[2019.05.01-23.52.49:175][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.05.01-23.52.49:216][269]LogClass: TaskStatus HotReload.
+[2019.05.01-23.52.49:216][269]LogClass: Action HotReload.
+[2019.05.01-23.52.49:216][269]LogClass: HUD_Element HotReload.
+[2019.05.01-23.52.49:216][269]LogClass: QueuedUnit HotReload.
+[2019.05.01-23.52.49:222][269]LogHotReload: Re-instancing GG_RTS_ResourceBuilding after hot-reload.
+[2019.05.01-23.52.49:311][269]LogHotReload: Re-instancing GG_RTS_Stone after hot-reload.
+[2019.05.01-23.52.49:402][269]LogHotReload: Re-instancing GG_RTS_Wood after hot-reload.
+[2019.05.01-23.52.49:511][269]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.05.01-23.52.49:613][269]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0014 seconds. Added 16 classes and 2 folders.
+[2019.05.01-23.52.49:615][269]Display: HotReload successful (15 functions remapped  2 scriptstructs remapped)
+[2019.05.01-23.52.49:680][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.05.01-23.52.49:696][269]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2749 classes and 663 folders.
+[2019.05.01-23.52.49:696][269]Display: HotReload took 25.9s.
+[2019.05.01-23.53.01:859][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.53.01:942][708]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-23.53.01:960][708]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.53.01:961][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-23.53.01:961][708]PIE: New page: PIE session: DemoLevel (2 May 2019 01:53:01)
+[2019.05.01-23.53.01:961][708]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.01-23.53.02:012][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051494s)
+[2019.05.01-23.53.02:013][708]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.53.02:013][708]LogPlayLevel: PIE: World Init took: (0.000962s)
+[2019.05.01-23.53.02:013][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.052639s)
+[2019.05.01-23.53.02:037][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.05.01-23.53.02:067][708]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.53.02:079][708]LogInit: FAudioDevice initialized.
+[2019.05.01-23.53.02:112][708]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.01-23.53.02:118][708]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-00.53.02
+[2019.05.01-23.53.02:120][708]LogWorld: Bringing up level for play took: 0.006878
+[2019.05.01-23.53.02:133][708]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 0.5
+[2019.05.01-23.53.02:133][708]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.53.17:475][545]LogHttp: Warning: 00000250AE645580: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.53.17:475][545]LogHttp: Warning: 00000250AE645580: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.53.17:475][545]LogHttp: Warning: 00000250AE645580: libcurl info message cache 1 (Closing connection 14)
+[2019.05.01-23.53.17:483][546]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.53.17:577][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.53.17:662][567]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.53.17:662][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.53.17:695][567]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-23.53.17:696][567]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.53.17:724][567]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.53.17:731][567]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.05.01-23.53.17:773][570]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.05.01-23.54.02:756][893]Candidate modules for hot reload:
+[2019.05.01-23.54.02:756][893]  RTS_BaseBuilder
+[2019.05.01-23.54.02:757][893]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,5026 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.01-23.54.02:761][893]Warning: Starting HotReload took  0.0s.
+[2019.05.01-23.54.26:450][114]CompilerResultsLog: New page: Compilation - 2 May 2019 01:54:26
+[2019.05.01-23.54.26:450][114]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.01-23.54.26:451][114]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.01-23.54.26:451][114]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-23.54.26:451][114]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.4606193 seconds
+[2019.05.01-23.54.26:451][114]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-23.54.26:451][114]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.01-23.54.26:451][114]CompilerResultsLog:   [1/4] GG_RTS_PlayerController.cpp
+[2019.05.01-23.54.26:451][114]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-5026.lib
+[2019.05.01-23.54.26:451][114]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-5026.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-5026.exp
+[2019.05.01-23.54.26:451][114]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-5026.dll
+[2019.05.01-23.54.26:451][114]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-5026.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-5026.suppressed.exp
+[2019.05.01-23.54.26:451][114]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.05.01-23.54.26:451][114]CompilerResultsLog: Total time in Parallel executor: 9.76 seconds
+[2019.05.01-23.54.26:451][114]CompilerResultsLog: Total execution time: 23.58 seconds
+[2019.05.01-23.54.26:451][114]LogMainFrame: MainFrame: Module compiling took 23.697 seconds
+[2019.05.01-23.54.26:473][114]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.05.01-23.54.26:506][114]LogClass: TaskStatus HotReload.
+[2019.05.01-23.54.26:506][114]LogClass: Action HotReload.
+[2019.05.01-23.54.26:506][114]LogClass: HUD_Element HotReload.
+[2019.05.01-23.54.26:506][114]LogClass: QueuedUnit HotReload.
+[2019.05.01-23.54.26:512][114]LogHotReload: Re-instancing GG_RTS_ResourceBuilding after hot-reload.
+[2019.05.01-23.54.26:602][114]LogHotReload: Re-instancing GG_RTS_Stone after hot-reload.
+[2019.05.01-23.54.26:695][114]LogHotReload: Re-instancing GG_RTS_Wood after hot-reload.
+[2019.05.01-23.54.26:804][114]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.05.01-23.54.26:906][114]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0014 seconds. Added 16 classes and 2 folders.
+[2019.05.01-23.54.26:908][114]Display: HotReload successful (15 functions remapped  2 scriptstructs remapped)
+[2019.05.01-23.54.26:972][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.05.01-23.54.26:988][114]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2749 classes and 663 folders.
+[2019.05.01-23.54.26:988][114]Display: HotReload took 24.2s.
+[2019.05.01-23.54.30:355][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.54.30:454][480]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-23.54.30:473][480]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.54.30:473][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-23.54.30:473][480]PIE: New page: PIE session: DemoLevel (2 May 2019 01:54:30)
+[2019.05.01-23.54.30:473][480]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.01-23.54.30:523][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049706s)
+[2019.05.01-23.54.30:524][480]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.54.30:524][480]LogPlayLevel: PIE: World Init took: (0.001036s)
+[2019.05.01-23.54.30:524][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.050949s)
+[2019.05.01-23.54.30:546][480]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.05.01-23.54.30:575][480]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.54.30:587][480]LogInit: FAudioDevice initialized.
+[2019.05.01-23.54.30:618][480]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.01-23.54.30:624][480]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-00.54.30
+[2019.05.01-23.54.30:625][480]LogWorld: Bringing up level for play took: 0.006957
+[2019.05.01-23.54.30:638][480]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 1.005
+[2019.05.01-23.54.30:638][480]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.54.37:448][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.54.37:516][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.54.37:516][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.54.37:548][302]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-23.54.37:548][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.54.37:574][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.54.37:578][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2019.05.01-23.54.37:620][305]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.05.01-23.54.49:767][667]Candidate modules for hot reload:
+[2019.05.01-23.54.49:768][667]  RTS_BaseBuilder
+[2019.05.01-23.54.49:768][667]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,1960 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.01-23.54.49:772][667]Warning: Starting HotReload took  0.0s.
+[2019.05.01-23.55.12:908][219]CompilerResultsLog: New page: Compilation - 2 May 2019 01:55:12
+[2019.05.01-23.55.12:908][219]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.01-23.55.12:908][219]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.01-23.55.12:908][219]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-23.55.12:909][219]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.6679216 seconds
+[2019.05.01-23.55.12:909][219]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-23.55.12:909][219]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.01-23.55.12:909][219]CompilerResultsLog:   [1/4] GG_RTS_PlayerController.cpp
+[2019.05.01-23.55.12:909][219]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-1960.lib
+[2019.05.01-23.55.12:909][219]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1960.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1960.exp
+[2019.05.01-23.55.12:909][219]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-1960.dll
+[2019.05.01-23.55.12:909][219]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1960.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-1960.suppressed.exp
+[2019.05.01-23.55.12:909][219]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.05.01-23.55.12:909][219]CompilerResultsLog: Total time in Parallel executor: 9.33 seconds
+[2019.05.01-23.55.12:909][219]CompilerResultsLog: Total execution time: 23.01 seconds
+[2019.05.01-23.55.12:909][219]LogMainFrame: MainFrame: Module compiling took 23.144 seconds
+[2019.05.01-23.55.12:933][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.05.01-23.55.12:966][219]LogClass: TaskStatus HotReload.
+[2019.05.01-23.55.12:966][219]LogClass: Action HotReload.
+[2019.05.01-23.55.12:966][219]LogClass: HUD_Element HotReload.
+[2019.05.01-23.55.12:966][219]LogClass: QueuedUnit HotReload.
+[2019.05.01-23.55.12:971][219]LogHotReload: Re-instancing GG_RTS_ResourceBuilding after hot-reload.
+[2019.05.01-23.55.13:060][219]LogHotReload: Re-instancing GG_RTS_Stone after hot-reload.
+[2019.05.01-23.55.13:153][219]LogHotReload: Re-instancing GG_RTS_Wood after hot-reload.
+[2019.05.01-23.55.13:266][219]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.05.01-23.55.13:371][219]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0013 seconds. Added 16 classes and 2 folders.
+[2019.05.01-23.55.13:374][219]Display: HotReload successful (15 functions remapped  2 scriptstructs remapped)
+[2019.05.01-23.55.13:439][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.05.01-23.55.13:454][219]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2749 classes and 663 folders.
+[2019.05.01-23.55.13:454][219]Display: HotReload took 23.7s.
+[2019.05.01-23.55.16:432][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.55.16:529][549]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-23.55.16:547][549]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.55.16:548][549]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-23.55.16:548][549]PIE: New page: PIE session: DemoLevel (2 May 2019 01:55:16)
+[2019.05.01-23.55.16:548][549]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.01-23.55.16:596][549]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048494s)
+[2019.05.01-23.55.16:597][549]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.55.16:597][549]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2019.05.01-23.55.16:598][549]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.049821s)
+[2019.05.01-23.55.16:619][549]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.05.01-23.55.16:647][549]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.55.16:659][549]LogInit: FAudioDevice initialized.
+[2019.05.01-23.55.16:688][549]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.01-23.55.16:694][549]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-00.55.16
+[2019.05.01-23.55.16:696][549]LogWorld: Bringing up level for play took: 0.007154
+[2019.05.01-23.55.16:709][549]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 1.077
+[2019.05.01-23.55.16:709][549]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.55.24:424][473]LogHttp: Warning: 0000025084774B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.55.24:424][473]LogHttp: Warning: 0000025084774B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.55.24:424][473]LogHttp: Warning: 0000025084774B80: libcurl info message cache 1 (Closing connection 15)
+[2019.05.01-23.55.24:432][474]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.55.53:005][898]LogTemp: Warning: RESOURCE
+[2019.05.01-23.55.59:768][709]LogTemp: Warning: RESOURCE
+[2019.05.01-23.56.52:393][ 18]LogTemp: Warning: BUILDING
+[2019.05.01-23.57.17:372][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.57.17:449][ 23]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.17:449][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.57.17:483][ 23]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-23.57.17:484][ 23]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.17:509][ 23]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.57.17:513][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.05.01-23.57.17:557][ 27]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.05.01-23.57.21:307][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.57.21:382][459]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-23.57.21:399][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.21:400][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-23.57.21:400][459]PIE: New page: PIE session: DemoLevel (2 May 2019 01:57:21)
+[2019.05.01-23.57.21:400][459]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.01-23.57.21:451][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051374s)
+[2019.05.01-23.57.21:452][459]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.57.21:452][459]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2019.05.01-23.57.21:452][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.052359s)
+[2019.05.01-23.57.21:474][459]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.05.01-23.57.21:503][459]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.57.21:514][459]LogInit: FAudioDevice initialized.
+[2019.05.01-23.57.21:541][459]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.01-23.57.21:547][459]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-00.57.21
+[2019.05.01-23.57.21:548][459]LogWorld: Bringing up level for play took: 0.006631
+[2019.05.01-23.57.21:561][459]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel -0.072
+[2019.05.01-23.57.21:561][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.24:982][866]LogTemp: Warning: BUILDING
+[2019.05.01-23.57.26:113][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.57.26:198][ 11]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.26:198][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.57.26:226][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-23.57.26:226][ 11]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.26:253][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.57.26:256][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.05.01-23.57.26:300][ 15]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.05.01-23.57.27:629][172]LogEditorViewport: Clicking on Actor (LMB): GG_RTS_ResourceBuilding (GG_RTS_ResourceBuilding2)
+[2019.05.01-23.57.28:640][280]Cmd: DELETE
+[2019.05.01-23.57.28:640][280]Cmd: ACTOR DELETE
+[2019.05.01-23.57.28:663][280]LogEditorActor: Deleted Actor: GG_RTS_ResourceBuilding
+[2019.05.01-23.57.28:685][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.05.01-23.57.28:686][280]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.05.01-23.57.29:477][371]LogHttp: Warning: 000002508149A5C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.01-23.57.29:477][371]LogHttp: Warning: 000002508149A5C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.01-23.57.29:477][371]LogHttp: Warning: 000002508149A5C0: libcurl info message cache 1 (Closing connection 16)
+[2019.05.01-23.57.29:485][372]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.01-23.57.36:382][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.57.36:469][136]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-23.57.36:486][136]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.36:486][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-23.57.36:486][136]PIE: New page: PIE session: DemoLevel (2 May 2019 01:57:36)
+[2019.05.01-23.57.36:487][136]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.01-23.57.36:538][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051030s)
+[2019.05.01-23.57.36:538][136]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.01-23.57.36:539][136]LogPlayLevel: PIE: World Init took: (0.000977s)
+[2019.05.01-23.57.36:539][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.052219s)
+[2019.05.01-23.57.36:561][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.05.01-23.57.36:588][136]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.01-23.57.36:600][136]LogInit: FAudioDevice initialized.
+[2019.05.01-23.57.36:629][136]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.01-23.57.36:636][136]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-00.57.36
+[2019.05.01-23.57.36:637][136]LogWorld: Bringing up level for play took: 0.007418
+[2019.05.01-23.57.36:650][136]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 1.017
+[2019.05.01-23.57.36:650][136]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.47:799][469]LogTemp: Warning: BUILDING
+[2019.05.01-23.57.48:887][599]LogTemp: Warning: BUILDING
+[2019.05.01-23.57.51:142][869]LogTemp: Warning: BUILDING
+[2019.05.01-23.57.51:599][923]LogTemp: Warning: BUILDING
+[2019.05.01-23.57.56:367][494]LogTemp: Warning: BUILDING
+[2019.05.01-23.57.56:510][511]LogTemp: Warning: BUILDING
+[2019.05.01-23.57.58:346][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-23.57.58:406][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.58:406][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.57.58:439][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-23.57.58:440][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.01-23.57.58:467][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-23.57.58:470][735]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.05.01-23.57.58:526][738]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: request failed, libcurl error: 7 (Couldn't connect to server)
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: libcurl info message cache 0 (  Trying fe80::26a7:dcff:fe97:9099...)
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: libcurl info message cache 2 (  Trying 10.10.10.10...)
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: libcurl info message cache 3 (TCP_NODELAY set)
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: libcurl info message cache 4 (connect to fe80::26a7:dcff:fe97:9099 port 443 failed: Connection refused)
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: libcurl info message cache 5 (connect to 10.10.10.10 port 443 failed: Timed out)
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: libcurl info message cache 6 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2019.05.01-23.59.51:260][723]LogHttp: Warning: 00000250814C2200: libcurl info message cache 7 (Closing connection 17)
+[2019.05.01-23.59.51:664][724]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.02-00.02.03:921][114]LogHttp: Warning: 00000250814C2200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.05.02-00.02.03:921][114]LogHttp: Warning: 00000250814C2200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.05.02-00.02.03:921][114]LogHttp: Warning: 00000250814C2200: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.05.02-00.02.03:921][114]LogHttp: Warning: 00000250814C2200: libcurl info message cache 2 (Closing connection 18)
+[2019.05.02-00.02.03:921][114]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: request failed, libcurl error: 7 (Couldn't connect to server)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: libcurl info message cache 0 (  Trying fe80::26a7:dcff:fe97:9099...)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: libcurl info message cache 1 (TCP_NODELAY set)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: libcurl info message cache 2 (  Trying 10.10.10.10...)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: libcurl info message cache 3 (TCP_NODELAY set)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: libcurl info message cache 4 (connect to fe80::26a7:dcff:fe97:9099 port 443 failed: Connection refused)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: libcurl info message cache 5 (connect to 10.10.10.10 port 443 failed: Timed out)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: libcurl info message cache 6 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: 0000025084774680: libcurl info message cache 7 (Closing connection 19)
+[2019.05.02-00.04.25:389][536]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.02-00.05.17:353][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.05.02-00.05.17:865][690]LogSavePackage: Moving '../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/DemoLevel_Auto16358C93B4FFD4BF653CD3489B410A6A5.tmp' to '../../../../../../Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/Saved/Autosaves/Game/DemoLevel_Auto1.umap'
+[2019.05.02-00.05.17:875][690]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DemoLevel' took 0.546
+[2019.05.02-00.05.17:875][690]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.546
+[2019.05.02-00.05.47:015][881]Candidate modules for hot reload:
+[2019.05.02-00.05.47:015][881]  RTS_BaseBuilder
+[2019.05.02-00.05.47:015][881]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,3856 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.02-00.05.47:019][881]Warning: Starting HotReload took  0.0s.
+[2019.05.02-00.06.28:728][634]CompilerResultsLog: New page: Compilation - 2 May 2019 02:06:28
+[2019.05.02-00.06.28:728][634]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.02-00.06.28:728][634]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.02-00.06.28:728][634]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 8.9605414 seconds
+[2019.05.02-00.06.28:728][634]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.02-00.06.28:728][634]CompilerResultsLog: Building 21 actions with 4 processes...
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [1/21] GG_RTS_UnitBuilding.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [2/21] GG_RTS_Worker.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [3/21] GG_RTS_Camera.gen.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [4/21] GG_RTS_PlayerController.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [5/21] GG_RTS_ResourceBuilding.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [6/21] GG_RTS_Construction.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [7/21] GG_RTS_MovementTask.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [8/21] GG_RTS_HUD.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [9/21] GG_RTS_GameMode.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [10/21] GG_RTS_ConstructionTask.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [11/21] GG_RTS_UnitBuilding.gen.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [12/21] GG_RTS_ResourceBuilding.gen.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [13/21] GG_RTS_Camera.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [14/21] GG_RTS_Worker.gen.cpp
+[2019.05.02-00.06.28:728][634]CompilerResultsLog:   [15/21] GG_RTS_Construction.gen.cpp
+[2019.05.02-00.06.28:729][634]CompilerResultsLog:   [16/21] GG_RTS_PlayerController.gen.cpp
+[2019.05.02-00.06.28:729][634]CompilerResultsLog:   [17/21] GG_RTS_HUD.gen.cpp
+[2019.05.02-00.06.28:729][634]CompilerResultsLog:   [18/21] GG_RTS_CollectionTask.cpp
+[2019.05.02-00.06.28:729][634]CompilerResultsLog:   [19/21] UE4Editor-RTS_BaseBuilder-3856.lib
+[2019.05.02-00.06.28:729][634]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-3856.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-3856.exp
+[2019.05.02-00.06.28:729][634]CompilerResultsLog:   [20/21] UE4Editor-RTS_BaseBuilder-3856.dll
+[2019.05.02-00.06.28:729][634]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-3856.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-3856.suppressed.exp
+[2019.05.02-00.06.28:729][634]CompilerResultsLog:   [21/21] RTS_BaseBuilderEditor.target
+[2019.05.02-00.06.28:729][634]CompilerResultsLog: Total time in Parallel executor: 29.12 seconds
+[2019.05.02-00.06.28:729][634]CompilerResultsLog: Total execution time: 41.58 seconds
+[2019.05.02-00.06.28:729][634]LogMainFrame: MainFrame: Module compiling took 41.717 seconds
+[2019.05.02-00.06.28:751][634]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2019.05.02-00.06.28:787][634]LogClass: TaskStatus HotReload.
+[2019.05.02-00.06.28:787][634]LogClass: Action HotReload.
+[2019.05.02-00.06.28:788][634]LogClass: HUD_Element HotReload.
+[2019.05.02-00.06.28:788][634]LogClass: QueuedUnit HotReload.
+[2019.05.02-00.06.28:793][634]LogHotReload: Re-instancing GG_RTS_ResourceBuilding after hot-reload.
+[2019.05.02-00.06.28:881][634]LogHotReload: Re-instancing GG_RTS_Stone after hot-reload.
+[2019.05.02-00.06.28:973][634]LogHotReload: Re-instancing GG_RTS_UnitBuilding after hot-reload.
+[2019.05.02-00.06.29:061][634]LogHotReload: Re-instancing GG_RTS_Wood after hot-reload.
+[2019.05.02-00.06.29:169][634]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.05.02-00.06.29:270][634]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0014 seconds. Added 16 classes and 2 folders.
+[2019.05.02-00.06.29:273][634]Display: HotReload successful (15 functions remapped  2 scriptstructs remapped)
+[2019.05.02-00.06.29:338][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.05.02-00.06.29:353][634]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2749 classes and 663 folders.
+[2019.05.02-00.06.29:353][634]Display: HotReload took 42.3s.
+[2019.05.02-00.06.29:355][634]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2019.05.02-00.06.29:445][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.02-00.06.30:369][736]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.02-00.06.33:398][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.06.33:473][ 62]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-00.06.33:492][ 62]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.06.33:492][ 62]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-00.06.33:492][ 62]PIE: New page: PIE session: DemoLevel (2 May 2019 02:06:33)
+[2019.05.02-00.06.33:492][ 62]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.02-00.06.33:544][ 62]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051566s)
+[2019.05.02-00.06.33:545][ 62]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.02-00.06.33:545][ 62]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2019.05.02-00.06.33:545][ 62]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.052734s)
+[2019.05.02-00.06.33:567][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.05.02-00.06.33:595][ 62]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-00.06.33:607][ 62]LogInit: FAudioDevice initialized.
+[2019.05.02-00.06.33:640][ 62]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.02-00.06.33:646][ 62]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-01.06.33
+[2019.05.02-00.06.33:648][ 62]LogWorld: Bringing up level for play took: 0.007206
+[2019.05.02-00.06.33:661][ 62]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 0.029
+[2019.05.02-00.06.33:661][ 62]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.06.40:329][860]LogTemp: Warning: BUILDING
+[2019.05.02-00.06.40:729][908]LogTemp: Warning: BUILDING
+[2019.05.02-00.06.40:946][934]LogTemp: Warning: BUILDING
+[2019.05.02-00.06.42:189][ 83]LogTemp: Warning: BUILDING
+[2019.05.02-00.06.42:414][110]LogTemp: Warning: BUILDING
+[2019.05.02-00.06.42:581][130]LogTemp: Warning: BUILDING
+[2019.05.02-00.06.42:814][158]LogTemp: Warning: BUILDING
+[2019.05.02-00.06.43:041][185]LogTemp: Warning: BUILDING
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: request failed, libcurl error: 7 (Couldn't connect to server)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 1 (  Trying fe80::26a7:dcff:fe97:9099...)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 3 (  Trying 10.10.10.10...)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 5 (connect to fe80::26a7:dcff:fe97:9099 port 443 failed: Connection refused)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 6 (connect to 10.10.10.10 port 443 failed: Timed out)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2019.05.02-00.06.46:740][629]LogHttp: Warning: 0000025084564CC0: libcurl info message cache 8 (Closing connection 20)
+[2019.05.02-00.06.46:748][630]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.02-00.06.50:428][ 71]LogTemp: Warning: RESOURCE
+[2019.05.02-00.07.03:572][648]LogTemp: Warning: RESOURCE
+[2019.05.02-00.07.07:766][151]LogTemp: Warning: RESOURCE
+[2019.05.02-00.08.08:850][477]LogTemp: Warning: RESOURCE
+[2019.05.02-00.08.09:786][589]LogTemp: Warning: RESOURCE
+[2019.05.02-00.08.11:103][747]LogTemp: Warning: RESOURCE
+[2019.05.02-00.08.15:312][252]LogTemp: Warning: RESOURCE
+[2019.05.02-00.08.18:321][613]LogTemp: Warning: RESOURCE
+[2019.05.02-00.08.25:822][513]LogTemp: Warning: RESOURCE
+[2019.05.02-00.08.37:107][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.08.37:166][871]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.08.37:167][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.08.37:197][871]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-00.08.37:197][871]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.08.37:224][871]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.08.37:227][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2019.05.02-00.08.37:274][875]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: request failed, libcurl error: 7 (Couldn't connect to server)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 1 (  Trying fe80::26a7:dcff:fe97:9099...)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 3 (  Trying 10.10.10.10...)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 5 (connect to fe80::26a7:dcff:fe97:9099 port 443 failed: Connection refused)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 6 (connect to 10.10.10.10 port 443 failed: Timed out)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: 00000250812BD1C0: libcurl info message cache 8 (Closing connection 21)
+[2019.05.02-00.09.08:279][ 50]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.02-00.10.23:646][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.10.23:749][734]Candidate modules for hot reload:
+[2019.05.02-00.10.23:749][734]  RTS_BaseBuilder
+[2019.05.02-00.10.23:749][734]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,347 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.02-00.10.23:753][734]Warning: Starting HotReload took  0.0s.
+[2019.05.02-00.10.42:457][851]CompilerResultsLog: New page: Compilation - 2 May 2019 02:10:42
+[2019.05.02-00.10.42:458][851]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.02-00.10.42:458][851]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.02-00.10.42:458][851]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.02-00.10.42:458][851]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.209069 seconds
+[2019.05.02-00.10.42:458][851]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.02-00.10.42:458][851]CompilerResultsLog: Building 5 actions with 4 processes...
+[2019.05.02-00.10.42:458][851]CompilerResultsLog:   [1/5] GG_RTS_ResourceManager.cpp
+[2019.05.02-00.10.42:458][851]CompilerResultsLog:   [2/5] GG_RTS_HUD.cpp
+[2019.05.02-00.10.42:458][851]CompilerResultsLog:   [3/5] UE4Editor-RTS_BaseBuilder-0347.lib
+[2019.05.02-00.10.42:458][851]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0347.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0347.exp
+[2019.05.02-00.10.42:458][851]CompilerResultsLog:   [4/5] UE4Editor-RTS_BaseBuilder-0347.dll
+[2019.05.02-00.10.42:458][851]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0347.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0347.suppressed.exp
+[2019.05.02-00.10.42:458][851]CompilerResultsLog:   [5/5] RTS_BaseBuilderEditor.target
+[2019.05.02-00.10.42:458][851]CompilerResultsLog: Total time in Parallel executor: 5.89 seconds
+[2019.05.02-00.10.42:458][851]CompilerResultsLog: Total execution time: 18.59 seconds
+[2019.05.02-00.10.42:458][851]LogMainFrame: MainFrame: Module compiling took 18.713 seconds
+[2019.05.02-00.10.42:481][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2019.05.02-00.10.42:497][851]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2749 classes and 663 folders.
+[2019.05.02-00.10.42:497][851]Display: HotReload took 18.8s.
+[2019.05.02-00.10.43:353][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.10.43:420][961]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-00.10.43:437][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.10.43:437][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-00.10.43:437][961]PIE: New page: PIE session: DemoLevel (2 May 2019 02:10:43)
+[2019.05.02-00.10.43:437][961]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.02-00.10.43:487][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049990s)
+[2019.05.02-00.10.43:488][961]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.02-00.10.43:488][961]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2019.05.02-00.10.43:488][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.050869s)
+[2019.05.02-00.10.43:511][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.05.02-00.10.43:539][961]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-00.10.43:551][961]LogInit: FAudioDevice initialized.
+[2019.05.02-00.10.43:582][961]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.02-00.10.43:588][961]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-01.10.43
+[2019.05.02-00.10.43:589][961]LogWorld: Bringing up level for play took: 0.006526
+[2019.05.02-00.10.43:602][961]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel -0.03
+[2019.05.02-00.10.43:602][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.10.50:002][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.10.50:053][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.10.50:053][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.10.50:084][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-00.10.50:085][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.10.50:112][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.10.50:116][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2019.05.02-00.10.50:166][736]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.05.02-00.11.13:118][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.11.13:186][922]Candidate modules for hot reload:
+[2019.05.02-00.11.13:186][922]  RTS_BaseBuilder
+[2019.05.02-00.11.13:187][922]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,2677 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.02-00.11.13:191][922]Warning: Starting HotReload took  0.0s.
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: request failed, libcurl error: 7 (Couldn't connect to server)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 1 (  Trying fe80::26a7:dcff:fe97:9099...)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 3 (  Trying 10.10.10.10...)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 5 (connect to fe80::26a7:dcff:fe97:9099 port 443 failed: Connection refused)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 6 (connect to 10.10.10.10 port 443 failed: Timed out)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2019.05.02-00.11.29:931][757]LogHttp: Warning: 00000250812BD300: libcurl info message cache 8 (Closing connection 22)
+[2019.05.02-00.11.29:938][758]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.02-00.11.31:634][961]CompilerResultsLog: New page: Compilation - 2 May 2019 02:11:31
+[2019.05.02-00.11.31:634][961]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.02-00.11.31:634][961]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.02-00.11.31:634][961]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.02-00.11.31:634][961]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.0381795 seconds
+[2019.05.02-00.11.31:634][961]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.02-00.11.31:634][961]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.02-00.11.31:634][961]CompilerResultsLog:   [1/4] GG_RTS_HUD.cpp
+[2019.05.02-00.11.31:635][961]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-2677.lib
+[2019.05.02-00.11.31:635][961]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-2677.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-2677.exp
+[2019.05.02-00.11.31:635][961]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-2677.dll
+[2019.05.02-00.11.31:635][961]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-2677.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-2677.suppressed.exp
+[2019.05.02-00.11.31:635][961]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.05.02-00.11.31:635][961]CompilerResultsLog: Total time in Parallel executor: 5.53 seconds
+[2019.05.02-00.11.31:635][961]CompilerResultsLog: Total execution time: 18.33 seconds
+[2019.05.02-00.11.31:635][961]LogMainFrame: MainFrame: Module compiling took 18.451 seconds
+[2019.05.02-00.11.31:657][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.05.02-00.11.31:698][961]LogClass: TaskStatus HotReload.
+[2019.05.02-00.11.31:698][961]LogClass: Action HotReload.
+[2019.05.02-00.11.31:698][961]LogClass: HUD_Element HotReload.
+[2019.05.02-00.11.31:698][961]LogClass: QueuedUnit HotReload.
+[2019.05.02-00.11.31:704][961]LogHotReload: Re-instancing GG_RTS_ResourceBuilding after hot-reload.
+[2019.05.02-00.11.31:791][961]LogHotReload: Re-instancing GG_RTS_Stone after hot-reload.
+[2019.05.02-00.11.31:881][961]LogHotReload: Re-instancing GG_RTS_UnitBuilding after hot-reload.
+[2019.05.02-00.11.31:966][961]LogHotReload: Re-instancing GG_RTS_Wood after hot-reload.
+[2019.05.02-00.11.32:073][961]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.05.02-00.11.32:174][961]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0013 seconds. Added 16 classes and 2 folders.
+[2019.05.02-00.11.32:176][961]Display: HotReload successful (15 functions remapped  2 scriptstructs remapped)
+[2019.05.02-00.11.32:241][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.05.02-00.11.32:257][961]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2749 classes and 663 folders.
+[2019.05.02-00.11.32:258][961]Display: HotReload took 19.1s.
+[2019.05.02-00.11.36:294][430]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-00.11.36:312][430]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.11.36:312][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-00.11.36:312][430]PIE: New page: PIE session: DemoLevel (2 May 2019 02:11:36)
+[2019.05.02-00.11.36:312][430]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.02-00.11.36:362][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049821s)
+[2019.05.02-00.11.36:362][430]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.02-00.11.36:363][430]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2019.05.02-00.11.36:363][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.050701s)
+[2019.05.02-00.11.36:389][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.05.02-00.11.36:417][430]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-00.11.36:429][430]LogInit: FAudioDevice initialized.
+[2019.05.02-00.11.36:455][430]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.02-00.11.36:461][430]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-01.11.36
+[2019.05.02-00.11.36:462][430]LogWorld: Bringing up level for play took: 0.006466
+[2019.05.02-00.11.36:475][430]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 0.842
+[2019.05.02-00.11.36:475][430]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 1 (  Trying fe80::26a7:dcff:fe97:9099...)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 3 (  Trying 10.10.10.10...)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 5 (connect to fe80::26a7:dcff:fe97:9099 port 443 failed: Connection refused)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 6 (connect to 10.10.10.10 port 443 failed: Timed out)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: 00000250812BFD80: libcurl info message cache 8 (Closing connection 23)
+[2019.05.02-00.13.51:552][822]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.02-00.14.03:138][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.14.03:197][120]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.14.03:197][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.14.03:226][120]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-00.14.03:227][120]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.14.03:252][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.14.03:256][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.05.02-00.14.03:302][125]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.05.02-00.14.05:944][425]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.05.02-00.14.08:407][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.14.08:467][687]Candidate modules for hot reload:
+[2019.05.02-00.14.08:467][687]  RTS_BaseBuilder
+[2019.05.02-00.14.08:467][687]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,585 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.02-00.14.08:472][687]Warning: Starting HotReload took  0.0s.
+[2019.05.02-00.14.28:782][906]CompilerResultsLog: New page: Compilation - 2 May 2019 02:14:28
+[2019.05.02-00.14.28:782][906]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.02-00.14.28:782][906]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.02-00.14.28:782][906]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.02-00.14.28:782][906]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 9.7507409 seconds
+[2019.05.02-00.14.28:782][906]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.02-00.14.28:782][906]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.02-00.14.28:782][906]CompilerResultsLog:   [1/4] GG_RTS_HUD.cpp
+[2019.05.02-00.14.28:782][906]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-0585.lib
+[2019.05.02-00.14.28:782][906]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0585.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0585.exp
+[2019.05.02-00.14.28:782][906]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-0585.dll
+[2019.05.02-00.14.28:782][906]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0585.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-0585.suppressed.exp
+[2019.05.02-00.14.28:782][906]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.05.02-00.14.28:782][906]CompilerResultsLog: Total time in Parallel executor: 6.76 seconds
+[2019.05.02-00.14.28:782][906]CompilerResultsLog: Total execution time: 20.18 seconds
+[2019.05.02-00.14.28:783][906]LogMainFrame: MainFrame: Module compiling took 20.318 seconds
+[2019.05.02-00.14.28:805][906]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.05.02-00.14.28:821][906]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2749 classes and 663 folders.
+[2019.05.02-00.14.28:821][906]Display: HotReload took 20.4s.
+[2019.05.02-00.14.30:689][121]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-00.14.30:706][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.14.30:707][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-00.14.30:707][121]PIE: New page: PIE session: DemoLevel (2 May 2019 02:14:30)
+[2019.05.02-00.14.30:707][121]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.02-00.14.30:757][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049786s)
+[2019.05.02-00.14.30:757][121]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.02-00.14.30:758][121]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2019.05.02-00.14.30:758][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.050809s)
+[2019.05.02-00.14.30:779][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.05.02-00.14.30:807][121]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-00.14.30:819][121]LogInit: FAudioDevice initialized.
+[2019.05.02-00.14.30:849][121]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.02-00.14.30:855][121]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-01.14.30
+[2019.05.02-00.14.30:856][121]LogWorld: Bringing up level for play took: 0.006545
+[2019.05.02-00.14.30:869][121]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel -0.764
+[2019.05.02-00.14.30:869][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.14.58:247][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.14.58:282][834]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.14.58:282][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.14.58:314][834]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-00.14.58:314][834]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.14.58:340][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.14.58:343][834]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2019.05.02-00.14.58:381][838]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.05.02-00.15.01:651][214]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-00.15.01:667][214]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.15.01:667][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-00.15.01:667][214]PIE: New page: PIE session: DemoLevel (2 May 2019 02:15:01)
+[2019.05.02-00.15.01:667][214]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.02-00.15.01:717][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050070s)
+[2019.05.02-00.15.01:718][214]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.02-00.15.01:718][214]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2019.05.02-00.15.01:718][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.051026s)
+[2019.05.02-00.15.01:740][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2019.05.02-00.15.01:769][214]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-00.15.01:781][214]LogInit: FAudioDevice initialized.
+[2019.05.02-00.15.01:810][214]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.02-00.15.01:816][214]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-01.15.01
+[2019.05.02-00.15.01:817][214]LogWorld: Bringing up level for play took: 0.006277
+[2019.05.02-00.15.01:830][214]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel 0.197
+[2019.05.02-00.15.01:830][214]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.15.09:789][165]LogTemp: Warning: BUILDING
+[2019.05.02-00.15.11:649][388]LogTemp: Warning: BUILDING
+[2019.05.02-00.15.15:916][900]LogCharacterMovement: GG_RTS_Worker_21 is stuck and failed to move! Velocity: X=-5.69 Y=16.09 Z=0.00 Location: X=15.63 Y=-1403.58 Z=-1.85 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:4.661 Actor:GG_RTS_UnitBuilding_0 Component:StaticMesh BoneName:None (0 other events since notify)
+[2019.05.02-00.15.27:796][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.15.27:880][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.15.27:880][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.15.27:910][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.02-00.15.27:911][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.15.27:937][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.02-00.15.27:941][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2019.05.02-00.15.27:981][339]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.05.02-00.15.59:728][828]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.15.59:830][839]Candidate modules for hot reload:
+[2019.05.02-00.15.59:830][839]  RTS_BaseBuilder
+[2019.05.02-00.15.59:830][839]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=RTS_BaseBuilder,2668 Win64 Development -TargetType=Editor -Project="C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject" "C:/Uni_Stuff/Year3/S2/GameplayMechanics/_Coursework/CMP302_GM/RTS_BaseBuilder/RTS_BaseBuilder.uproject"  -IgnoreJunk]
+[2019.05.02-00.15.59:834][839]Warning: Starting HotReload took  0.0s.
+[2019.05.02-00.16.13:180][385]LogHttp: Warning: 00000250814C0540: request failed, libcurl error: 7 (Couldn't connect to server)
+[2019.05.02-00.16.13:180][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2019.05.02-00.16.13:180][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 1 (  Trying fe80::26a7:dcff:fe97:9099...)
+[2019.05.02-00.16.13:181][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 2 (TCP_NODELAY set)
+[2019.05.02-00.16.13:181][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 3 (  Trying 10.10.10.10...)
+[2019.05.02-00.16.13:181][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 4 (TCP_NODELAY set)
+[2019.05.02-00.16.13:181][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 5 (connect to fe80::26a7:dcff:fe97:9099 port 443 failed: Connection refused)
+[2019.05.02-00.16.13:181][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 6 (connect to 10.10.10.10 port 443 failed: Timed out)
+[2019.05.02-00.16.13:181][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 7 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2019.05.02-00.16.13:181][385]LogHttp: Warning: 00000250814C0540: libcurl info message cache 8 (Closing connection 24)
+[2019.05.02-00.16.13:515][386]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B16FF3799-4BE0-62B4-ABAB-4D8F8E993F35%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.0-5660361%2B%2B%2BUE4%2BRelease-4.22&UserID=e694a1c54d3866293e18a9929618bc80%7C9246de1311d945dbb853968dcdaa98ea%7C71e33caa-2bd3-4ae8-aea8-f375e8e28373&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.05.02-00.16.15:856][393]CompilerResultsLog: New page: Compilation - 2 May 2019 02:16:15
+[2019.05.02-00.16.15:856][393]CompilerResultsLog: Creating makefile for RTS_BaseBuilderEditor (ini files are newer than makefile)
+[2019.05.02-00.16.15:856][393]CompilerResultsLog: Parsing headers for RTS_BaseBuilderEditor
+[2019.05.02-00.16.15:856][393]CompilerResultsLog:   Running UnrealHeaderTool "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\RTS_BaseBuilder.uproject" "C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\RTS_BaseBuilderEditor\Development\RTS_BaseBuilderEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.02-00.16.15:856][393]CompilerResultsLog: Reflection code generated for RTS_BaseBuilderEditor in 8.5345819 seconds
+[2019.05.02-00.16.15:856][393]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.02-00.16.15:856][393]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.02-00.16.15:856][393]CompilerResultsLog:   [1/4] GG_RTS_PlayerController.cpp
+[2019.05.02-00.16.15:856][393]CompilerResultsLog:   [2/4] UE4Editor-RTS_BaseBuilder-2668.lib
+[2019.05.02-00.16.15:856][393]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-2668.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-2668.exp
+[2019.05.02-00.16.15:856][393]CompilerResultsLog:   [3/4] UE4Editor-RTS_BaseBuilder-2668.dll
+[2019.05.02-00.16.15:856][393]CompilerResultsLog:      Creating library C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-2668.suppressed.lib and object C:\Uni_Stuff\Year3\S2\GameplayMechanics\_Coursework\CMP302_GM\RTS_BaseBuilder\Intermediate\Build\Win64\UE4Editor\Development\RTS_BaseBuilder\UE4Editor-RTS_BaseBuilder-2668.suppressed.exp
+[2019.05.02-00.16.15:856][393]CompilerResultsLog:   [4/4] RTS_BaseBuilderEditor.target
+[2019.05.02-00.16.15:856][393]CompilerResultsLog: Total time in Parallel executor: 3.77 seconds
+[2019.05.02-00.16.15:856][393]CompilerResultsLog: Total execution time: 15.83 seconds
+[2019.05.02-00.16.15:856][393]LogMainFrame: MainFrame: Module compiling took 16.029 seconds
+[2019.05.02-00.16.15:879][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2019.05.02-00.16.15:910][393]LogClass: TaskStatus HotReload.
+[2019.05.02-00.16.15:910][393]LogClass: Action HotReload.
+[2019.05.02-00.16.15:910][393]LogClass: HUD_Element HotReload.
+[2019.05.02-00.16.15:910][393]LogClass: QueuedUnit HotReload.
+[2019.05.02-00.16.15:916][393]LogHotReload: Re-instancing GG_RTS_Stone after hot-reload.
+[2019.05.02-00.16.16:010][393]LogHotReload: Re-instancing GG_RTS_UnitBuilding after hot-reload.
+[2019.05.02-00.16.16:099][393]LogHotReload: Re-instancing GG_RTS_Wood after hot-reload.
+[2019.05.02-00.16.16:220][393]LogHotReload: Re-instancing GG_RTS_Worker after hot-reload.
+[2019.05.02-00.16.16:325][393]LogContentBrowser: Native class hierarchy updated for 'RTS_BaseBuilder' in 0.0013 seconds. Added 16 classes and 2 folders.
+[2019.05.02-00.16.16:328][393]Display: HotReload successful (15 functions remapped  2 scriptstructs remapped)
+[2019.05.02-00.16.16:393][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.05.02-00.16.16:408][393]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2749 classes and 663 folders.
+[2019.05.02-00.16.16:408][393]Display: HotReload took 16.6s.
+[2019.05.02-00.16.42:804][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.02-00.16.42:879][952]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.02-00.16.42:897][952]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.16.42:897][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.02-00.16.42:898][952]PIE: New page: PIE session: DemoLevel (2 May 2019 02:16:42)
+[2019.05.02-00.16.42:898][952]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_DemoLevel
+[2019.05.02-00.16.42:948][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050079s)
+[2019.05.02-00.16.42:949][952]LogAIModule: Creating AISystem for world DemoLevel
+[2019.05.02-00.16.42:949][952]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2019.05.02-00.16.42:949][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DemoLevel.DemoLevel to /Game/UEDPIE_0_DemoLevel.DemoLevel (0.051220s)
+[2019.05.02-00.16.42:973][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.05.02-00.16.43:001][952]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.05.02-00.16.43:012][952]LogInit: FAudioDevice initialized.
+[2019.05.02-00.16.43:044][952]LogLoad: Game class is 'GG_RTS_GameMode'
+[2019.05.02-00.16.43:050][952]LogWorld: Bringing World /Game/UEDPIE_0_DemoLevel.DemoLevel up for play (max tick rate 0) at 2019.05.02-01.16.43
+[2019.05.02-00.16.43:051][952]LogWorld: Bringing up level for play took: 0.006442
+[2019.05.02-00.16.43:064][952]PIE: Play in editor start time for /Game/UEDPIE_0_DemoLevel -0.569
+[2019.05.02-00.16.43:064][952]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DemoLevel.DemoLevel:PersistentLevel' has LevelScriptBlueprint '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel' with GeneratedClass '/Game/DemoLevel.DemoLevel_C' with ClassGeneratedBy '/Game/DemoLevel.DemoLevel:PersistentLevel.DemoLevel'
+[2019.05.02-00.16.53:826][242]LogTemp: Warning: BUILDING
+[2019.05.02-00.16.55:626][458]LogTemp: Warning: RESOURCE
+[2019.05.02-00.16.58:018][745]LogTemp: Warning: RESOURCE
+[2019.05.02-00.17.01:269][135]LogTemp: Warning: RESOURCE
+[2019.05.02-00.17.22:084][630]LogTemp: Warning: RESOURCE
+[2019.05.02-00.17.41:866][  3]LogTemp: Warning: RESOURCE
+[2019.05.02-00.17.44:226][286]LogTemp: Warning: RESOURCE
+[2019.05.02-00.18.07:716][104]LogTemp: Warning: RESOURCE
+[2019.05.02-00.18.22:700][639]LogWindows: Error: === Critical error: ===
+[2019.05.02-00.18.22:700][639]LogWindows: Error: 
+[2019.05.02-00.18.22:700][639]LogWindows: Error: Fatal error!
+[2019.05.02-00.18.22:700][639]LogWindows: Error: 
+[2019.05.02-00.18.22:700][639]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000738
+[2019.05.02-00.18.22:701][639]LogWindows: Error: 
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa7df18187 UE4Editor-RTS_BaseBuilder-2668.dll!GG_RTS_CollectionTask::DepositResource() [c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\gg_rts_collectiontask.cpp:113]
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa7df22d2e UE4Editor-RTS_BaseBuilder-2668.dll!AGG_RTS_Worker::Tick() [c:\uni_stuff\year3\s2\gameplaymechanics\_coursework\cmp302_gm\rts_basebuilder\source\rts_basebuilder\gg_rts_worker.cpp:58]
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa5f25fca2 UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa5f22aced UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa601e29ac UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa6f7d22d8 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa6f7d2563 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa6f7e2309 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa6022b0d3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa60237362 UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa5fa59b5f UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa5fa63d38 UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa680d02c7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffa688ec3d6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ff6a7f46bb1 UE4Editor.exe!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ff6a7f5554c UE4Editor.exe!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ff6a7f555ca UE4Editor.exe!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ff6a7f6315c UE4Editor.exe!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ff6a7f65b7e UE4Editor.exe!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffab5344034 KERNEL32.DLL!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: [Callstack] 0x00007ffab59f3691 ntdll.dll!UnknownFunction []
+[2019.05.02-00.18.22:701][639]LogWindows: Error: 
+[2019.05.02-00.18.22:774][639]LogExit: Executing StaticShutdownAfterError
+[2019.05.02-00.18.22:802][639]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.05.02-00.18.22:805][639]Log file closed, 05/02/19 01:18:22

@@ -36,6 +36,9 @@ public:
 	virtual bool IsBuilt();
 	virtual void SetIsBuilt(bool bl);
 
+	virtual bool IsPaid();
+	virtual void SetIsPaid(bool bl);
+
 	virtual OwningType GetType();
 
 protected:

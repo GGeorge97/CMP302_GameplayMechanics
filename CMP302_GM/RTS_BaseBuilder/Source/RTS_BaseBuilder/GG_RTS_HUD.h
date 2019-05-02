@@ -83,6 +83,8 @@ protected:
 	virtual void DrawHUD() override;
 
 	UFUNCTION()
+	void DrawMenuBoxes();
+	UFUNCTION()
 	void DrawResourceStatus();
 	UFUNCTION()
 	void DrawSelectionBox();

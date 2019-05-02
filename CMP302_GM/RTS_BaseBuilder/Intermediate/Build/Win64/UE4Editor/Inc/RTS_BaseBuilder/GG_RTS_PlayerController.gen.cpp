@@ -29,6 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_PlayerController() {}
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Construction_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Worker_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Resource_NoRegister();
+	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_GameMode_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_HUD_NoRegister();
 // End Cross Module References
 	void AGG_RTS_PlayerController::StaticRegisterNativesAGG_RTS_PlayerController()
@@ -258,6 +259,10 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_PlayerController() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_newBuilding;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_gameMode_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_gameMode;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HUDPtr_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HUDPtr;
@@ -325,6 +330,12 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_PlayerController() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_newBuilding = { "newBuilding", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_PlayerController, newBuilding), Z_Construct_UClass_AGG_RTS_Construction_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_newBuilding_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_newBuilding_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_gameMode_MetaData[] = {
+		{ "ModuleRelativePath", "GG_RTS_PlayerController.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_gameMode = { "gameMode", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_PlayerController, gameMode), Z_Construct_UClass_AGG_RTS_GameMode_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_gameMode_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_gameMode_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_HUDPtr_MetaData[] = {
 		{ "ModuleRelativePath", "GG_RTS_PlayerController.h" },
 	};
@@ -340,6 +351,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_PlayerController() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_selectedUnits_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_clickedResource,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_newBuilding,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_gameMode,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_PlayerController_Statics::NewProp_HUDPtr,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGG_RTS_PlayerController_Statics::StaticCppClassTypeInfo = {
@@ -369,7 +381,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_PlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_PlayerController, 3046515474);
+	IMPLEMENT_CLASS(AGG_RTS_PlayerController, 2201733725);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_PlayerController>()
 	{
 		return AGG_RTS_PlayerController::StaticClass();

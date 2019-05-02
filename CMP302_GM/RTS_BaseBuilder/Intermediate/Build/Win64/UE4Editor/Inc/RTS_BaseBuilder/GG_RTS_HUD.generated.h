@@ -73,6 +73,14 @@ template<> RTS_BASEBUILDER_API UScriptStruct* StaticStruct<struct FHUD_Element>(
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execDrawMenuBoxes) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawMenuBoxes(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDrawHUD) \
 	{ \
 		P_FINISH; \
@@ -139,6 +147,14 @@ template<> RTS_BASEBUILDER_API UScriptStruct* StaticStruct<struct FHUD_Element>(
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->DrawResourceStatus(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDrawMenuBoxes) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawMenuBoxes(); \
 		P_NATIVE_END; \
 	} \
  \

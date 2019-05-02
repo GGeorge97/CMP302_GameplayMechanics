@@ -21,7 +21,20 @@ public:
 	inline void SetStone(int32 setVal) { stone = setVal; };
 	inline void AddStone(int32 addVal) { stone += addVal; };
 
+	inline FVector2D GetUnitBuildingCost() { return unitBuildingCost; };
+	inline void SetUnitBuildingCost(FVector2D setVal) { unitBuildingCost = setVal; };
+
+	inline FVector2D GetResBuildingCost() { return resBuildingCost; };
+	inline void SetResBuildingCost(FVector2D setVal) { resBuildingCost = setVal; };
+
+	inline FVector2D GetWorkerTrainingCost() { return workerTrainingCost; };
+	inline void SetWorkerTrainingCost(FVector2D setVal) { workerTrainingCost = setVal; };
+
 private:
 	int32 wood;
 	int32 stone;
+
+	FVector2D unitBuildingCost;
+	FVector2D resBuildingCost;
+	FVector2D workerTrainingCost;
 };

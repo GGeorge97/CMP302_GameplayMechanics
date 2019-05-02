@@ -23,14 +23,16 @@ void AGG_RTS_HUD::BeginPlay()
 	if(GEngine)
 		GEngine->GameViewport->GetViewportSize(canvasSize);
 
-	unitHUDButtons.Push(FHUD_Element(WORKER, 1, "Unit Building", FVector4(canvasSize.X - 250.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
-	unitHUDButtons.Push(FHUD_Element(WORKER, 2, "Resource Building", FVector4(canvasSize.X - 100.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
+	unitHUDButtons.Push(FHUD_Element(WORKER, 1, "Unit Building\n100 Wood  150 Stone", FVector4(canvasSize.X - 250.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
+	unitHUDButtons.Push(FHUD_Element(WORKER, 2, "Resource Building\n75 Wood  50 Stone", FVector4(canvasSize.X - 100.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
 
-	buildingHUDButtons.Push(FHUD_Element(UNIT_BUILDING, 3, "Build Worker", FVector4(125.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
+	buildingHUDButtons.Push(FHUD_Element(UNIT_BUILDING, 3, "Build Worker\n50 Wood", FVector4(125.0f, canvasSize.Y - 125.0f, 50.0f, 50.0f)));
 }
 
 void AGG_RTS_HUD::DrawHUD()
 {
+	DrawMenuBoxes();
+
 	DrawResourceStatus();
 
 	if (bStartSelect)
@@ -58,12 +60,19 @@ void AGG_RTS_HUD::DrawHUD()
 	}
 }
 
+void AGG_RTS_HUD::DrawMenuBoxes()
+{
+	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.5f), 0.0f, 0.0f, canvasSize.X, 30.0f);
+
+	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.5f), canvasSize.X - 300.0f, canvasSize.Y - 200.0f, 300.0f, 200.0f);
+
+	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.5f), 0.0f, canvasSize.Y - 200.0f, 300.0f, 200.0f);
+}
+
 void AGG_RTS_HUD::DrawResourceStatus()
 {
 	FString woodText = "WOOD : " + FString::FromInt(gameMode->resourceManager.GetWood());
 	FString stoneText = "STONE : " + FString::FromInt(gameMode->resourceManager.GetStone());
-
-	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.5f), 0.0f, 0.0f, 300.0f, 30.0f);
 
 	DrawText(woodText, FLinearColor::Green, 25.0f, 10.0f, font, 1.0f, false);
 	DrawText(stoneText, FLinearColor::Green, 175.0f, 10.0f, font, 1.0f, false);
@@ -112,7 +121,7 @@ void AGG_RTS_HUD::DrawSelectionBox()
 
 void AGG_RTS_HUD::DrawUnitSelectedUI()
 {
-	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.5f), canvasSize.X - 300.0f, canvasSize.Y - 200.0f, 300.0f, 200.0f);
+	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.9f), canvasSize.X - 280.0f, canvasSize.Y - 180.0f, 260.0f, 160.0f);
 
 	for (int i = 0; i < unitHUDButtons.Num(); i++)
 	{
@@ -128,7 +137,7 @@ void AGG_RTS_HUD::DrawUnitSelectedUI()
 
 void AGG_RTS_HUD::DrawBuildingSelectedUI()
 {
-	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.5f), 0.0f, canvasSize.Y - 200.0f, 300.0f, 200.0f);
+	DrawRect(FLinearColor(0.1f, 0.1f, 0.1f, 0.9f), 20.0f, canvasSize.Y - 180.0f, 260.0f, 160.0f);
 	for (int i = 0; i < buildingHUDButtons.Num(); i++)
 	{
 		DrawRect(FLinearColor(0.8f, 0.8f, 0.8f, 1.0f), buildingHUDButtons[i].AABB.X, buildingHUDButtons[i].AABB.Y, buildingHUDButtons[i].AABB.Z, buildingHUDButtons[i].AABB.W);
@@ -146,7 +155,7 @@ void AGG_RTS_HUD::DrawBuildingSelectedUI()
 void AGG_RTS_HUD::DrawButtonTooltip(FHUD_Element UIElement)
 {
 	float xVal = GetMousePos2D().X - 55.0f;
-	float yVal = GetMousePos2D().Y - 50.0f;
+	float yVal = GetMousePos2D().Y - 75.0f;
 
 	DrawText(UIElement.toolTip, FLinearColor::Yellow, xVal, yVal, font, 1.2f, false);
 }

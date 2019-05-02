@@ -27,6 +27,9 @@ public:
 	bool IsBuilt() override;
 	void SetIsBuilt(bool bl) override;
 
+	bool IsPaid() override;
+	void SetIsPaid(bool bl) override;
+
 	OwningType GetType() override;
 
 private:
@@ -42,6 +45,7 @@ private:
 	OwningType buildingType;
 
 	bool isBuilt;
+	bool isPaid;
 
 	float timeUntilBuilt;
 	float buildTime;

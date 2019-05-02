@@ -37,6 +37,7 @@ AGG_RTS_ResourceBuilding::AGG_RTS_ResourceBuilding()
 	timeUntilBuilt = 0.0f;
 	buildTime = 10.0f;
 	isBuilt = false;
+	isPaid = false;
 }
 
 void AGG_RTS_ResourceBuilding::SetIsSelected(bool isSelected)
@@ -69,6 +70,16 @@ void AGG_RTS_ResourceBuilding::SetIsBuilt(bool bl)
 	isBuilt = bl;
 
 	staticMesh->SetWorldScale3D(FVector(4.0f, 4.0f, 4.0f));
+}
+
+bool AGG_RTS_ResourceBuilding::IsPaid()
+{
+	return isPaid;
+}
+
+void AGG_RTS_ResourceBuilding::SetIsPaid(bool bl)
+{
+	isPaid = bl;
 }
 
 OwningType AGG_RTS_ResourceBuilding::GetType()

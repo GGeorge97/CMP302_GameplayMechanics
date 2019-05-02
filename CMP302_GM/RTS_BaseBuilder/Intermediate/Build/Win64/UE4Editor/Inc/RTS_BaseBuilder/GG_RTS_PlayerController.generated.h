@@ -180,6 +180,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_PlayerController); \
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_PlayerController_h_21_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HUDPtr() { return STRUCT_OFFSET(AGG_RTS_PlayerController, HUDPtr); } \
+	FORCEINLINE static uint32 __PPO__gameMode() { return STRUCT_OFFSET(AGG_RTS_PlayerController, gameMode); } \
 	FORCEINLINE static uint32 __PPO__newBuilding() { return STRUCT_OFFSET(AGG_RTS_PlayerController, newBuilding); } \
 	FORCEINLINE static uint32 __PPO__clickedResource() { return STRUCT_OFFSET(AGG_RTS_PlayerController, clickedResource); } \
 	FORCEINLINE static uint32 __PPO__selectedUnits() { return STRUCT_OFFSET(AGG_RTS_PlayerController, selectedUnits); } \

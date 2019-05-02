@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_HUD() {}
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawBuildingSelectedUI();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawButtonTooltip();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawHUD();
+	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawSelectionBox();
 	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawUnitSelectedUI();
@@ -146,6 +147,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 			{ "DrawBuildingSelectedUI", &AGG_RTS_HUD::execDrawBuildingSelectedUI },
 			{ "DrawButtonTooltip", &AGG_RTS_HUD::execDrawButtonTooltip },
 			{ "DrawHUD", &AGG_RTS_HUD::execDrawHUD },
+			{ "DrawMenuBoxes", &AGG_RTS_HUD::execDrawMenuBoxes },
 			{ "DrawResourceStatus", &AGG_RTS_HUD::execDrawResourceStatus },
 			{ "DrawSelectionBox", &AGG_RTS_HUD::execDrawSelectionBox },
 			{ "DrawUnitSelectedUI", &AGG_RTS_HUD::execDrawUnitSelectedUI },
@@ -248,6 +250,28 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_HUD_DrawHUD_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_HUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGG_RTS_HUD, nullptr, "DrawMenuBoxes", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -434,6 +458,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawBuildingSelectedUI, "DrawBuildingSelectedUI" }, // 3491204944
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawButtonTooltip, "DrawButtonTooltip" }, // 3412676787
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawHUD, "DrawHUD" }, // 1075962298
+		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawMenuBoxes, "DrawMenuBoxes" }, // 2178397152
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawResourceStatus, "DrawResourceStatus" }, // 181681445
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawSelectionBox, "DrawSelectionBox" }, // 781780488
 		{ &Z_Construct_UFunction_AGG_RTS_HUD_DrawUnitSelectedUI, "DrawUnitSelectedUI" }, // 1757923709
@@ -568,7 +593,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFHUD_Element
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_HUD, 2927797005);
+	IMPLEMENT_CLASS(AGG_RTS_HUD, 3659801769);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_HUD>()
 	{
 		return AGG_RTS_HUD::StaticClass();

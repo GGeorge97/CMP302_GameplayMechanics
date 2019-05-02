@@ -107,7 +107,7 @@ void GG_RTS_CollectionTask::DepositResource()
 	FVector distanceVec = currentPos - moveLocation;
 	float distanceToTarget = distanceVec.Size();
 
-	if (distanceToTarget < 300.0f)
+	if (distanceToTarget < 350.0f)
 	{
 		// Deposit Resources
 		if(resourcePtr->GetType() == WOOD)

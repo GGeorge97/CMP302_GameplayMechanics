@@ -54,6 +54,9 @@ public:
 	bool IsBuilt() override;
 	void SetIsBuilt(bool bl) override;
 
+	bool IsPaid() override;
+	void SetIsPaid(bool bl) override;
+
 	void TrainUnit(FVector spawnPos, FRotator spawnRot);
 
 	OwningType GetType() override;
@@ -74,6 +77,7 @@ private:
 	OwningType buildingType;
 
 	bool isBuilt;
+	bool isPaid;
 	bool trainingUnit;
 
 	float timeUntilBuilt;

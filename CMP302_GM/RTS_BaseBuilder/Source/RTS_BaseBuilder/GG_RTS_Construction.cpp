@@ -50,6 +50,16 @@ void AGG_RTS_Construction::SetIsBuilt(bool bl)
 
 }
 
+bool AGG_RTS_Construction::IsPaid()
+{
+	return true;
+}
+
+void AGG_RTS_Construction::SetIsPaid(bool bl)
+{
+
+}
+
 OwningType AGG_RTS_Construction::GetType()
 {
 	return UNIT_BUILDING;

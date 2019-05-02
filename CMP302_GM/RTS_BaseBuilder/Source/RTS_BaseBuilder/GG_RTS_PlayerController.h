@@ -52,6 +52,8 @@ private:
 	UPROPERTY()
 	AGG_RTS_HUD* HUDPtr;
 	UPROPERTY()
+	class AGG_RTS_GameMode* gameMode;
+	UPROPERTY()
 	AGG_RTS_Construction* newBuilding;
 	UPROPERTY()
 	AGG_RTS_Resource* clickedResource;

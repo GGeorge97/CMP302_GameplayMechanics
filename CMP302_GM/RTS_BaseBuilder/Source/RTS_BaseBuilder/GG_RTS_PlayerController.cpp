@@ -24,6 +24,7 @@ void AGG_RTS_PlayerController::BeginPlay()
 	Super::BeginPlay();
 
 	HUDPtr = Cast<AGG_RTS_HUD>(GetHUD());
+	gameMode = Cast<AGG_RTS_GameMode>(GetWorld()->GetAuthGameMode());
 
 	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_Pawn));
 	objectTypes.Add(UEngineTypes::ConvertToObjectType(ECC_WorldDynamic));
@@ -89,20 +90,29 @@ void AGG_RTS_PlayerController::SelectReleased()
 	{
 		if (constructionType == 0)
 		{
-			FVector spawnPos(0.0f, 0.0f, 0.0f);
-			FRotator spawnRotation(0.0f, 0.0f, 0.0f);
-			FActorSpawnParameters spawnInfo;
-			newBuilding = (AGG_RTS_UnitBuilding*)GetWorld()->SpawnActor<AGG_RTS_UnitBuilding>(spawnPos, spawnRotation, spawnInfo);
-			currentAction = PLACE_BUILDING;
-
+			if (gameMode->resourceManager.GetWood() >= gameMode->resourceManager.GetUnitBuildingCost().X && gameMode->resourceManager.GetStone() >= gameMode->resourceManager.GetUnitBuildingCost().Y)
+			{
+				FVector spawnPos(0.0f, 0.0f, 0.0f);
+				FRotator spawnRotation(0.0f, 0.0f, 0.0f);
+				FActorSpawnParameters spawnInfo;
+				newBuilding = (AGG_RTS_UnitBuilding*)GetWorld()->SpawnActor<AGG_RTS_UnitBuilding>(spawnPos, spawnRotation, spawnInfo);
+				currentAction = PLACE_BUILDING;
+			}
+			else
+				currentAction = MOVE;
 		}
 		else if (constructionType == 1)
 		{
-			FVector spawnPos(0.0f, 0.0f, 0.0f);
-			FRotator spawnRotation(0.0f, 0.0f, 0.0f);
-			FActorSpawnParameters spawnInfo;
-			newBuilding = (AGG_RTS_ResourceBuilding*)GetWorld()->SpawnActor<AGG_RTS_ResourceBuilding>(spawnPos, spawnRotation, spawnInfo);
-			currentAction = PLACE_BUILDING;
+			if (gameMode->resourceManager.GetWood() >= gameMode->resourceManager.GetResBuildingCost().X && gameMode->resourceManager.GetStone() >= gameMode->resourceManager.GetResBuildingCost().Y)
+			{
+				FVector spawnPos(0.0f, 0.0f, 0.0f);
+				FRotator spawnRotation(0.0f, 0.0f, 0.0f);
+				FActorSpawnParameters spawnInfo;
+				newBuilding = (AGG_RTS_ResourceBuilding*)GetWorld()->SpawnActor<AGG_RTS_ResourceBuilding>(spawnPos, spawnRotation, spawnInfo);
+				currentAction = PLACE_BUILDING;
+			}
+			else
+				currentAction = MOVE;
 		}
 	}
 	else if (currentAction == SPAWN)
@@ -111,11 +121,19 @@ void AGG_RTS_PlayerController::SelectReleased()
 		{
 			if (selectedBuildings[i]->GetType() == UNIT_BUILDING)
 			{
-				FVector spawnPos = selectedBuildings[i]->GetActorLocation();
-				spawnPos += FVector(0.0f, -500.0f, 100.0f);
-				FRotator spawnRotation(0.0f, 0.0f, 0.0f);
-				AGG_RTS_UnitBuilding* selectedUnitBuilding = Cast<AGG_RTS_UnitBuilding>(selectedBuildings[i]);
-				selectedUnitBuilding->TrainUnit(spawnPos, spawnRotation);
+				if (gameMode->resourceManager.GetWood() >= gameMode->resourceManager.GetWorkerTrainingCost().X && gameMode->resourceManager.GetStone() >= gameMode->resourceManager.GetWorkerTrainingCost().Y)
+				{
+					gameMode->resourceManager.AddWood(gameMode->resourceManager.GetWorkerTrainingCost().X * -1);
+					gameMode->resourceManager.AddStone(gameMode->resourceManager.GetWorkerTrainingCost().Y * -1);
+
+					FVector spawnPos = selectedBuildings[i]->GetActorLocation();
+					spawnPos += FVector(0.0f, -500.0f, 100.0f);
+					FRotator spawnRotation(0.0f, 0.0f, 0.0f);
+					AGG_RTS_UnitBuilding* selectedUnitBuilding = Cast<AGG_RTS_UnitBuilding>(selectedBuildings[i]);
+					selectedUnitBuilding->TrainUnit(spawnPos, spawnRotation);
+				}
+				else
+					currentAction = MOVE;
 			}
 		}
 		currentAction = SPAWN;
@@ -186,7 +204,31 @@ void AGG_RTS_PlayerController::ActionStart()
 				if (currentAction == CONSTRUCT)
 				{
 					if (newBuilding)
+					{
+						switch (constructionType)
+						{
+						case 0:
+							if (!newBuilding->IsPaid())
+							{
+								gameMode->resourceManager.AddWood((int32)gameMode->resourceManager.GetUnitBuildingCost().X * -1);
+								gameMode->resourceManager.AddStone((int32)gameMode->resourceManager.GetUnitBuildingCost().Y * -1);
+								newBuilding->SetIsPaid(true);
+							}
+							break;
+						case 1:
+							if (!newBuilding->IsPaid())
+							{
+								gameMode->resourceManager.AddWood((int32)gameMode->resourceManager.GetResBuildingCost().X * -1);
+								gameMode->resourceManager.AddStone((int32)gameMode->resourceManager.GetResBuildingCost().Y * -1);
+								newBuilding->SetIsPaid(true);
+							}
+							break;
+						default:
+							break;
+						}
+
 						selectedUnits[i]->AddTask(currentAction, newBuilding, clickedResource, hitResult.Location, i);
+					}
 					newBuilding = nullptr;
 					currentAction = MOVE;
 					return;
@@ -215,7 +257,31 @@ void AGG_RTS_PlayerController::ActionStart()
 				if (currentAction == CONSTRUCT)
 				{
 					if (newBuilding)
+					{
+						switch (constructionType)
+						{
+						case 0:
+							if (!newBuilding->IsPaid())
+							{
+								gameMode->resourceManager.AddWood((int32)gameMode->resourceManager.GetUnitBuildingCost().X * -1);
+								gameMode->resourceManager.AddStone((int32)gameMode->resourceManager.GetUnitBuildingCost().Y * -1);
+								newBuilding->SetIsPaid(true);
+							}
+							break;
+						case 1:
+							if (!newBuilding->IsPaid())
+							{
+								gameMode->resourceManager.AddWood((int32)gameMode->resourceManager.GetResBuildingCost().X * -1);
+								gameMode->resourceManager.AddStone((int32)gameMode->resourceManager.GetResBuildingCost().Y * -1);
+								newBuilding->SetIsPaid(true);
+							}
+							break;
+						default:
+							break;
+						}
+
 						selectedUnits[i]->RunTask(currentAction, newBuilding, clickedResource, hitResult.Location, i);
+					}
 					newBuilding = nullptr;
 					currentAction = MOVE;
 					return;
@@ -247,8 +313,32 @@ void AGG_RTS_PlayerController::ActionStartManual(FVector actionLocation)
 			{
 				if (currentAction == CONSTRUCT)
 				{
-					if(newBuilding)
+					if (newBuilding)
+					{
+						switch (constructionType)
+						{
+						case 0:
+							if (!newBuilding->IsPaid())
+							{
+								gameMode->resourceManager.AddWood((int32)gameMode->resourceManager.GetUnitBuildingCost().X * -1);
+								gameMode->resourceManager.AddStone((int32)gameMode->resourceManager.GetUnitBuildingCost().Y * -1);
+								newBuilding->SetIsPaid(true);
+							}
+							break;
+						case 1:
+							if (!newBuilding->IsPaid())
+							{
+								gameMode->resourceManager.AddWood((int32)gameMode->resourceManager.GetResBuildingCost().X * -1);
+								gameMode->resourceManager.AddStone((int32)gameMode->resourceManager.GetResBuildingCost().Y * -1);
+								newBuilding->SetIsPaid(true);
+							}
+							break;
+						default:
+							break;
+						}
+
 						selectedUnits[i]->AddTask(currentAction, newBuilding, clickedResource, actionLocation, i);
+					}
 					newBuilding = nullptr;
 					currentAction = MOVE;
 					return;
@@ -265,7 +355,31 @@ void AGG_RTS_PlayerController::ActionStartManual(FVector actionLocation)
 				if (currentAction == CONSTRUCT)
 				{
 					if (newBuilding)
+					{
+						switch (constructionType)
+						{
+						case 0:
+							if (!newBuilding->IsPaid())
+							{
+								gameMode->resourceManager.AddWood((int32)gameMode->resourceManager.GetUnitBuildingCost().X * -1);
+								gameMode->resourceManager.AddStone((int32)gameMode->resourceManager.GetUnitBuildingCost().Y * -1);
+								newBuilding->SetIsPaid(true);
+							}
+							break;
+						case 1:
+							if (!newBuilding->IsPaid())
+							{
+								gameMode->resourceManager.AddWood((int32)gameMode->resourceManager.GetResBuildingCost().X * -1);
+								gameMode->resourceManager.AddStone((int32)gameMode->resourceManager.GetResBuildingCost().Y * -1);
+								newBuilding->SetIsPaid(true);
+							}
+							break;
+						default:
+							break;
+						}
+
 						selectedUnits[i]->RunTask(currentAction, newBuilding, clickedResource, actionLocation, i);
+					}
 					newBuilding = nullptr;
 					currentAction = MOVE;
 					return;
