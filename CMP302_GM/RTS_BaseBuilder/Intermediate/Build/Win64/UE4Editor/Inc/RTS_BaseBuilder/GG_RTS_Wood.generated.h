@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_Wood); \
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Wood_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__sphereComponent() { return STRUCT_OFFSET(AGG_RTS_Wood, sphereComponent); } \
-	FORCEINLINE static uint32 __PPO__staticMesh() { return STRUCT_OFFSET(AGG_RTS_Wood, staticMesh); }
+	FORCEINLINE static uint32 __PPO__staticMesh() { return STRUCT_OFFSET(AGG_RTS_Wood, staticMesh); } \
+	FORCEINLINE static uint32 __PPO__resourceValue() { return STRUCT_OFFSET(AGG_RTS_Wood, resourceValue); }
 
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Wood_h_9_PROLOG

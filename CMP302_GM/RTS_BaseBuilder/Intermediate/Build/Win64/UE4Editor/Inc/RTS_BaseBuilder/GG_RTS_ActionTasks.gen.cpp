@@ -82,7 +82,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_ActionTasks() {}
 		return Action_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_Action(Action_StaticEnum, TEXT("/Script/RTS_BaseBuilder"), TEXT("Action"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_RTS_BaseBuilder_Action_Hash() { return 4157190925U; }
+	uint32 Get_Z_Construct_UEnum_RTS_BaseBuilder_Action_Hash() { return 854292584U; }
 	UEnum* Z_Construct_UEnum_RTS_BaseBuilder_Action()
 	{
 #if WITH_HOT_RELOAD
@@ -104,6 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_ActionTasks() {}
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "ModuleRelativePath", "GG_RTS_ActionTasks.h" },
+				{ "ToolTip", "Base class for all tasks\nContains enums for task types and status" },
 			};
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {

@@ -13,8 +13,112 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define RTS_BASEBUILDER_GG_RTS_Camera_generated_h
 
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Camera_h_17_RPC_WRAPPERS
-#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Camera_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Camera_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execEndRotation) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EndRotation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPitchAndYaw) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PitchAndYaw(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execZoomOut) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ZoomOut(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execZoomIn) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ZoomIn(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveRight) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_axisValue); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveRight(Z_Param_axisValue); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveForward) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_axisValue); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveForward(Z_Param_axisValue); \
+		P_NATIVE_END; \
+	}
+
+
+#define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Camera_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execEndRotation) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->EndRotation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPitchAndYaw) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PitchAndYaw(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execZoomOut) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ZoomOut(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execZoomIn) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ZoomIn(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveRight) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_axisValue); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveRight(Z_Param_axisValue); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execMoveForward) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_axisValue); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->MoveForward(Z_Param_axisValue); \
+		P_NATIVE_END; \
+	}
+
+
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Camera_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGG_RTS_Camera(); \
@@ -61,11 +165,15 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_Camera); \
 	FORCEINLINE static uint32 __PPO__playerControllerPtr() { return STRUCT_OFFSET(AGG_RTS_Camera, playerControllerPtr); } \
 	FORCEINLINE static uint32 __PPO__cameraSpringArm() { return STRUCT_OFFSET(AGG_RTS_Camera, cameraSpringArm); } \
 	FORCEINLINE static uint32 __PPO__mainCamera() { return STRUCT_OFFSET(AGG_RTS_Camera, mainCamera); } \
-	FORCEINLINE static uint32 __PPO__movementInput() { return STRUCT_OFFSET(AGG_RTS_Camera, movementInput); } \
-	FORCEINLINE static uint32 __PPO__pitchAndYaw() { return STRUCT_OFFSET(AGG_RTS_Camera, pitchAndYaw); } \
 	FORCEINLINE static uint32 __PPO__viewportWidth() { return STRUCT_OFFSET(AGG_RTS_Camera, viewportWidth); } \
 	FORCEINLINE static uint32 __PPO__viewportHeight() { return STRUCT_OFFSET(AGG_RTS_Camera, viewportHeight); } \
-	FORCEINLINE static uint32 __PPO__viewportMargin() { return STRUCT_OFFSET(AGG_RTS_Camera, viewportMargin); }
+	FORCEINLINE static uint32 __PPO__viewportMargin() { return STRUCT_OFFSET(AGG_RTS_Camera, viewportMargin); } \
+	FORCEINLINE static uint32 __PPO__maxArmLength() { return STRUCT_OFFSET(AGG_RTS_Camera, maxArmLength); } \
+	FORCEINLINE static uint32 __PPO__minArmLength() { return STRUCT_OFFSET(AGG_RTS_Camera, minArmLength); } \
+	FORCEINLINE static uint32 __PPO__maxPitch() { return STRUCT_OFFSET(AGG_RTS_Camera, maxPitch); } \
+	FORCEINLINE static uint32 __PPO__minPitch() { return STRUCT_OFFSET(AGG_RTS_Camera, minPitch); } \
+	FORCEINLINE static uint32 __PPO__zoomSensitivity() { return STRUCT_OFFSET(AGG_RTS_Camera, zoomSensitivity); } \
+	FORCEINLINE static uint32 __PPO__moveSensitivity() { return STRUCT_OFFSET(AGG_RTS_Camera, moveSensitivity); }
 
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Camera_h_14_PROLOG

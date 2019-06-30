@@ -68,7 +68,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_UnitBuilding); \
 	FORCEINLINE static uint32 __PPO__sphereComponent() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, sphereComponent); } \
 	FORCEINLINE static uint32 __PPO__cursorToWorld() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, cursorToWorld); } \
 	FORCEINLINE static uint32 __PPO__staticMesh() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, staticMesh); } \
-	FORCEINLINE static uint32 __PPO__unitQueue() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, unitQueue); }
+	FORCEINLINE static uint32 __PPO__unitQueue() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, unitQueue); } \
+	FORCEINLINE static uint32 __PPO__timeUntilBuilt() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, timeUntilBuilt); } \
+	FORCEINLINE static uint32 __PPO__buildTime() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, buildTime); } \
+	FORCEINLINE static uint32 __PPO__timeUntilTrained() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, timeUntilTrained); } \
+	FORCEINLINE static uint32 __PPO__trainTime() { return STRUCT_OFFSET(AGG_RTS_UnitBuilding, trainTime); }
 
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_UnitBuilding_h_37_PROLOG

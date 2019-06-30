@@ -59,7 +59,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_Stone); \
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Stone_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__sphereComponent() { return STRUCT_OFFSET(AGG_RTS_Stone, sphereComponent); } \
-	FORCEINLINE static uint32 __PPO__staticMesh() { return STRUCT_OFFSET(AGG_RTS_Stone, staticMesh); }
+	FORCEINLINE static uint32 __PPO__staticMesh() { return STRUCT_OFFSET(AGG_RTS_Stone, staticMesh); } \
+	FORCEINLINE static uint32 __PPO__resourceValue() { return STRUCT_OFFSET(AGG_RTS_Stone, resourceValue); }
 
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_Stone_h_12_PROLOG

@@ -34,6 +34,10 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Wood() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_resourceValue_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_resourceValue;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_staticMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_staticMesh;
@@ -56,6 +60,14 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Wood() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_resourceValue_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ResourceSettings" },
+		{ "ModuleRelativePath", "GG_RTS_Wood.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_resourceValue = { "resourceValue", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Wood, resourceValue), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_resourceValue_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_resourceValue_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_staticMesh_MetaData[] = {
 		{ "Category", "GG_RTS_Wood" },
 		{ "EditInline", "true" },
@@ -72,6 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Wood() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_sphereComponent = { "sphereComponent", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Wood, sphereComponent), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_sphereComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_sphereComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGG_RTS_Wood_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_resourceValue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_staticMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Wood_Statics::NewProp_sphereComponent,
 	};
@@ -102,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Wood() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_Wood, 28411558);
+	IMPLEMENT_CLASS(AGG_RTS_Wood, 3504201865);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_Wood>()
 	{
 		return AGG_RTS_Wood::StaticClass();

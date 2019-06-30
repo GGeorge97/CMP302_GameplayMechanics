@@ -60,7 +60,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGG_RTS_ResourceBuilding); \
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_ResourceBuilding_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__sphereComponent() { return STRUCT_OFFSET(AGG_RTS_ResourceBuilding, sphereComponent); } \
 	FORCEINLINE static uint32 __PPO__cursorToWorld() { return STRUCT_OFFSET(AGG_RTS_ResourceBuilding, cursorToWorld); } \
-	FORCEINLINE static uint32 __PPO__staticMesh() { return STRUCT_OFFSET(AGG_RTS_ResourceBuilding, staticMesh); }
+	FORCEINLINE static uint32 __PPO__staticMesh() { return STRUCT_OFFSET(AGG_RTS_ResourceBuilding, staticMesh); } \
+	FORCEINLINE static uint32 __PPO__timeUntilBuilt() { return STRUCT_OFFSET(AGG_RTS_ResourceBuilding, timeUntilBuilt); } \
+	FORCEINLINE static uint32 __PPO__buildTime() { return STRUCT_OFFSET(AGG_RTS_ResourceBuilding, buildTime); }
 
 
 #define RTS_BaseBuilder_Source_RTS_BaseBuilder_GG_RTS_ResourceBuilding_h_12_PROLOG

@@ -131,6 +131,22 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFQueuedUnit
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_trainTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_trainTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeUntilTrained_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timeUntilTrained;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_buildTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_buildTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeUntilBuilt_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timeUntilBuilt;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_unitQueue_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_unitQueue;
@@ -161,6 +177,38 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFQueuedUnit
 		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_trainTime_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ConstructionSettings" },
+		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_trainTime = { "trainTime", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_UnitBuilding, trainTime), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_trainTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_trainTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilTrained_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ConstructionSettings" },
+		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilTrained = { "timeUntilTrained", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_UnitBuilding, timeUntilTrained), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilTrained_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilTrained_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_buildTime_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ConstructionSettings" },
+		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_buildTime = { "buildTime", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_UnitBuilding, buildTime), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_buildTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_buildTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilBuilt_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ConstructionSettings" },
+		{ "ModuleRelativePath", "GG_RTS_UnitBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilBuilt = { "timeUntilBuilt", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_UnitBuilding, timeUntilBuilt), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilBuilt_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilBuilt_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue_MetaData[] = {
 		{ "Category", "GG_RTS_UnitBuilding" },
@@ -194,6 +242,10 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFQueuedUnit
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_sphereComponent = { "sphereComponent", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_UnitBuilding, sphereComponent), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_sphereComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_sphereComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_trainTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilTrained,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_buildTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_timeUntilBuilt,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_unitQueue_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_UnitBuilding_Statics::NewProp_staticMesh,
@@ -227,7 +279,7 @@ static struct FScriptStruct_RTS_BaseBuilder_StaticRegisterNativesFQueuedUnit
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_UnitBuilding, 3259225989);
+	IMPLEMENT_CLASS(AGG_RTS_UnitBuilding, 2520184834);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_UnitBuilding>()
 	{
 		return AGG_RTS_UnitBuilding::StaticClass();

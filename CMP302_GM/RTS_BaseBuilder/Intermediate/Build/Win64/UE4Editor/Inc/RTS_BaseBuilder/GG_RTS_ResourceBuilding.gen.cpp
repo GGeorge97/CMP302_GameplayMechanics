@@ -35,6 +35,14 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_ResourceBuilding() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_buildTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_buildTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeUntilBuilt_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_timeUntilBuilt;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_staticMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_staticMesh;
@@ -61,6 +69,22 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_ResourceBuilding() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_buildTime_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ConstructionSettings" },
+		{ "ModuleRelativePath", "GG_RTS_ResourceBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_buildTime = { "buildTime", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_ResourceBuilding, buildTime), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_buildTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_buildTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_timeUntilBuilt_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "ConstructionSettings" },
+		{ "ModuleRelativePath", "GG_RTS_ResourceBuilding.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_timeUntilBuilt = { "timeUntilBuilt", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_ResourceBuilding, timeUntilBuilt), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_timeUntilBuilt_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_timeUntilBuilt_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_staticMesh_MetaData[] = {
 		{ "Category", "GG_RTS_ResourceBuilding" },
 		{ "EditInline", "true" },
@@ -85,6 +109,8 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_ResourceBuilding() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_sphereComponent = { "sphereComponent", nullptr, (EPropertyFlags)0x0040000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_ResourceBuilding, sphereComponent), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_sphereComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_sphereComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_buildTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_timeUntilBuilt,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_staticMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_cursorToWorld,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_ResourceBuilding_Statics::NewProp_sphereComponent,
@@ -116,7 +142,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_ResourceBuilding() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_ResourceBuilding, 2436786050);
+	IMPLEMENT_CLASS(AGG_RTS_ResourceBuilding, 4252172805);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_ResourceBuilding>()
 	{
 		return AGG_RTS_ResourceBuilding::StaticClass();

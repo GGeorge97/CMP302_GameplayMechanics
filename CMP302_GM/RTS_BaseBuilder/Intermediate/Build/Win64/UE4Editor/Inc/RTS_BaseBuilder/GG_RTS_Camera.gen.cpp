@@ -17,13 +17,180 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_Camera();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_RTS_BaseBuilder();
-	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
+	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_Camera_EndRotation();
+	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_Camera_MoveForward();
+	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_Camera_MoveRight();
+	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw();
+	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn();
+	RTS_BASEBUILDER_API UFunction* Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	RTS_BASEBUILDER_API UClass* Z_Construct_UClass_AGG_RTS_PlayerController_NoRegister();
 // End Cross Module References
 	void AGG_RTS_Camera::StaticRegisterNativesAGG_RTS_Camera()
 	{
+		UClass* Class = AGG_RTS_Camera::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "EndRotation", &AGG_RTS_Camera::execEndRotation },
+			{ "MoveForward", &AGG_RTS_Camera::execMoveForward },
+			{ "MoveRight", &AGG_RTS_Camera::execMoveRight },
+			{ "PitchAndYaw", &AGG_RTS_Camera::execPitchAndYaw },
+			{ "ZoomIn", &AGG_RTS_Camera::execZoomIn },
+			{ "ZoomOut", &AGG_RTS_Camera::execZoomOut },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGG_RTS_Camera_EndRotation_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGG_RTS_Camera_EndRotation_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGG_RTS_Camera_EndRotation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGG_RTS_Camera, nullptr, "EndRotation", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGG_RTS_Camera_EndRotation_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_Camera_EndRotation_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGG_RTS_Camera_EndRotation()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_Camera_EndRotation_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics
+	{
+		struct GG_RTS_Camera_eventMoveForward_Parms
+		{
+			float axisValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_axisValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::NewProp_axisValue = { "axisValue", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GG_RTS_Camera_eventMoveForward_Parms, axisValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::NewProp_axisValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGG_RTS_Camera, nullptr, "MoveForward", sizeof(GG_RTS_Camera_eventMoveForward_Parms), Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGG_RTS_Camera_MoveForward()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_Camera_MoveForward_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics
+	{
+		struct GG_RTS_Camera_eventMoveRight_Parms
+		{
+			float axisValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_axisValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::NewProp_axisValue = { "axisValue", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GG_RTS_Camera_eventMoveRight_Parms, axisValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::NewProp_axisValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGG_RTS_Camera, nullptr, "MoveRight", sizeof(GG_RTS_Camera_eventMoveRight_Parms), Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGG_RTS_Camera_MoveRight()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_Camera_MoveRight_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGG_RTS_Camera, nullptr, "PitchAndYaw", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGG_RTS_Camera, nullptr, "ZoomIn", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGG_RTS_Camera, nullptr, "ZoomOut", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AGG_RTS_Camera_NoRegister()
 	{
@@ -32,9 +199,34 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 	struct Z_Construct_UClass_AGG_RTS_Camera_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_moveSensitivity_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_moveSensitivity;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_zoomSensitivity_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_zoomSensitivity;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_minPitch_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_minPitch;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxPitch_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxPitch;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_minArmLength_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_minArmLength;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxArmLength_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxArmLength;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_viewportMargin_MetaData[];
 #endif
@@ -47,14 +239,6 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_viewportWidth_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FIntPropertyParams NewProp_viewportWidth;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_pitchAndYaw_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_pitchAndYaw;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_movementInput_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_movementInput;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mainCamera_MetaData[];
 #endif
@@ -75,6 +259,14 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_RTS_BaseBuilder,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AGG_RTS_Camera_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGG_RTS_Camera_EndRotation, "EndRotation" }, // 1807516211
+		{ &Z_Construct_UFunction_AGG_RTS_Camera_MoveForward, "MoveForward" }, // 521663293
+		{ &Z_Construct_UFunction_AGG_RTS_Camera_MoveRight, "MoveRight" }, // 4035995727
+		{ &Z_Construct_UFunction_AGG_RTS_Camera_PitchAndYaw, "PitchAndYaw" }, // 522417146
+		{ &Z_Construct_UFunction_AGG_RTS_Camera_ZoomIn, "ZoomIn" }, // 3362195632
+		{ &Z_Construct_UFunction_AGG_RTS_Camera_ZoomOut, "ZoomOut" }, // 668588555
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -82,6 +274,54 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_moveSensitivity_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CameraSettings" },
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_moveSensitivity = { "moveSensitivity", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, moveSensitivity), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_moveSensitivity_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_moveSensitivity_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_zoomSensitivity_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CameraSettings" },
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_zoomSensitivity = { "zoomSensitivity", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, zoomSensitivity), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_zoomSensitivity_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_zoomSensitivity_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minPitch_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CameraSettings" },
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minPitch = { "minPitch", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, minPitch), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minPitch_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minPitch_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxPitch_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CameraSettings" },
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxPitch = { "maxPitch", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, maxPitch), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxPitch_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxPitch_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minArmLength_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CameraSettings" },
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minArmLength = { "minArmLength", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, minArmLength), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minArmLength_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minArmLength_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxArmLength_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "CameraSettings" },
+		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxArmLength = { "maxArmLength", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, maxArmLength), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxArmLength_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxArmLength_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_viewportMargin_MetaData[] = {
 		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
@@ -100,18 +340,6 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 	};
 #endif
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_viewportWidth = { "viewportWidth", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, viewportWidth), METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_viewportWidth_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_viewportWidth_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_pitchAndYaw_MetaData[] = {
-		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_pitchAndYaw = { "pitchAndYaw", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, pitchAndYaw), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_pitchAndYaw_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_pitchAndYaw_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_movementInput_MetaData[] = {
-		{ "ModuleRelativePath", "GG_RTS_Camera.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_movementInput = { "movementInput", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, movementInput), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_movementInput_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_movementInput_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_mainCamera_MetaData[] = {
 		{ "Category", "GG_RTS_Camera" },
@@ -135,11 +363,15 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_playerControllerPtr = { "playerControllerPtr", nullptr, (EPropertyFlags)0x0040000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGG_RTS_Camera, playerControllerPtr), Z_Construct_UClass_AGG_RTS_PlayerController_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_playerControllerPtr_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_playerControllerPtr_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGG_RTS_Camera_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_moveSensitivity,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_zoomSensitivity,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minPitch,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxPitch,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_minArmLength,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_maxArmLength,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_viewportMargin,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_viewportHeight,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_viewportWidth,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_pitchAndYaw,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_movementInput,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_mainCamera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_cameraSpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGG_RTS_Camera_Statics::NewProp_playerControllerPtr,
@@ -152,11 +384,11 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AGG_RTS_Camera_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_AGG_RTS_Camera_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -171,7 +403,7 @@ void EmptyLinkFunctionForGeneratedCodeGG_RTS_Camera() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGG_RTS_Camera, 885007621);
+	IMPLEMENT_CLASS(AGG_RTS_Camera, 2361655246);
 	template<> RTS_BASEBUILDER_API UClass* StaticClass<AGG_RTS_Camera>()
 	{
 		return AGG_RTS_Camera::StaticClass();
